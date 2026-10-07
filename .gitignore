@@ -6,3 +6,5 @@ data/
 .pytest_cache/
 .playwright/
 test-results/
+model/roberta/model.safetensors
+*.safetensors
