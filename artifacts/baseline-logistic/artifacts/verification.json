@@ -1,0 +1,43 @@
+{
+  "clean_locked_environment_unittest_count": 8,
+  "clean_locked_environment_unittest_exit_code": 0,
+  "source_csv_heldout_reload_records_checked": 100,
+  "heldout_probabilities_match_exactly": true,
+  "outside_repository_working_directory": "/tmp",
+  "outside_repository_import_and_inference_passed": true,
+  "examples": [
+    {
+      "text": "I absolutely love this!",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9863024546716835,
+        "scores": {
+          "positive": 0.9863024546716835,
+          "negative": 0.013697545328316463
+        }
+      }
+    },
+    {
+      "text": "I hate this product.",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9824294763943315,
+        "scores": {
+          "positive": 0.017570523605668437,
+          "negative": 0.9824294763943315
+        }
+      }
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.5887101758520643,
+        "scores": {
+          "positive": 0.41128982414793563,
+          "negative": 0.5887101758520643
+        }
+      }
+    }
+  ]
+}

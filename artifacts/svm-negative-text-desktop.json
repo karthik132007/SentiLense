@@ -1,0 +1,12 @@
+{
+  "text": "This is fucking trash subject i ever saw in my life, only one with loose brain screw will opt it as minor subject",
+  "prediction": {
+    "sentiment": "negative",
+    "confidence": 0.9666927818232269,
+    "scores": {
+      "negative": 0.9666927818232269,
+      "neutral": 0.03323451241599869,
+      "positive": 0.00007270576077433687
+    }
+  }
+}

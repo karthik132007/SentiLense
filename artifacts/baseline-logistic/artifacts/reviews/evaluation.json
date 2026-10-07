@@ -1,0 +1,149 @@
+{
+  "dataset": "Stanford Large Movie Review Dataset (IMDb)",
+  "source": "https://ai.stanford.edu/~amaas/data/sentiment/",
+  "protocol": "Deduplicate normalized reviews; remove test matches to train. Stratified 80/20 split of official train, seed 42. Fit features/classifier on train only; select C and uncertainty thresholds on validation only; evaluate once on official test. No refit.",
+  "duplicates_removed": {
+    "train": 98,
+    "test": 201,
+    "test_matching_train": 123
+  },
+  "validation_candidates": [
+    {
+      "C": 1.0,
+      "accuracy": 0.8974101586026902,
+      "f1": 0.8986312239634993,
+      "brier_score": 0.09428928114780755
+    },
+    {
+      "C": 4.0,
+      "accuracy": 0.9070467777554708,
+      "f1": 0.9081166898194086,
+      "brier_score": 0.07362669048938318
+    },
+    {
+      "C": 12.0,
+      "accuracy": 0.911062035735796,
+      "f1": 0.9120158887785501,
+      "brier_score": 0.06721971582245684
+    }
+  ],
+  "validation": {
+    "records": 4981,
+    "accuracy": 0.911062035735796,
+    "precision": 0.9039370078740158,
+    "recall": 0.9202404809619239,
+    "f1": 0.9120158887785501,
+    "f1_macro": 0.9110515814909597,
+    "roc_auc": 0.9703327814115762,
+    "brier_score": 0.06721971582245684,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        2242,
+        244
+      ],
+      [
+        199,
+        2296
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.9184760344121262,
+        "recall": 0.9018503620273531,
+        "f1-score": 0.9100872742033692,
+        "support": 2486.0
+      },
+      "positive": {
+        "precision": 0.9039370078740158,
+        "recall": 0.9202404809619239,
+        "f1-score": 0.9120158887785501,
+        "support": 2495.0
+      },
+      "accuracy": 0.911062035735796,
+      "macro avg": {
+        "precision": 0.911206521143071,
+        "recall": 0.9110454214946385,
+        "f1-score": 0.9110515814909597,
+        "support": 4981.0
+      },
+      "weighted avg": {
+        "precision": 0.9111933861060459,
+        "recall": 0.911062035735796,
+        "f1-score": 0.911053323865099,
+        "support": 4981.0
+      }
+    }
+  },
+  "test": {
+    "records": 24676,
+    "accuracy": 0.9060220457124332,
+    "precision": 0.9059533386967016,
+    "recall": 0.907340262670212,
+    "f1": 0.9066462702789743,
+    "f1_macro": 0.9060178436377124,
+    "roc_auc": 0.9664236087399687,
+    "brier_score": 0.07192415598669483,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        11096,
+        1169
+      ],
+      [
+        1150,
+        11261
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.9060917850726768,
+        "recall": 0.9046881369751325,
+        "f1-score": 0.9053894169964506,
+        "support": 12265.0
+      },
+      "positive": {
+        "precision": 0.9059533386967016,
+        "recall": 0.907340262670212,
+        "f1-score": 0.9066462702789743,
+        "support": 12411.0
+      },
+      "accuracy": 0.9060220457124332,
+      "macro avg": {
+        "precision": 0.9060225618846892,
+        "recall": 0.9060141998226723,
+        "f1-score": 0.9060178436377124,
+        "support": 24676.0
+      },
+      "weighted avg": {
+        "precision": 0.9060221523132252,
+        "recall": 0.9060220457124332,
+        "f1-score": 0.9060215618371623,
+        "support": 24676.0
+      }
+    }
+  },
+  "selective_test": {
+    "records": 24676,
+    "negative_records": 12166,
+    "positive_records": 12360,
+    "neutral_uncertain_records": 150,
+    "coverage": 0.9939212189982168,
+    "accepted_accuracy": 0.908056756095572,
+    "negative_precision": 0.9082689462436297,
+    "positive_precision": 0.9078478964401294,
+    "neutral_is_abstention": true
+  },
+  "negative_threshold": 0.49,
+  "positive_threshold": 0.51
+}

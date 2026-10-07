@@ -1,0 +1,104 @@
+{
+  "model": "Review word/character TF-IDF + calibrated LinearSVC (linear SVM)",
+  "model_family": "svm",
+  "dataset": "Stanford Large Movie Review Dataset (IMDb)",
+  "dataset_source": "https://ai.stanford.edu/~amaas/data/sentiment/",
+  "dataset_sha256": "c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe",
+  "records_used": 49578,
+  "records_trained": 19921,
+  "calibration_records": 2490,
+  "validation_records": 2491,
+  "test_records": 24676,
+  "accuracy": 0.8997811638839358,
+  "f1": 0.899295516553325,
+  "roc_auc": 0.9633333566547013,
+  "selected_C": 0.5,
+  "validation_candidates": [
+    {
+      "C": 0.5,
+      "accuracy": 0.9112806101967081,
+      "f1": 0.9111379171692803,
+      "brier_score": 0.06591694062177998,
+      "iterations": 27,
+      "convergence_warnings": []
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.9112806101967081,
+      "f1": 0.9112093210124548,
+      "brier_score": 0.06685254012882091,
+      "iterations": 39,
+      "convergence_warnings": []
+    },
+    {
+      "C": 2.0,
+      "accuracy": 0.9104777197912485,
+      "f1": 0.9104057854560065,
+      "brier_score": 0.06786200278806404,
+      "iterations": 60,
+      "convergence_warnings": []
+    }
+  ],
+  "classifier_parameters": {
+    "C": 0.5,
+    "class_weight": null,
+    "dual": "auto",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 3000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "classifier_iterations": [
+    27
+  ],
+  "convergence_warnings": [],
+  "vocabulary_size": 250000,
+  "vocabulary_sizes": {
+    "word": 200000,
+    "character": 50000
+  },
+  "feature_parameters": {
+    "word_ngram_range": [
+      1,
+      2
+    ],
+    "character_ngram_range": [
+      4,
+      5
+    ],
+    "character_analyzer": "char_wb",
+    "min_df": 2,
+    "max_word_features": 200000,
+    "max_character_features": 50000,
+    "sublinear_tf": true
+  },
+  "calibration": {
+    "method": "sigmoid",
+    "records": 2490,
+    "base_estimator_frozen": true,
+    "disjoint_from_train_validation_test": true
+  },
+  "fit_seconds": 46.99781280000025,
+  "negative_threshold": 0.49,
+  "positive_threshold": 0.51,
+  "pipeline_sha256": "c0874d1240739f7981044d578fc3b4e8c9ee916d5c5da678e54f81a189234585",
+  "preprocessing": "Shared sentiment_model normalization/tokenizer; HTML br tags replaced with whitespace before training.",
+  "inference_unit": "Full extracted review document including its title; segments are explanatory only.",
+  "confidence_definition": "max(sigmoid-calibrated binary positive probability, binary negative probability); not neutral probability or guaranteed certainty",
+  "neutral_policy": "Neutral is abstention/uncertainty, not a trained neutral label. Binary data cannot measure true neutral precision/recall/F1. Binary probability estimates are not guaranteed certainty.",
+  "evaluation_protocol": "Deduplicate normalized reviews; remove test matches to train. Stratified 80/10/10 train/calibration/validation split of official train, seed 42. Fit features/SVM on train only; calibrate on disjoint calibration; select C and uncertainty thresholds on validation only; evaluate once on official test. No refit.",
+  "sklearn_version": "1.9.0",
+  "trained_at_utc": "2026-10-07T16:34:35.331431+00:00",
+  "total_seconds": 100.07918218900068,
+  "limitations": [
+    "Binary English movie reviews; no true neutral training class.",
+    "Validation review split is not movie-disjoint.",
+    "Movie-review benchmark accuracy does not establish news, webpage, or sarcasm accuracy.",
+    "Reported failing article was not added to training or threshold selection."
+  ]
+}

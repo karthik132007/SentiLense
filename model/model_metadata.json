@@ -1,0 +1,73 @@
+{
+  "model_family": "svm_roberta_fusion",
+  "model": "Learned calibrated stacking of TF-IDF LinearSVC and Cardiff Twitter RoBERTa",
+  "analysis_model": "svm_roberta_fusion",
+  "dataset": "TweetEval sentiment, all three classes for fusion",
+  "roberta_model_id": "cardiffnlp/twitter-roberta-base-sentiment",
+  "roberta_revision": "daefdd1f6ae931839bce4d0f3db0a1a4265cd50f",
+  "roberta_frozen": true,
+  "svm_frozen": true,
+  "feature_names": [
+    "svm_log_odds",
+    "roberta_log_negative",
+    "roberta_log_neutral",
+    "roberta_log_positive"
+  ],
+  "fusion_head": "StandardScaler + multinomial LogisticRegression, disjoint sigmoid calibration",
+  "selected_C": 10.0,
+  "classifier_classes": [
+    0,
+    1,
+    2
+  ],
+  "label_mapping": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "neutral_policy": "Learned neutral class; label is argmax of three calibrated class probabilities",
+  "confidence_definition": "Probability of the selected class; no guarantee of correctness",
+  "long_text_policy": "Average RoBERTa probabilities over 512-token windows with 64-token overlap; SVM uses full text",
+  "splits": {
+    "train": 1000,
+    "calibration": 500,
+    "validation": 500,
+    "test": 12277
+  },
+  "dataset_revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+  "dataset_sha256": {
+    "train_text.txt": "368f01052ea6fd8ffc408a2a2e6ac9669e31542581a0396ef16591ea26eb98a6",
+    "train_labels.txt": "122bfb1732fb6995b0e5c5f726c0ba457c469c3b6e60513007ce5037f23e65d4",
+    "val_text.txt": "e5b021e6fc45064c260b09814b803d8f56cada519c4d952d72f43d48a350a964",
+    "val_labels.txt": "b4566926c72e2e4e2916c864def94e76c4cdde52446af2c7ba4fc2006e057e51",
+    "test_text.txt": "09a93a55c63fd93f97485ef7302889d7edb4091cd49733aa37da094f0bfa0675",
+    "test_labels.txt": "6afb4afe9374d1f983bcf9a7c79b108d0f37fdf020a83f30488309bed215db9d"
+  },
+  "accuracy": 0.7142624419646494,
+  "macro_f1": 0.715474974175895,
+  "trained_at_utc": "2026-10-07T17:08:29.580009+00:00",
+  "total_seconds": 788.3537659579997,
+  "files_sha256": {
+    "svm/model_metadata.json": "76bc18cf1c9c2e8ac58c3dcf169cddac17a5e41e9f04d62d7c28f3868883bfba",
+    "svm/sentiment_pipeline.joblib": "67eaea7da98fb51f8de29c1e4112c8aa92d1d2f82b6985a71f88ba549627f2cd",
+    "roberta/tokenizer.json": "ca59632112d18bffd237dbfa1f5b5c35d92b30d0587165e473cea7f763d4ad62",
+    "roberta/tokenizer_config.json": "070d9551937f021287c5c3f4988ce102258f51afcd930bf8cb22fae7bc28d9c5",
+    "roberta/model.safetensors": "565f4d2573575286b5cc07fd7a206a47db617fb8e70155cebcfe7725b22b7357",
+    "roberta/special_tokens_map.json": "7638f5bbbe86ef6d604ef28ad3647dc690d6d117c81c0d63e885416be8da1150",
+    "roberta/vocab.json": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab",
+    "roberta/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "roberta/config.json": "3c0090ed73f3d4cad96500338148e5d107e2e9638eebde26bd953ae8d86cb520",
+    "fusion_head.joblib": "be0baf38cea5dee0562962b45cdc92b71b8cfda9ed4711e8668b969df399d037"
+  },
+  "limitations": [
+    "Frozen upstream model and SVM share TweetEval training provenance; experts are correlated",
+    "Head calibration/selection uses small subsets of official validation; score calibration can shift by domain",
+    "Tweet benchmark does not establish webpage/topic stance/other-language accuracy"
+  ],
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "transformers": "5.19.0",
+    "python": "3.14.7"
+  },
+  "roberta_runtime": "CPU float32; identical feature extraction during head training and deployment"
+}

@@ -1,0 +1,230 @@
+{
+  "evaluation_only": true,
+  "used_for_training_or_selection": false,
+  "examples": [
+    {
+      "text": "This is fucking trash subject i ever saw in my life, only one with loose brain screw will opt it as minor subject",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9666927818232269,
+        "scores": {
+          "negative": 0.9666927818232269,
+          "neutral": 0.03323451241599869,
+          "positive": 7.270576077433687e-05
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This subject is trash and a waste of time.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.976311503964076,
+        "scores": {
+          "negative": 0.976311503964076,
+          "neutral": 0.023613354268491284,
+          "positive": 7.514176743278773e-05
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This course is awful. I regret choosing it.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.973100811239763,
+        "scores": {
+          "negative": 0.973100811239763,
+          "neutral": 0.02679348559612733,
+          "positive": 0.00010570316410968228
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "Terrible teaching, useless assignments, and a horrible experience.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9708151791870684,
+        "scores": {
+          "negative": 0.9708151791870684,
+          "neutral": 0.029129884991637725,
+          "positive": 5.4935821293711244e-05
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "I hate this product.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9811997581649247,
+        "scores": {
+          "negative": 0.9811997581649247,
+          "neutral": 0.018693264179518745,
+          "positive": 0.00010697765555672234
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "I do not like this course at all.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9771028472442514,
+        "scores": {
+          "negative": 0.9771028472442514,
+          "neutral": 0.02281519971014101,
+          "positive": 8.19530456076814e-05
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This is not good.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9598806542840266,
+        "scores": {
+          "negative": 0.9598806542840266,
+          "neutral": 0.03999224872674604,
+          "positive": 0.00012709698922724414
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "Worst subject I have ever studied. A complete waste of time.",
+      "expected_sentiment": "negative",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9803264706818026,
+        "scores": {
+          "negative": 0.9803264706818026,
+          "neutral": 0.019621761900895127,
+          "positive": 5.176741730252325e-05
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This is fucking amazing, I love it.",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9687012678943857,
+        "scores": {
+          "negative": 0.025492101392162857,
+          "neutral": 0.005806630713451425,
+          "positive": 0.9687012678943857
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "That was a damn good lecture. Absolutely brilliant.",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.965861558445503,
+        "scores": {
+          "negative": 0.01906934074309995,
+          "neutral": 0.015069100811397087,
+          "positive": 0.965861558445503
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "I absolutely love this!",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9730519156252357,
+        "scores": {
+          "negative": 0.01925988451998852,
+          "neutral": 0.007688199854775772,
+          "positive": 0.9730519156252357
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This course is excellent and I really enjoyed it.",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.976697658397517,
+        "scores": {
+          "negative": 0.014241395714453162,
+          "neutral": 0.009060945888029885,
+          "positive": 0.976697658397517
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "I'm happy with the results and would recommend it.",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.952746793852598,
+        "scores": {
+          "negative": 0.0043193734681609385,
+          "neutral": 0.04293383267924112,
+          "positive": 0.952746793852598
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "This isn't bad, I actually enjoyed it.",
+      "expected_sentiment": "positive",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9629333933809482,
+        "scores": {
+          "negative": 0.01456776476794397,
+          "neutral": 0.022498841851107808,
+          "positive": 0.9629333933809482
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "expected_sentiment": "neutral",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.7644973875450813,
+        "scores": {
+          "negative": 0.008375553320964986,
+          "neutral": 0.7644973875450813,
+          "positive": 0.2271270591339538
+        }
+      },
+      "passed": true
+    },
+    {
+      "text": "qzxvtrjkpnmlzqx",
+      "expected_sentiment": "neutral",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.784963627253502,
+        "scores": {
+          "negative": 0.12645864535334017,
+          "neutral": 0.784963627253502,
+          "positive": 0.08857772739315783
+        }
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+Gold-label splits: {'train': {'records': 21189, 'negative': 6027, 'positive': 15162}, 'calibration': {'records': 3740, 'negative': 1064, 'positive': 2676}, 'validation': {'records': 1131, 'negative': 312, 'positive': 819}, 'test': {'records': 6343, 'negative': 3968, 'positive': 2375}}
+Fitting word/character TF-IDF on train only
+Features ready: (21189, 108604), 3,061,894 nonzero values
+SVM validation: {'C': 0.1, 'accuracy': 0.8770999115826702, 'f1': 0.9166166766646671, 'brier_score': 0.08814341901045514, 'iterations': 14, 'convergence_warnings': []}
+SVM validation: {'C': 0.5, 'accuracy': 0.8903625110521662, 'f1': 0.9250302297460702, 'brier_score': 0.08294349568892259, 'iterations': 30, 'convergence_warnings': []}
+SVM validation: {'C': 1.0, 'accuracy': 0.8868258178603006, 'f1': 0.9222357229647631, 'brier_score': 0.08415832679196568, 'iterations': 48, 'convergence_warnings': []}
+SVM validation: {'C': 2.0, 'accuracy': 0.8815207780725022, 'f1': 0.9187878787878788, 'brier_score': 0.08596539574384095, 'iterations': 79, 'convergence_warnings': []}
+{
+  "test": {
+    "records": 6343,
+    "accuracy": 0.8289452940249094,
+    "precision": 0.7196866485013624,
+    "recall": 0.8896842105263157,
+    "f1": 0.7957070231594803,
+    "f1_macro": 0.8242941895458418,
+    "roc_auc": 0.9254893887945672,
+    "brier_score": 0.12055472277776884,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        3145,
+        823
+      ],
+      [
+        262,
+        2113
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.9230995010272968,
+        "recall": 0.7925907258064516,
+        "f1-score": 0.8528813559322034,
+        "support": 3968.0
+      },
+      "positive": {
+        "precision": 0.7196866485013624,
+        "recall": 0.8896842105263157,
+        "f1-score": 0.7957070231594803,
+        "support": 2375.0
+      },
+      "accuracy": 0.8289452940249094,
+      "macro avg": {
+        "precision": 0.8213930747643297,
+        "recall": 0.8411374681663837,
+        "f1-score": 0.8242941895458418,
+        "support": 6343.0
+      },
+      "weighted avg": {
+        "precision": 0.8469359309896026,
+        "recall": 0.8289452940249094,
+        "f1-score": 0.8314736560527745,
+        "support": 6343.0
+      }
+    }
+  },
+  "negative_threshold": 0.19,
+  "positive_threshold": 0.51,
+  "examples": [
+    {
+      "text": "I absolutely love this!",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9804613881346124,
+        "scores": {
+          "positive": 0.9804613881346124,
+          "negative": 0.019538611865387634
+        }
+      }
+    },
+    {
+      "text": "I hate this product.",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.990104072887916,
+        "scores": {
+          "positive": 0.009895927112084021,
+          "negative": 0.990104072887916
+        }
+      }
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.5682300876664846,
+        "scores": {
+          "positive": 0.43176991233351536,
+          "negative": 0.5682300876664846
+        }
+      }
+    }
+  ]
+}

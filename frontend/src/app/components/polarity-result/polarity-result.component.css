@@ -1,0 +1,19 @@
+:host { display: block; }
+.result-summary { padding: 22px; border-radius: 9px; background: #edf5ee; color: var(--positive); }
+.result-summary[data-sentiment=negative] { background: #faf0eb; color: var(--negative); }
+.result-summary[data-sentiment=neutral] { background: #f6f0e3; color: var(--neutral); }
+.result-eyebrow { font-size: 9px; letter-spacing: 1.3px; opacity: .9; }
+.sentiment-line { display: flex; align-items: center; justify-content: space-between; margin: 14px 0 20px; }
+.sentiment-line h3 { font-size: 34px; font-weight: 500; letter-spacing: -1.2px; margin: 0; }
+.sentiment-symbol { font-size: 28px; }
+.confidence-line { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 10px; }
+.confidence-line strong { font-size: 17px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.interpretation { font-size: 11px; line-height: 1.7; margin: 13px 0 0; opacity: .9; }
+.scores { margin-top: 21px; }
+.scores h4 { font-size: 11px; font-weight: 500; margin: 0 0 15px; color: #596150; }
+.score-label { display: flex; justify-content: space-between; margin: 12px 0 7px; font-size: 11px; color: #6b7660; }
+.score-label strong { font-weight: 500; font-variant-numeric: tabular-nums; }
+.score-track { height: 4px; border-radius: 4px; background: #e8ece2; overflow: hidden; }
+.score-track span { display: block; height: 100%; border-radius: inherit; background: #74a78c; }
+.score-track .negative-bar { background: #cb9a83; }
+.score-track .neutral-bar { background: #bca367; }

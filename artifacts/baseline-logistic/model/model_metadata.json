@@ -1,0 +1,102 @@
+{
+  "model": "TF-IDF (word unigrams/bigrams) + Logistic Regression",
+  "dataset": "Sentiment140",
+  "dataset_file": "training.1600000.processed.noemoticon.csv",
+  "dataset_archive": "/home/electron/Documents/GitHub/SentiLense/data/archive.zip",
+  "dataset_sha256": "2814ad101966aad7d6f1b0680a829df8758480ef8aec90d34689046847cd4f3f",
+  "encoding": "iso-8859-1",
+  "source_records": 1600000,
+  "cleaned_records_available": 1541299,
+  "records_used": 1541299,
+  "records_trained": 1078909,
+  "splits": {
+    "train": {
+      "records": 1078909,
+      "negative": 541992,
+      "positive": 536917
+    },
+    "validation": {
+      "records": 154130,
+      "negative": 77427,
+      "positive": 76703
+    },
+    "test": {
+      "records": 308260,
+      "negative": 154855,
+      "positive": 153405
+    }
+  },
+  "accuracy": 0.8261629793031856,
+  "precision": 0.8199910239148555,
+  "recall": 0.8337016394511261,
+  "f1": 0.8267894949494949,
+  "f1_macro": 0.826160704921556,
+  "roc_auc": 0.9050041817892367,
+  "negative_threshold": 0.26,
+  "positive_threshold": 0.75,
+  "neutral_policy": "Neutral is abstention/uncertainty, not a trained neutral label. Binary data cannot measure true neutral precision/recall/F1. Probabilities are logistic estimates, not guaranteed calibrated confidence.",
+  "threshold_selection": "Maximize accepted count for each class subject to validation precision >= target; search 0.01 probability increments, negative < 0.5 and positive > 0.5.",
+  "target_validation_precision": 0.9,
+  "confidence_definition": "max(P(positive), P(negative)); binary polarity confidence, never a learned neutral probability",
+  "zero_vocabulary_policy": "Return neutral with both binary scores 0.5 when no features are recognized",
+  "label_mapping": {
+    "0": "negative",
+    "4": "positive"
+  },
+  "classifier_classes": [
+    0,
+    1
+  ],
+  "preprocessing": "NFC + ftfy repair, HTML unescape, lowercase, URL/mention placeholders, whitespace/control cleanup; preserve negation, emoticons, emojis, hashtags, punctuation; no stopword removal",
+  "deduplication": "Keep first occurrence of identical normalized text with consistent labels; remove every normalized group with conflicting labels BEFORE splitting.",
+  "random_seed": 42,
+  "vocabulary_size": 300000,
+  "classifier_parameters": {
+    "C": 4.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 200,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 42,
+    "solver": "liblinear",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "classifier_iterations": [
+    7
+  ],
+  "convergence_warnings": [],
+  "tfidf_parameters": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_features": 300000,
+    "sublinear_tf": true
+  },
+  "versions": {
+    "python": "3.14.7",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.5.3",
+    "ftfy": "6.3.1"
+  },
+  "compute": "CPU; no local CUDA GPU or callable VS Code/Colab kernel-control tool available",
+  "fit_seconds": 121.49918368299996,
+  "total_seconds": 187.88791479799988,
+  "trained_at_utc": "2026-10-07T08:58:54.227802+00:00",
+  "pipeline_sha256": "86f46ba9b3157180bf63b3aabd42f6ffb18fd14c166a3247cbc1befc65c6573e",
+  "limitations": [
+    "Binary, weakly labeled historical English tweets; no true neutral training/evaluation class",
+    "Random tweet split does not estimate user-disjoint or chronological generalization",
+    "Logistic probabilities are not independently calibrated",
+    "Domain shift, sarcasm, and out-of-domain texts can still yield confident errors"
+  ]
+}

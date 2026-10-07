@@ -1,0 +1,92 @@
+Source: /home/electron/Documents/GitHub/SentiLense/data/archive.zip, archive member: training.1600000.processed.noemoticon.csv, encoding: iso-8859-1
+Inspected/preprocessed 200,000 source records
+Inspected/preprocessed 400,000 source records
+Inspected/preprocessed 600,000 source records
+Inspected/preprocessed 800,000 source records
+Inspected/preprocessed 1,000,000 source records
+Inspected/preprocessed 1,200,000 source records
+Inspected/preprocessed 1,400,000 source records
+Inspected/preprocessed 1,600,000 source records
+Cleaned data: 1,541,299 records; labels {'0': 774274, '4': 767025}
+Stratified 70/5/5/20 train/calibration/validation/test splits: {'train': {'records': 1078909, 'negative': 541992, 'positive': 536917}, 'calibration': {'records': 77065, 'negative': 38713, 'positive': 38352}, 'validation': {'records': 77065, 'negative': 38714, 'positive': 38351}, 'test': {'records': 308260, 'negative': 154855, 'positive': 153405}}
+Fitting word/character TF-IDF on train only
+Features ready: (1078909, 350000), 106,285,832 nonzero values
+SVM validation: {'C': 0.5, 'accuracy': 0.8199442029455655, 'f1': 0.8208114878999975, 'brier_score': 0.12682994611420778, 'iterations': 11, 'convergence_warnings': []}
+SVM validation: {'C': 1.0, 'accuracy': 0.813261532472588, 'f1': 0.8142976966255887, 'brier_score': 0.1309644293462734, 'iterations': 13, 'convergence_warnings': []}
+SVM validation: {'C': 2.0, 'accuracy': 0.8052812560825278, 'f1': 0.8063442081354533, 'brier_score': 0.1363538968568724, 'iterations': 17, 'convergence_warnings': []}
+Validation-selected thresholds: negative <= 0.26, positive >= 0.75
+{
+  "test_metrics": {
+    "records": 308260,
+    "accuracy": 0.8242879387530007,
+    "precision": 0.8172269176181769,
+    "recall": 0.8332779244483557,
+    "f1": 0.8251743737553378,
+    "f1_macro": 0.8242834212718755,
+    "roc_auc": 0.9029690636965139,
+    "brier_score": 0.12500907901112265,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        126266,
+        28589
+      ],
+      [
+        25576,
+        127829
+      ]
+    ]
+  },
+  "uncertainty_policy_test": {
+    "records": 308260,
+    "negative_records": 108893,
+    "positive_records": 108169,
+    "neutral_uncertain_records": 91198,
+    "coverage": 0.7041523389346656,
+    "accepted_accuracy": 0.904004385843676,
+    "negative_precision": 0.9039240355211079,
+    "positive_precision": 0.9040852739694367,
+    "neutral_is_abstention": true
+  },
+  "examples": [
+    {
+      "text": "I absolutely love this!",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9676506106839028,
+        "scores": {
+          "positive": 0.9676506106839028,
+          "negative": 0.03234938931609721
+        }
+      }
+    },
+    {
+      "text": "I hate this product.",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9644524080600398,
+        "scores": {
+          "positive": 0.0355475919399601,
+          "negative": 0.9644524080600398
+        }
+      }
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.5990229459535463,
+        "scores": {
+          "positive": 0.4009770540464536,
+          "negative": 0.5990229459535463
+        }
+      }
+    }
+  ]
+}
+Saved pipeline: /tmp/sentilense-svm/model/sentiment_pipeline.joblib; total elapsed 1020.3s

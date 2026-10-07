@@ -1,0 +1,14 @@
+  <aside class="sidebar" aria-label="Workspace navigation">
+    <a class="brand" href="/" aria-label="SentiLense home"><svg class="brand-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="9" fill="currentColor"/><path d="M10 21V14m6 10V8m6 13v-7" stroke="white" stroke-width="2.3" stroke-linecap="round"/></svg><span>SentiLense</span></a>
+    <button class="new-analysis" type="button" (click)="reset.emit()"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>New analysis</button>
+    <div class="nav-label">Workspace</div>
+    <nav>
+      <a class="nav-link selected" href="#main-content" aria-current="page"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 17V7m5 13V4m5 12V8m5 11V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Analysis</a>
+      @if (sourceTarget()) { <a class="nav-link" [href]="sourceTarget()"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4H5a1 1 0 0 0-1 1v3m12-4h3a1 1 0 0 1 1 1v3M4 16v3a1 1 0 0 0 1 1h3m8 0h3a1 1 0 0 0 1-1v-3M9 8h6M8 12h8m-7 4h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Sources &amp; content</a> }
+      <a class="nav-link" href="/docs" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 5l-4 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>API reference<span class="nav-external" aria-hidden="true">↗</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <details class="analysis-help"><summary>How sentiment works <span aria-hidden="true">+</span></summary><p>The SVM + RoBERTa fusion model estimates negative, neutral, and positive tone. Neutral is a trained class.</p><p>Text and general webpages use a learned fusion of SVM and Cardiff Twitter RoBERTa. Movie reviews use the binary IMDb SVM, where neutral means uncertainty. Results can miss sarcasm or context.</p></details>
+      <div class="project-label"><span class="project-avatar" aria-hidden="true">S</span><div>SentiLense<span>Academic workspace</span></div></div>
+    </div>
+  </aside>

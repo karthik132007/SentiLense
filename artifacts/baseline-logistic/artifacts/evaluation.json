@@ -1,0 +1,153 @@
+{
+  "test": {
+    "records": 308260,
+    "accuracy": 0.8261629793031856,
+    "precision": 0.8199910239148555,
+    "recall": 0.8337016394511261,
+    "f1": 0.8267894949494949,
+    "f1_macro": 0.826160704921556,
+    "roc_auc": 0.9050041817892367,
+    "brier_score": 0.12373342416855007,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        126779,
+        28076
+      ],
+      [
+        25511,
+        127894
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8324840764331211,
+        "recall": 0.8186949081398728,
+        "f1-score": 0.825531914893617,
+        "support": 154855.0
+      },
+      "positive": {
+        "precision": 0.8199910239148555,
+        "recall": 0.8337016394511261,
+        "f1-score": 0.8267894949494949,
+        "support": 153405.0
+      },
+      "accuracy": 0.8261629793031856,
+      "macro avg": {
+        "precision": 0.8262375501739883,
+        "recall": 0.8261982737954994,
+        "f1-score": 0.826160704921556,
+        "support": 308260.0
+      },
+      "weighted avg": {
+        "precision": 0.8262669327181904,
+        "recall": 0.8261629793031856,
+        "f1-score": 0.8261577472055354,
+        "support": 308260.0
+      }
+    }
+  },
+  "validation": {
+    "records": 154130,
+    "accuracy": 0.8248556413417245,
+    "precision": 0.8187145751583699,
+    "recall": 0.8323664002711758,
+    "f1": 0.825484048227042,
+    "f1_macro": 0.8248533703612827,
+    "roc_auc": 0.9040939817064908,
+    "brier_score": 0.12444927885475368,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        63290,
+        14137
+      ],
+      [
+        12858,
+        63845
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8311446131218154,
+        "recall": 0.8174151135908663,
+        "f1-score": 0.8242226924955234,
+        "support": 77427.0
+      },
+      "positive": {
+        "precision": 0.8187145751583699,
+        "recall": 0.8323664002711758,
+        "f1-score": 0.825484048227042,
+        "support": 76703.0
+      },
+      "accuracy": 0.8248556413417245,
+      "macro avg": {
+        "precision": 0.8249295941400927,
+        "recall": 0.8248907569310211,
+        "f1-score": 0.8248533703612827,
+        "support": 154130.0
+      },
+      "weighted avg": {
+        "precision": 0.8249587881564605,
+        "recall": 0.8248556413417245,
+        "f1-score": 0.8248504078570666,
+        "support": 154130.0
+      }
+    }
+  },
+  "uncertainty_policy": {
+    "negative_threshold": 0.26,
+    "positive_threshold": 0.75,
+    "validation": {
+      "records": 154130,
+      "negative_records": 55914,
+      "positive_records": 55224,
+      "neutral_uncertain_records": 42992,
+      "coverage": 0.7210666320638422,
+      "accepted_accuracy": 0.900978963090932,
+      "negative_precision": 0.9004184998390385,
+      "positive_precision": 0.901546429088802,
+      "neutral_is_abstention": true
+    },
+    "test": {
+      "records": 308260,
+      "negative_records": 111973,
+      "positive_records": 110693,
+      "neutral_uncertain_records": 85594,
+      "coverage": 0.7223317978329982,
+      "accepted_accuracy": 0.9021718627900084,
+      "negative_precision": 0.9014762487385352,
+      "positive_precision": 0.9028755205839575,
+      "neutral_is_abstention": true
+    }
+  },
+  "splits": {
+    "train": {
+      "records": 1078909,
+      "negative": 541992,
+      "positive": 536917
+    },
+    "validation": {
+      "records": 154130,
+      "negative": 77427,
+      "positive": 76703
+    },
+    "test": {
+      "records": 308260,
+      "negative": 154855,
+      "positive": 153405
+    }
+  },
+  "seed": 42,
+  "evaluation_protocol": "Deduplicate before stratified split. Fit vocabulary, IDF, and coefficients only on train. Select uncertainty thresholds only on validation. Evaluate once on untouched test. No refit on held-out records."
+}

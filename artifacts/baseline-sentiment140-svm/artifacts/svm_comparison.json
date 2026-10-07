@@ -1,0 +1,44 @@
+{
+  "classifier": "Calibrated LinearSVC",
+  "reported_sentence": {
+    "text": "This is fucking trash subject i ever saw in my life, only one with loose brain screw will opt it as minor subject",
+    "expected_sentiment": "negative",
+    "logistic_baseline": {
+      "sentiment": "neutral",
+      "confidence": 0.6856491141860142,
+      "scores": {
+        "positive": 0.6856491141860142,
+        "negative": 0.31435088581398585
+      }
+    },
+    "svm": {
+      "sentiment": "positive",
+      "confidence": 0.7537787817706744,
+      "scores": {
+        "positive": 0.7537787817706744,
+        "negative": 0.24622121822932563
+      }
+    },
+    "regression_passed": false
+  },
+  "datasets": {
+    "tweets": {
+      "baseline_accuracy": 0.8261629793031856,
+      "svm_accuracy": 0.8242879387530007,
+      "baseline_f1": 0.8267894949494949,
+      "svm_f1": 0.8251743737553378,
+      "accuracy_delta": -0.0018750405501849476,
+      "selected_C": 0.5,
+      "model_sha256": "11574536892a443226b3ed422913d753c08373b14fca68c33d32ebc3ef58aaba"
+    },
+    "reviews": {
+      "baseline_accuracy": 0.9060220457124332,
+      "svm_accuracy": 0.8997811638839358,
+      "baseline_f1": 0.9066462702789743,
+      "svm_f1": 0.899295516553325,
+      "accuracy_delta": -0.006240881828497358,
+      "selected_C": 0.5,
+      "model_sha256": "c0874d1240739f7981044d578fc3b4e8c9ee916d5c5da678e54f81a189234585"
+    }
+  }
+}

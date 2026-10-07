@@ -1,0 +1,232 @@
+{
+  "test": {
+    "records": 308260,
+    "accuracy": 0.8242879387530007,
+    "precision": 0.8172269176181769,
+    "recall": 0.8332779244483557,
+    "f1": 0.8251743737553378,
+    "f1_macro": 0.8242834212718755,
+    "roc_auc": 0.9029690636965139,
+    "brier_score": 0.12500907901112265,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        126266,
+        28589
+      ],
+      [
+        25576,
+        127829
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8315617549821525,
+        "recall": 0.8153821316715637,
+        "f1-score": 0.8233924687884133,
+        "support": 154855.0
+      },
+      "positive": {
+        "precision": 0.8172269176181769,
+        "recall": 0.8332779244483557,
+        "f1-score": 0.8251743737553378,
+        "support": 153405.0
+      },
+      "accuracy": 0.8242879387530007,
+      "macro avg": {
+        "precision": 0.8243943363001647,
+        "recall": 0.8243300280599597,
+        "f1-score": 0.8242834212718755,
+        "support": 308260.0
+      },
+      "weighted avg": {
+        "precision": 0.824428050557898,
+        "recall": 0.8242879387530007,
+        "f1-score": 0.8242792303904735,
+        "support": 308260.0
+      }
+    }
+  },
+  "validation": {
+    "records": 77065,
+    "accuracy": 0.8199442029455655,
+    "precision": 0.8130836339447898,
+    "recall": 0.8286876483012177,
+    "f1": 0.8208114878999975,
+    "f1_macro": 0.8199399848095408,
+    "roc_auc": 0.9006136813831562,
+    "brier_score": 0.12682994611420778,
+    "metric_positive_class": "positive (1)",
+    "binary_decision_threshold": 0.5,
+    "confusion_matrix_labels": [
+      "negative",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        31408,
+        7306
+      ],
+      [
+        6570,
+        31781
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8270051082205487,
+        "recall": 0.8112827400940228,
+        "f1-score": 0.8190684817190841,
+        "support": 38714.0
+      },
+      "positive": {
+        "precision": 0.8130836339447898,
+        "recall": 0.8286876483012177,
+        "f1-score": 0.8208114878999975,
+        "support": 38351.0
+      },
+      "accuracy": 0.8199442029455655,
+      "macro avg": {
+        "precision": 0.8200443710826693,
+        "recall": 0.8199851941976202,
+        "f1-score": 0.8199399848095408,
+        "support": 77065.0
+      },
+      "weighted avg": {
+        "precision": 0.8200771583087907,
+        "recall": 0.8199442029455655,
+        "f1-score": 0.8199358797602728,
+        "support": 77065.0
+      }
+    }
+  },
+  "uncertainty_policy": {
+    "negative_threshold": 0.26,
+    "positive_threshold": 0.75,
+    "validation": {
+      "records": 77065,
+      "negative_records": 27144,
+      "positive_records": 27030,
+      "neutral_uncertain_records": 22891,
+      "coverage": 0.7029650295205346,
+      "accepted_accuracy": 0.9016686971609997,
+      "negative_precision": 0.9022988505747126,
+      "positive_precision": 0.9010358860525343,
+      "neutral_is_abstention": true
+    },
+    "test": {
+      "records": 308260,
+      "negative_records": 108893,
+      "positive_records": 108169,
+      "neutral_uncertain_records": 91198,
+      "coverage": 0.7041523389346656,
+      "accepted_accuracy": 0.904004385843676,
+      "negative_precision": 0.9039240355211079,
+      "positive_precision": 0.9040852739694367,
+      "neutral_is_abstention": true
+    }
+  },
+  "splits": {
+    "train": {
+      "records": 1078909,
+      "negative": 541992,
+      "positive": 536917
+    },
+    "calibration": {
+      "records": 77065,
+      "negative": 38713,
+      "positive": 38352
+    },
+    "validation": {
+      "records": 77065,
+      "negative": 38714,
+      "positive": 38351
+    },
+    "test": {
+      "records": 308260,
+      "negative": 154855,
+      "positive": 153405
+    }
+  },
+  "seed": 42,
+  "evaluation_protocol": "Deduplicate before stratified 70/5/5/20 split. Fit vocabulary, IDF, and SVM only on train. Fit sigmoid only on calibration. Select C and uncertainty thresholds only on validation. Evaluate once on untouched test. No refit on held-out records.",
+  "svm_training": {
+    "selected_C": 0.5,
+    "validation_candidates": [
+      {
+        "C": 0.5,
+        "accuracy": 0.8199442029455655,
+        "f1": 0.8208114878999975,
+        "brier_score": 0.12682994611420778,
+        "iterations": 11,
+        "convergence_warnings": []
+      },
+      {
+        "C": 1.0,
+        "accuracy": 0.813261532472588,
+        "f1": 0.8142976966255887,
+        "brier_score": 0.1309644293462734,
+        "iterations": 13,
+        "convergence_warnings": []
+      },
+      {
+        "C": 2.0,
+        "accuracy": 0.8052812560825278,
+        "f1": 0.8063442081354533,
+        "brier_score": 0.1363538968568724,
+        "iterations": 17,
+        "convergence_warnings": []
+      }
+    ],
+    "classifier_parameters": {
+      "C": 0.5,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 3000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "classifier_iterations": [
+      11
+    ],
+    "convergence_warnings": [],
+    "vocabulary_size": 350000,
+    "vocabulary_sizes": {
+      "word": 300000,
+      "character": 50000
+    },
+    "feature_parameters": {
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "character_ngram_range": [
+        4,
+        5
+      ],
+      "character_analyzer": "char_wb",
+      "min_df": 3,
+      "max_word_features": 300000,
+      "max_character_features": 50000,
+      "sublinear_tf": true
+    },
+    "calibration": {
+      "method": "sigmoid",
+      "records": 77065,
+      "base_estimator_frozen": true,
+      "disjoint_from_train_validation_test": true
+    },
+    "fit_seconds": 945.6027401380006
+  }
+}

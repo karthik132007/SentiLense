@@ -1,0 +1,1203 @@
+{
+  "keyword": "antigravity",
+  "search_provider": "Bing",
+  "searched_at_utc": "2026-10-07T14:53:42.490996+00:00",
+  "overall_sentiment": "neutral",
+  "confidence": 0.7410662701441666,
+  "scores": {
+    "positive": 0.7410662701441666,
+    "negative": 0.2589337298558334
+  },
+  "distribution": {
+    "positive": 60.0,
+    "neutral": 40.0,
+    "negative": 0.0
+  },
+  "statistics": {
+    "search_results_found": 10,
+    "sources_analyzed": 5,
+    "sources_skipped": 1,
+    "requested_sources": 5,
+    "analyzed_units": 117,
+    "words": 7390,
+    "characters": 46311
+  },
+  "aggregation": "Equal mean of each source's positive probability; distribution counts source labels.",
+  "sources": [
+    {
+      "url": "https://antigravity.google/",
+      "title": "Google Antigravity",
+      "domain": "antigravity.google",
+      "overall_sentiment": "positive",
+      "confidence": 0.8087,
+      "scores": {
+        "positive": 0.8087282481031468,
+        "negative": 0.1912717518968532
+      },
+      "distribution": {
+        "positive": 66.7,
+        "neutral": 33.3,
+        "negative": 0.0
+      },
+      "statistics": {
+        "characters": 2401,
+        "words": 340,
+        "analyzed_units": 6
+      },
+      "results": [
+        {
+          "text": "Download Play intro Google Antigravity is our agentic development platform, allowing anyone to build in the agent-first era. Google Antigravity is our agentic development platform, allowing anyone to build in the agent-first era. Antigravity 2.0 Your command center to manage multiple local agents in parallel. Group conversations into Projects, operate across multiple workspaces, and automate routine tasks with scheduled messages.",
+          "sentiment": "neutral",
+          "confidence": 0.6298700802521378,
+          "scores": {
+            "positive": 0.6298700802521378,
+            "negative": 0.37012991974786225
+          }
+        },
+        {
+          "text": "Antigravity CLI The lightweight, fast, terminal-first surface to work with Antigravity agents. Run autonomous coding agents, execute shell commands directly, and manage background subagents all from your keyboard. Antigravity SDK Prototype custom agents leveraging Antigravity's harness with minimal code. Simple Python scripts to iterate on agentic applications, automate software engineering tasks, and run evaluations on top of the Antigravity agent harness.",
+          "sentiment": "positive",
+          "confidence": 0.9092124339008413,
+          "scores": {
+            "positive": 0.9092124339008413,
+            "negative": 0.09078756609915872
+          }
+        },
+        {
+          "text": "Antigravity IDE The fully-featured, agentic IDE. Complete with the agent manager, artifacts, and a deep understanding of your codebase. Explore Product Full stack developer Full stack developer Watch case Enterprise developer Enterprise developer Watch case Frontend developer Frontend developer Watch case Full stack developer Build production-ready applications with confidence with thoroughly designed artifacts and comprehensive verification tests.",
+          "sentiment": "positive",
+          "confidence": 0.9497610866917524,
+          "scores": {
+            "positive": 0.9497610866917524,
+            "negative": 0.05023891330824759
+          }
+        },
+        {
+          "text": "View case Enterprise developer Google Antigravity empowers the next era of enterprise builders. View case Frontend developer Streamline UX development by leveraging browser-in-the-loop agents to automate repetitive tasks. View case Available at no charge Achieve new heights Download Now Available!",
+          "sentiment": "positive",
+          "confidence": 0.7854143382416645,
+          "scores": {
+            "positive": 0.7854143382416645,
+            "negative": 0.2145856617583355
+          }
+        },
+        {
+          "text": "Level up your entire team Read More Custom agents in Google plugins Sep 28, 2026 Product Read blog Gemini 3.8 Flash in Google Antigravity Sep 1, 2026 Model Read blog Teamwork: when AI becomes a research partner Aug 27, 2026 Research Product Read blog Visualizing with the help of Antigravity Aug 26, 2026 Product Read blog Improving the version control experience Aug 24, 2026 Product Read blog Antigravity anywhere with Remote Control Aug 21, 2026 Product Read blog Bringing Antigravity to Gemini En",
+          "sentiment": "positive",
+          "confidence": 0.8971758024107687,
+          "scores": {
+            "positive": 0.8971758024107687,
+            "negative": 0.10282419758923134
+          }
+        },
+        {
+          "text": "terprise: Agentic workflows for every developer Aug 20, 2026 Enterprise Read blog Introducing IDE extensions Aug 20, 2026 Product Read blog Gemini 3.7 Flash in Google Antigravity Aug 13, 2026 Model Read blog Download for Apple Silicon Download for Intel",
+          "sentiment": "neutral",
+          "confidence": 0.6809357471217165,
+          "scores": {
+            "positive": 0.6809357471217165,
+            "negative": 0.31906425287828355
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://antigravity.google/download",
+      "title": "Google Antigravity - Download",
+      "domain": "antigravity.google",
+      "overall_sentiment": "neutral",
+      "confidence": 0.5792,
+      "scores": {
+        "positive": 0.5792308544864284,
+        "negative": 0.4207691455135716
+      },
+      "distribution": {
+        "positive": 50.0,
+        "neutral": 25.0,
+        "negative": 25.0
+      },
+      "statistics": {
+        "characters": 1871,
+        "words": 270,
+        "analyzed_units": 4
+      },
+      "results": [
+        {
+          "text": "Antigravity 2.0 Download for Apple Silicon Download for Intel macOS 12 (Monterey) or later (Apple Silicon or Intel) Download for x64 Download for ARM64 Windows 10 (64-bit) or later Download for x64 Download for ARM64 glibc >= 2.28, glibcxx >= 3.4.25 (e.g. Ubuntu 20+, Debian 10+, Fedora 36+, RHEL 8+) Get it on Google Play Googlebook OS (pre-installed on Googlebooks; update or reinstall via Google Play) Antigravity CLI Work with Antigravity directly in your codebase.",
+          "sentiment": "neutral",
+          "confidence": 0.6577387321236681,
+          "scores": {
+            "positive": 0.342261267876332,
+            "negative": 0.6577387321236681
+          }
+        },
+        {
+          "text": "Build, debug, and ship from your terminal. Describe what you need, and Antigravity handles the rest. macOS Linux Googlebook (Linux Terminal) Windows PowerShell Windows CMD Antigravity for IDEs Bring Antigravity's autonomous agent capabilities directly into your favorite editor with official extensions, or download the standalone Antigravity IDE application. Autonomous coding agent, inline completions, and full diff reviews in VS Code and VS Code Insiders.",
+          "sentiment": "positive",
+          "confidence": 0.844489174752081,
+          "scores": {
+            "positive": 0.844489174752081,
+            "negative": 0.15551082524791904
+          }
+        },
+        {
+          "text": "View Docs Agentic workflows, tool executions, and multi-file code editing for Visual Studio 2026. View Docs IntelliJ IDEA, PyCharm, WebStorm, GoLand, CLion, Rider, and more (Enterprise support in Preview). View Docs High-performance agent orchestration and native multibuffer editing in Zed (Enterprise support in Preview). View Docs Native agentic development inside Xcode for macOS, iOS, iPadOS, watchOS, and visionOS (Enterprise support in Preview).",
+          "sentiment": "negative",
+          "confidence": 0.7681684492110523,
+          "scores": {
+            "positive": 0.23183155078894765,
+            "negative": 0.7681684492110523
+          }
+        },
+        {
+          "text": "View Docs Antigravity IDE (Standalone) Dedicated desktop application with native windowing, integrated agent panels, and full execution workspace. Download for Apple Silicon Download for Intel Download for x64 Download for ARM64 Download for x64 Download for ARM64 Download for Linux x64 Download for Linux ARM64 Antigravity SDK Construct, configure, and orchestrate custom autonomous agents with the official Python SDK. Co-optimized with the Gemini family of models. Download Python SDK",
+          "sentiment": "positive",
+          "confidence": 0.8983414245283529,
+          "scores": {
+            "positive": 0.8983414245283529,
+            "negative": 0.10165857547164714
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google_Antigravity",
+      "title": "Google Antigravity - Wikipedia",
+      "domain": "en.wikipedia.org",
+      "overall_sentiment": "neutral",
+      "confidence": 0.6764,
+      "scores": {
+        "positive": 0.6764442134678867,
+        "negative": 0.32355578653211325
+      },
+      "distribution": {
+        "positive": 52.9,
+        "neutral": 29.4,
+        "negative": 17.6
+      },
+      "statistics": {
+        "characters": 13136,
+        "words": 2034,
+        "analyzed_units": 34
+      },
+      "results": [
+        {
+          "text": "Google Antigravity Google Antigravity is a software development platform from Google in which artificial intelligence (AI) agents write, run and test code with varying degrees of autonomy. It was released on November 18, 2025, alongside the Gemini 3 model, as an integrated development environment (IDE) that developers found to be derived from Visual Studio Code (VS Code).",
+          "sentiment": "positive",
+          "confidence": 0.9818379572609844,
+          "scores": {
+            "positive": 0.9818379572609844,
+            "negative": 0.01816204273901556
+          }
+        },
+        {
+          "text": "In May 2026, Google added Antigravity 2.0, a standalone desktop application for managing agents, together with a command-line interface (CLI) and a software development kit (SDK). The original editor continues as a separate product, the Antigravity IDE. Antigravity uses Google's Gemini models and also offers models from Anthropic and OpenAI. It can be used free of charge within usage limits, which are higher for subscribers to Google's paid AI plans.",
+          "sentiment": "positive",
+          "confidence": 0.9588020560331515,
+          "scores": {
+            "positive": 0.9588020560331515,
+            "negative": 0.041197943966848505
+          }
+        },
+        {
+          "text": "Its launch prompted debate over whether it was a fork of VS Code or of Windsurf, an AI code editor whose technology Google had licensed earlier in 2025. In the months after launch, security researchers reported several vulnerabilities; Google responded with a stricter security mode, sandboxing for agent commands, and fixes for reported flaws.",
+          "sentiment": "neutral",
+          "confidence": 0.651342368861915,
+          "scores": {
+            "positive": 0.651342368861915,
+            "negative": 0.348657631138085
+          }
+        },
+        {
+          "text": "History [edit] Background [edit] In July 2025, Google hired Varun Mohan, the chief executive of the AI coding startup Windsurf, along with co-founder Douglas Chen and several researchers, and paid $2.4 billion to license Windsurf's technology.[3][4] The rest of Windsurf was acquired days later by Cognition AI.[5][4] Mohan joined Google DeepMind as a director of software engineering and co-authored Google's announcement of Antigravity 2.0 in 2026.[6] Launch [edit] Google announced Antigravity on",
+          "sentiment": "positive",
+          "confidence": 0.8286773854586023,
+          "scores": {
+            "positive": 0.8286773854586023,
+            "negative": 0.17132261454139774
+          }
+        },
+        {
+          "text": "November 18, 2025, the day it released Gemini 3, and made it available the same day as a free public preview for Windows, macOS and Linux.[7][8] Google described it as an \"agent-first\" platform and offered \"generous rate limits\" on Gemini 3 Pro, which refreshed every five hours.",
+          "sentiment": "positive",
+          "confidence": 0.879301165670308,
+          "scores": {
+            "positive": 0.879301165670308,
+            "negative": 0.12069883432969197
+          }
+        },
+        {
+          "text": "Anthropic's Claude Sonnet 4.5 and OpenAI's open-weight GPT-OSS model were also available.[7][8] The announcement did not say what code Antigravity was built on.",
+          "sentiment": "negative",
+          "confidence": 0.7640374475123333,
+          "scores": {
+            "positive": 0.2359625524876667,
+            "negative": 0.7640374475123333
+          }
+        },
+        {
+          "text": "Developers who examined it concluded that it was derived from VS Code, and some found references to Cascade, Windsurf's proprietary agent system, suggesting that it might derive from Windsurf, itself a VS Code fork.[9] Early updates [edit] In December 2025, Google raised the rate limits for Google AI Pro and Ultra subscribers and moved free users to a weekly limit.[10] After security researchers reported flaws in the software, Google added an optional \"Secure Mode\" on December 8, 2025, in which",
+          "sentiment": "positive",
+          "confidence": 0.8710520977018071,
+          "scores": {
+            "positive": 0.8710520977018071,
+            "negative": 0.12894790229819286
+          }
+        },
+        {
+          "text": "the agent's actions require human review; it was renamed \"strict mode\" in February 2026.",
+          "sentiment": "positive",
+          "confidence": 0.8244801064607215,
+          "scores": {
+            "positive": 0.8244801064607215,
+            "negative": 0.17551989353927855
+          }
+        },
+        {
+          "text": "Between January and March 2026, Google added the option to run the agent's terminal commands in a sandbox on macOS and Linux.[1] Gemini 3 Flash became available in Antigravity in December 2025, and Gemini 3.1 Pro in February 2026.[11][12] In February 2026, Google cut off users who had connected the third-party agent OpenClaw to Antigravity's backend, citing \"a massive increase in malicious usage of the Antigravity backend that has tremendously degraded the quality of service\".[13] It later added",
+          "sentiment": "neutral",
+          "confidence": 0.6273576857721325,
+          "scores": {
+            "positive": 0.37264231422786753,
+            "negative": 0.6273576857721325
+          }
+        },
+        {
+          "text": "a process for suspended accounts to request reinstatement.[1] Antigravity 2.0 [edit] At Google I/O on May 19, 2026, Google released Antigravity 2.0, a standalone desktop application in which users can run several agents in parallel, define custom subagent workflows, and schedule tasks to run in the background.[14][6] Google's documentation describes it as the successor to the original release's Agent Manager that, unlike the Agent Manager, \"functions independently of an IDE\".[15] Google also re",
+          "sentiment": "neutral",
+          "confidence": 0.7437768457051035,
+          "scores": {
+            "positive": 0.7437768457051035,
+            "negative": 0.2562231542948965
+          }
+        },
+        {
+          "text": "leased the Antigravity CLI, which replaced its earlier Gemini CLI for consumers, and the Antigravity SDK.[14][6][16] The original application, which Google now calls \"Antigravity 1.0\", was relaunched at the same time as a separate product, the Antigravity IDE, with its version numbering restarted at 2.0.1 and a tool for importing settings, extensions and keybindings from Antigravity 1.0.[1] As of October 2026[update], the IDE is not supported for enterprise customers,[17] and its most recent rel",
+          "sentiment": "negative",
+          "confidence": 0.7984977546360708,
+          "scores": {
+            "positive": 0.20150224536392922,
+            "negative": 0.7984977546360708
+          }
+        },
+        {
+          "text": "ease was in August 2026, while the desktop application and the CLI continued to receive frequent updates.[1] Products [edit] As of October 2026[update], Antigravity is offered in the following forms:[2][15] - Antigravity 2.0, a desktop application for starting, monitoring and coordinating agents, for Windows, macOS and Linux, and for Googlebook devices through Google Play - Antigravity IDE, the original VS Code\u2013based editor - Antigravity CLI, a terminal application written in Go[16] - Antigravit",
+          "sentiment": "positive",
+          "confidence": 0.9247850661017646,
+          "scores": {
+            "positive": 0.9247850661017646,
+            "negative": 0.07521493389823541
+          }
+        },
+        {
+          "text": "y SDK, a Python library for building custom agents that developers can host on their own infrastructure[6] - extensions that add Antigravity's agent to Visual Studio Code, Visual Studio, JetBrains IDEs, Zed and Xcode Features [edit] As released in 2025, Antigravity had two main views: an editor view, a conventional IDE with code completion and an agent in a side panel; and a manager view, the Agent Manager, from which users could start several agents working asynchronously across different works",
+          "sentiment": "positive",
+          "confidence": 0.801632459456266,
+          "scores": {
+            "positive": 0.801632459456266,
+            "negative": 0.19836754054373396
+          }
+        },
+        {
+          "text": "paces.[7][18] Agents can use the code editor, a terminal and a built-in web browser based on Chrome.[19][20] Agents produce what Google calls \"Artifacts\", such as task lists, implementation plans, walkthroughs, screenshots and browser recordings, which Google says let users check an agent's work without reviewing each individual action.[7][21] Agents also read from and add to a knowledge base, which Google says lets them learn from earlier work.[7][19] Users can set how much an agent does withou",
+          "sentiment": "positive",
+          "confidence": 0.8601787879357322,
+          "scores": {
+            "positive": 0.8601787879357322,
+            "negative": 0.13982121206426779
+          }
+        },
+        {
+          "text": "t supervision.",
+          "sentiment": "neutral",
+          "confidence": 0.5868443986100826,
+          "scores": {
+            "positive": 0.4131556013899174,
+            "negative": 0.5868443986100826
+          }
+        },
+        {
+          "text": "In \"Turbo\" mode, an agent runs terminal commands without asking for approval;[22] in strict mode, it needs approval for its actions and runs commands in a sandbox with restricted network access.[23][1] AI models [edit] Antigravity was built around Google's Gemini models.[8] As of October 2026[update], its model selector includes Gemini 3.1 Pro and several Gemini Flash models, Anthropic's Claude Opus and Sonnet models in versions 4.6 and 5.5, and OpenAI's GPT-OSS-120B.",
+          "sentiment": "neutral",
+          "confidence": 0.5551493439730669,
+          "scores": {
+            "positive": 0.5551493439730669,
+            "negative": 0.4448506560269331
+          }
+        },
+        {
+          "text": "Availability depends on the user's plan; the Claude 5.5 models are limited to paying Google AI Pro and Ultra subscribers. Google has said that the Claude 4.6 models will be removed on November 2, 2026.[24] Pricing [edit] Antigravity has no subscription of its own.",
+          "sentiment": "negative",
+          "confidence": 0.8461651110286104,
+          "scores": {
+            "positive": 0.1538348889713896,
+            "negative": 0.8461651110286104
+          }
+        },
+        {
+          "text": "Individuals can use it free of charge with a usage quota that refreshes weekly, while subscribers to Google AI Pro and Google AI Ultra receive larger quotas that refresh every five hours and can buy credits for additional use.[10][25] With the release of Antigravity 2.0, Google introduced a $100-per-month Ultra plan with five times the Antigravity usage limits of the Pro plan, and lowered the price of its top Ultra plan from $250 to $200 per month.[14][16] Since mid-2026, organizations have been",
+          "sentiment": "neutral",
+          "confidence": 0.5236015063469993,
+          "scores": {
+            "positive": 0.4763984936530007,
+            "negative": 0.5236015063469993
+          }
+        },
+        {
+          "text": "able to use Antigravity 2.0 and the CLI with Gemini Enterprise accounts.[1] Reception [edit] Antigravity's launch prompted discussion among developers about the number of AI code editors built on VS Code; a Hacker News thread about it drew more than 1,000 comments.",
+          "sentiment": "neutral",
+          "confidence": 0.6160961224540064,
+          "scores": {
+            "positive": 0.6160961224540064,
+            "negative": 0.38390387754599364
+          }
+        },
+        {
+          "text": "Developers posted comparisons with VS Code and Windsurf, and some criticized Google for not disclosing what Antigravity was based on, calling it a \"PORK\", or \"proprietary fork\".[9] In a review the day after launch, Tim Anderson of DevClass reported that one user had run out of free quota after about 20 minutes, with no way to buy more, and that the review's own sessions failed with errors attributed to \"model provider overload\".[26] Security and reliability [edit] Within days of the launch, secu",
+          "sentiment": "neutral",
+          "confidence": 0.5359727442882063,
+          "scores": {
+            "positive": 0.5359727442882063,
+            "negative": 0.4640272557117937
+          }
+        },
+        {
+          "text": "rity researchers reported several vulnerabilities.",
+          "sentiment": "neutral",
+          "confidence": 0.6691172028960725,
+          "scores": {
+            "positive": 0.6691172028960725,
+            "negative": 0.33088279710392754
+          }
+        },
+        {
+          "text": "Aaron Portnoy of the security firm Mindgard found that a malicious source code repository could install a persistent backdoor, and other researchers described indirect prompt injection attacks that could exfiltrate data or run commands.",
+          "sentiment": "negative",
+          "confidence": 0.8422711394349582,
+          "scores": {
+            "positive": 0.15772886056504182,
+            "negative": 0.8422711394349582
+          }
+        },
+        {
+          "text": "Google said it took security issues \"very seriously\" and would publish known issues while working on fixes.[27] In April 2026, Pillar Security disclosed a prompt injection flaw in the agent's file-search tool that allowed arbitrary code execution even in the product's most restrictive security mode.",
+          "sentiment": "negative",
+          "confidence": 0.8777450898985797,
+          "scores": {
+            "positive": 0.12225491010142034,
+            "negative": 0.8777450898985797
+          }
+        },
+        {
+          "text": "It had reported the flaw to Google in January; Google fixed it on February 28, 2026, and paid a bug bounty.[23] In December 2025, a user in Greece reported that Antigravity, running in Turbo mode, had erased an entire drive after being asked to clear a project's cache. The agent's command targeted the root of the drive instead of the project folder and bypassed the Recycle Bin, so the files could not be recovered. A Google spokesperson told The Register: \"We take these issues seriously.",
+          "sentiment": "negative",
+          "confidence": 0.8001387645952356,
+          "scores": {
+            "positive": 0.19986123540476447,
+            "negative": 0.8001387645952356
+          }
+        },
+        {
+          "text": "We're aware of this report and we're actively investigating what this developer encountered.\"[22] See also [edit] References [edit] - 1 2 3 4 5 6 7 \"Changelog\". Google Antigravity Docs. Google. Retrieved October 5, 2026. - 1 2 3 \"Download Google Antigravity\". Google Antigravity. Google. Retrieved October 5, 2026. - \u2191 Cai, Kenrick; Hu, Krystal; Lamba, Kritika (July 12, 2025). \"Google hires Windsurf execs in $2.4 billion deal to advance AI coding ambitions\". Reuters.",
+          "sentiment": "positive",
+          "confidence": 0.9141647928807272,
+          "scores": {
+            "positive": 0.9141647928807272,
+            "negative": 0.08583520711927284
+          }
+        },
+        {
+          "text": "Retrieved October 5, 2026. - 1 2 \"Cognition, maker of the AI coding agent Devin, acquires Windsurf\". TechCrunch. July 14, 2025. Retrieved October 5, 2026. - \u2191 Capoot, Ashley (July 14, 2025). \"Cognition to buy AI startup Windsurf days after Google poached CEO in $2.4 billion licensing deal\". CNBC. Retrieved October 5, 2026. - 1 2 3 4 Mohan, Varun; Kilpatrick, Logan (May 19, 2026). \"Building the agentic future: Developer highlights from I/O 2026\". The Keyword. Google.",
+          "sentiment": "positive",
+          "confidence": 0.9477602281768782,
+          "scores": {
+            "positive": 0.9477602281768782,
+            "negative": 0.05223977182312178
+          }
+        },
+        {
+          "text": "Retrieved October 5, 2026. - 1 2 3 4 5 \"Introducing Google Antigravity, a new era in AI-assisted software development\". Google Antigravity. Google. November 18, 2025. Retrieved October 5, 2026. - 1 2 3 Preston, Dominic (November 18, 2025). \"Google Antigravity is an 'agent-first' coding tool built for Gemini 3\". The Verge. Archived from the original on November 19, 2025. Retrieved November 18, 2025. - 1 2 Ramel, David (November 21, 2025). \"Google's Antigravity IDE Sparks Forking Debate\".",
+          "sentiment": "positive",
+          "confidence": 0.922852270302272,
+          "scores": {
+            "positive": 0.922852270302272,
+            "negative": 0.07714772969772798
+          }
+        },
+        {
+          "text": "Visual Studio Magazine. Archived from the original on November 29, 2025. Retrieved October 5, 2026. - 1 2 \"Google AI Pro and Ultra subscribers now have higher rate limits for Google Antigravity\". The Keyword. Google. December 5, 2025. Retrieved October 5, 2026. - \u2191 \"Gemini 3 Flash: frontier intelligence built for speed\". The Keyword. Google. December 17, 2025. Archived from the original on December 18, 2025.",
+          "sentiment": "positive",
+          "confidence": 0.9023816401880235,
+          "scores": {
+            "positive": 0.9023816401880235,
+            "negative": 0.09761835981197653
+          }
+        },
+        {
+          "text": "Retrieved April 13, 2026. - \u2191 \"Gemini 3.1 Pro: A smarter model for your most complex tasks\". The Keyword. Google. February 19, 2026. Retrieved October 5, 2026. - \u2191 David, Emilia (February 23, 2026). \"Google clamps down on Antigravity 'malicious usage', cutting off OpenClaw users in sweeping ToS enforcement move\". VentureBeat. Retrieved October 5, 2026. - 1 2 3 Mehta, Ivan (May 19, 2026). \"Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026\". TechCrunch.",
+          "sentiment": "positive",
+          "confidence": 0.9272294570207505,
+          "scores": {
+            "positive": 0.9272294570207505,
+            "negative": 0.07277054297924945
+          }
+        },
+        {
+          "text": "Retrieved October 5, 2026. - 1 2 \"Overview\". Google Antigravity Docs. Google. Retrieved October 5, 2026. - 1 2 3 Stan, Alina Maria (May 19, 2026). \"Antigravity turns into a full agentic development platform with desktop app, CLI, and SDK\". The Next Web. Retrieved October 5, 2026. - \u2191 \"Antigravity IDE\". Google Antigravity Docs. Google. Retrieved October 5, 2026. - \u2191 David, Emilia (November 18, 2025).",
+          "sentiment": "positive",
+          "confidence": 0.902335713974515,
+          "scores": {
+            "positive": 0.902335713974515,
+            "negative": 0.09766428602548505
+          }
+        },
+        {
+          "text": "\"Google Antigravity introduces agent-first architecture for asynchronous, verifiable coding workflows\". VentureBeat. Retrieved November 18, 2025. - 1 2 Whitwam, Ryan (November 18, 2025). \"Google unveils Gemini 3 AI model and AI-first IDE called Antigravity\". Ars Technica. Archived from the original on November 19, 2025. Retrieved November 18, 2025. - \u2191 Brandom, Russell (November 18, 2025). \"Google launches Gemini 3 with new coding app and record benchmark scores\". TechCrunch.",
+          "sentiment": "positive",
+          "confidence": 0.9420627753940353,
+          "scores": {
+            "positive": 0.9420627753940353,
+            "negative": 0.05793722460596473
+          }
+        },
+        {
+          "text": "Archived from the original on November 18, 2025. Retrieved November 18, 2025. - \u2191 \"Antigravity Is Google's New Agentic Development Platform\". The New Stack. November 18, 2025. Archived from the original on November 18, 2025. Retrieved November 18, 2025. - 1 2 Vigliarolo, Brandon (December 1, 2025). \"Google Antigravity vibe-codes user's entire drive out of existence\". The Register. Retrieved October 5, 2026. - 1 2 Johnson, Derek B. (April 20, 2026).",
+          "sentiment": "neutral",
+          "confidence": 0.6973517229239501,
+          "scores": {
+            "positive": 0.6973517229239501,
+            "negative": 0.3026482770760499
+          }
+        },
+        {
+          "text": "\"Vuln in Google's Antigravity AI agent manager could escape sandbox, give attackers remote code execution\". CyberScoop. Retrieved October 5, 2026. - \u2191 \"Models\". Google Antigravity Docs. Google. Retrieved October 5, 2026. - \u2191 \"Plans and AI credits\". Google Antigravity Docs. Google. Retrieved October 5, 2026. - \u2191 Anderson, Tim (November 19, 2025). \"We take a look at Google's Antigravity: Agentic AI development but some frustrations for early adopters\". DevClass.",
+          "sentiment": "positive",
+          "confidence": 0.8590198972727829,
+          "scores": {
+            "positive": 0.8590198972727829,
+            "negative": 0.14098010272721706
+          }
+        },
+        {
+          "text": "Retrieved October 5, 2026. - \u2191 Solomon, Howard (November 27, 2025). \"Security researchers caution app developers about risks in using Google Antigravity\". CSO Online. Retrieved October 5, 2026.",
+          "sentiment": "positive",
+          "confidence": 0.9484019473515078,
+          "scores": {
+            "positive": 0.9484019473515078,
+            "negative": 0.051598052648492154
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://codelabs.developers.google.com/getting-started-google-antigravity",
+      "title": "Getting Started with Google Antigravity \u00a0|\u00a0 Google Codelabs",
+      "domain": "codelabs.developers.google.com",
+      "overall_sentiment": "positive",
+      "confidence": 0.8389,
+      "scores": {
+        "positive": 0.8388900995368809,
+        "negative": 0.16110990046311913
+      },
+      "distribution": {
+        "positive": 76.6,
+        "neutral": 23.4,
+        "negative": 0.0
+      },
+      "statistics": {
+        "characters": 24955,
+        "words": 4135,
+        "analyzed_units": 64
+      },
+      "results": [
+        {
+          "text": "Getting Started with Google Antigravity 1. Introduction In this codelab, you will learn about Google Antigravity , an agentic development platform that is designed to help you develop in this era of agents. Antigravity 2.0 serves as your AI agents' central command center, providing a unified platform to launch, monitor, and orchestrate their activities. With the 2.0 launch, Antigravity is no longer just an Agent Manager integrated with an IDE.",
+          "sentiment": "positive",
+          "confidence": 0.9508108655642431,
+          "scores": {
+            "positive": 0.9508108655642431,
+            "negative": 0.0491891344357569
+          }
+        },
+        {
+          "text": "It is now a complete ecosystem of products designed for the agent-first era: Antigravity: The flagship standalone application for macOS, Linux, and Windows. This is your command center to manage multiple local agents in parallel, run scheduled tasks and more. Unlike its predecessor, the Agent Manager, Antigravity 2.0 is a standalone application that functions independently of an IDE. Antigravity IDE: The original fully-featured, agentic IDE remains available (and recommended for developers!).",
+          "sentiment": "positive",
+          "confidence": 0.8817293375889732,
+          "scores": {
+            "positive": 0.8817293375889732,
+            "negative": 0.1182706624110268
+          }
+        },
+        {
+          "text": "It comes with the agent manager, artifacts, and a deep understanding of your codebase. Antigravity CLI: A command-line interface for terminal-based agent interactions. This will not be covered in this tutorial. Antigravity SDK: Tools for developers to programmatically integrate Antigravity into their own systems. This will not be covered in this tutorial. Antigravity for IDEs: This has been recently released.",
+          "sentiment": "neutral",
+          "confidence": 0.5322603646828243,
+          "scores": {
+            "positive": 0.5322603646828243,
+            "negative": 0.46773963531717566
+          }
+        },
+        {
+          "text": "This integrates Antigravity's autonomous agent capabilities directly into your favorite editor with official extensions for Visual Studio Code, Jetbrains, Zed and more. In case you do not wish to use any of these extensions, you can use the standalone Antigravity IDE mentioned above. In this codelab, we will heavily focus on Antigravity and touch briefly upon the Antigravity IDE. The other two components, Antigravity CLI and Antigravity SDK, are not covered.",
+          "sentiment": "positive",
+          "confidence": 0.7904360228675268,
+          "scores": {
+            "positive": 0.7904360228675268,
+            "negative": 0.2095639771324732
+          }
+        },
+        {
+          "text": "If you are interested in a codelab on Antigravity CLI, which is a terminal-based application, refer to the codelab: Getting Started with Antigravity CLI What you'll learn Installing and configuring Antigravity. Exploring key concepts of Antigravity like working with Agents, Projects and more. Customizing Antigravity via various settings and as per your preferences. What you'll need Antigravity needs to be locally installed on your system.",
+          "sentiment": "positive",
+          "confidence": 0.9771262255117419,
+          "scores": {
+            "positive": 0.9771262255117419,
+            "negative": 0.022873774488258114
+          }
+        },
+        {
+          "text": "The product is available on Mac, Windows and specific Linux distributions. In addition to your own machine, you will need the following: Chrome web browser. A Gmail account (Personal Gmail account). This codelab is designed for users and developers of all levels. Reporting issues As you work through the codelab and with Antigravity, you might encounter problems.",
+          "sentiment": "positive",
+          "confidence": 0.8429591180421023,
+          "scores": {
+            "positive": 0.8429591180421023,
+            "negative": 0.15704088195789767
+          }
+        },
+        {
+          "text": "For codelab related issues (typos, wrong instructions), please open a bug with the Report a mistake button in the bottom-left corner of this codelab: For bugs or feature requests related to Antigravity, please report the issue within Antigravity. You can report product feedback by clicking on Settings, available in the bottom left corner of the Antigravity product. And then choosing the option Provide Feedback 2.",
+          "sentiment": "neutral",
+          "confidence": 0.6747805155067179,
+          "scores": {
+            "positive": 0.32521948449328214,
+            "negative": 0.6747805155067179
+          }
+        },
+        {
+          "text": "Installation Installing Antigravity Go to the Google Antigravity download page page. Download the Antigravity application for your operating system (macOS, Linux, or Windows). Run the installer. It shows the following screen: There are 2 options: Continue with Google : You can use your personal Google account here and Antigravity supports a starter pack with personal Gmail.",
+          "sentiment": "positive",
+          "confidence": 0.939275897922166,
+          "scores": {
+            "positive": 0.939275897922166,
+            "negative": 0.060724102077833964
+          }
+        },
+        {
+          "text": "In case you have purchased the Google AI Pro / Ultra packages on your Google Account, then appropriate Antigravity quota limits will be applied. Use business account : This applies if you are using this in an Enterprise project, where you have a Google Cloud Project and your organization has purchased licenses. Alternatively, you can use the Google Cloud Project along with Agent Platform in a pay as you go fashion. We will not be using this option here.",
+          "sentiment": "positive",
+          "confidence": 0.988238623316397,
+          "scores": {
+            "positive": 0.988238623316397,
+            "negative": 0.011761376683602998
+          }
+        },
+        {
+          "text": "Click on Continue with Google and login with your Google account. Complete the authentication and it should show the following: Click on Open Antigravity and it will continue with the rest of the process. You can select a Theme one or more Google plugins that you can augment Antigravity with (you can ignore all of that for now) and a Terms / Conditions screen.",
+          "sentiment": "positive",
+          "confidence": 0.9062002347150917,
+          "scores": {
+            "positive": 0.9062002347150917,
+            "negative": 0.0937997652849083
+          }
+        },
+        {
+          "text": "Accept it, click on Finish and you should see an interface of Antigravity that looks like the following: We will get to the interface in a while but we are all set for the moment. Install Antigravity IDE In the above screen, you should see an Install Antigravity IDE button in the top right corner. That should take you to Google Antigravity IDE download page or you can go there directly too. Click the Download button.",
+          "sentiment": "positive",
+          "confidence": 0.9202071981180827,
+          "scores": {
+            "positive": 0.9202071981180827,
+            "negative": 0.07979280188191729
+          }
+        },
+        {
+          "text": "This will take you to a page where you can either download the Antigravity Extension for your favourite IDES (Visual Studio Code, Zed, Jetbrains, etc) or you can download the standalone Antigravity IDE installer as given below: Download the appropriate installer. Run the installer, login with the same Google Account and go ahead with the installation. Go with defaults for every step ranging from IDE, Default Actions, Plugins and more.",
+          "sentiment": "positive",
+          "confidence": 0.8066353702900562,
+          "scores": {
+            "positive": 0.8066353702900562,
+            "negative": 0.19336462970994384
+          }
+        },
+        {
+          "text": "You will see two icons in your dock: Antigravity 2.0 (white background) and Antigravity IDE (black grid background). 3. Antigravity 2.0 Interface Go ahead and launch Antigravity, if you have not done so already. Ideally, you should see a screen that looks like this.",
+          "sentiment": "positive",
+          "confidence": 0.7678555487323134,
+          "scores": {
+            "positive": 0.7678555487323134,
+            "negative": 0.23214445126768657
+          }
+        },
+        {
+          "text": "If you have installed the standalone Antigravity IDE, then the top right corner button will be Open Antigravity IDE and not Install IDE We will get to the Settings option in the lower left corner, as we go along this tutorial, as we need. Projects Let's understand the concept of Projects first in Antigravity.",
+          "sentiment": "positive",
+          "confidence": 0.838551726270865,
+          "scores": {
+            "positive": 0.838551726270865,
+            "negative": 0.16144827372913495
+          }
+        },
+        {
+          "text": "This is key because if you notice the interface in the right pane, it clearly says Select Project and Antigravity uses a project-centric approach to ensure the agents have access to the right files, tools, permissions and more. A project is a combination of folders defining the environment and the scope of your agent.",
+          "sentiment": "positive",
+          "confidence": 0.8428246754295635,
+          "scores": {
+            "positive": 0.8428246754295635,
+            "negative": 0.15717532457043648
+          }
+        },
+        {
+          "text": "Instead of forcing an agent to operate within a single folder, a project can work with one or multiple folders (e.g., a frontend and a backend repo), providing your agents with all of the context required for your codebase. All projects have their own isolated agent settings, allowing you to customize different projects' security settings independently. Let's create our first project. In your home folder on your local machine, create a folder named $HOME/agy2-projects/my-first-project .",
+          "sentiment": "positive",
+          "confidence": 0.9577502867721556,
+          "scores": {
+            "positive": 0.9577502867721556,
+            "negative": 0.04224971322784443
+          }
+        },
+        {
+          "text": "Note that it does not have to be an empty folder. We are now going to create our first project in Antigravity by defining what folders constitute the project. In our initial case here, it will be just one folder i.e. $HOME/agy2-projects/my-first-project. In the left navigation bar, you will see a Projects section.",
+          "sentiment": "neutral",
+          "confidence": 0.5479101402432439,
+          "scores": {
+            "positive": 0.5479101402432439,
+            "negative": 0.4520898597567561
+          }
+        },
+        {
+          "text": "Click on Create New Project button as shown below: You will see the options as shown below, click on New Project It will ask you to select a folder for your project by opening up the Folder or File Explorer. Select the folder, in our case, it is $HOME/agy2-projects/my-first-project So currently we have defined a project my-first-project and it points to a folder i.e. $HOME/agy2-projects/my-first-project You might ask if a Project can have only one folder.",
+          "sentiment": "neutral",
+          "confidence": 0.7467922085644665,
+          "scores": {
+            "positive": 0.7467922085644665,
+            "negative": 0.2532077914355335
+          }
+        },
+        {
+          "text": "What if I want to have a project that has both front-end-code and back-end-code folders. You can add more folders, so that Antigravity has a full context while working with your projects. Click on the Project settings for the specific project ( my-first-project ) as shown below: This will bring up the Project Settings dialog for the specific project and you will notice that it contains the option of adding more folders via the Add Folder option.",
+          "sentiment": "positive",
+          "confidence": 0.8398918142387057,
+          "scores": {
+            "positive": 0.8398918142387057,
+            "negative": 0.16010818576129426
+          }
+        },
+        {
+          "text": "You can still add more folders to the Project, as you can notice (via Add Folder ), but for now, we are fine with this and we can click on the Create button. You can close the settings page now.",
+          "sentiment": "positive",
+          "confidence": 0.9806940652376523,
+          "scores": {
+            "positive": 0.9806940652376523,
+            "negative": 0.019305934762347654
+          }
+        },
+        {
+          "text": "One of the key things that you would have noticed is that \"All projects have their own isolated agent settings, allowing you to customize different projects' security settings independently.\" So at any point in time, if you want to tweak the behaviour of Antigravity for your specific project, you can go into Project Settings and modify specific settings as needed.",
+          "sentiment": "positive",
+          "confidence": 0.9621840147774893,
+          "scores": {
+            "positive": 0.9621840147774893,
+            "negative": 0.03781598522251073
+          }
+        },
+        {
+          "text": "In simple words, each project inherits permissions around reviewing artifacts, tools allowed, MCP Server configuration from a global configuration that is available via Settings in the main interface. However, you can set individually these permissions and more per project, thereby getting a lot more flexibility and keeping the context and tools lean and mean for your specific project. For now, let's say Hi to our wonderful agent by clicking on Start first conversation .",
+          "sentiment": "positive",
+          "confidence": 0.9718550998378436,
+          "scores": {
+            "positive": 0.9718550998378436,
+            "negative": 0.028144900162156428
+          }
+        },
+        {
+          "text": "Once you do that, you will see the following screen and our first project that now appears both in the list of projects on the left and currently as the project in which the Agent will work when you give it messages via the Chat Interface. Notice that you can select the Model, pass additional context via the + sign or @ or / actions and so on. Let's greet our Agent with a message and it responds accordingly. I have another request to get me the news and it does a good job.",
+          "sentiment": "positive",
+          "confidence": 0.9823842434874405,
+          "scores": {
+            "positive": 0.9823842434874405,
+            "negative": 0.017615756512559533
+          }
+        },
+        {
+          "text": "Conversations What we have done here is that in our Project ( my-first-project ), we started a conversation thread and currently there is a series of messages (user message and agent responses) that are present in the thread. You will see that this conversation thread remains a single one and it appears on the left side grouped under the project. Now, let's do something interesting and give a name to this conversation thread.",
+          "sentiment": "positive",
+          "confidence": 0.9126289090103068,
+          "scores": {
+            "positive": 0.9126289090103068,
+            "negative": 0.0873710909896932
+          }
+        },
+        {
+          "text": "Let's call it conv-introduction To do that Click on the three vertical dots , next to the conversation. It will show you 3 options. Choose the Rename action. Give the value conv-introduction or any name that makes sense to you. Now, if you'd like to have a completely new conversation in the project, click the (New Conversation in Project) sign next to the project as shown below. You are now into a totally new conversation. Let's ask some sports news from across the world.",
+          "sentiment": "positive",
+          "confidence": 0.9960474998817413,
+          "scores": {
+            "positive": 0.9960474998817413,
+            "negative": 0.0039525001182586506
+          }
+        },
+        {
+          "text": "Note that we are still in the my-first-project i.e. \"Give me some sports news from across the world\". This gives me some news around the sports world and you can notice that now we have two conversation threads in the same project. Let's rename this conversation to conv-sportsnews .",
+          "sentiment": "positive",
+          "confidence": 0.9215519453730926,
+          "scores": {
+            "positive": 0.9215519453730926,
+            "negative": 0.0784480546269074
+          }
+        },
+        {
+          "text": "If you'd like to see all the conversations that have happened so far, you can visit the Conversation History in the top left as shown below: At any point in time, you have the option of having a new conversation either in the current project or a new project via the New Conversation option at the top. Project Settings Now let's get back to the Project Settings that we earlier talked about.",
+          "sentiment": "positive",
+          "confidence": 0.9068985857941663,
+          "scores": {
+            "positive": 0.9068985857941663,
+            "negative": 0.09310141420583373
+          }
+        },
+        {
+          "text": "When you create a project in Antigravity, it inherits default permissions, which you can override specifically if you'd like. To get to the project settings for a specific project, click on the settings gear icon next to the specific project in the left navigation bar as shown below and click on Project Settings This will lead you to the specific Project (i.e. my-first-project ) settings as shown below: Notice on the left side under projects, the my-first-project is selected.",
+          "sentiment": "positive",
+          "confidence": 0.9506085358506882,
+          "scores": {
+            "positive": 0.9506085358506882,
+            "negative": 0.04939146414931184
+          }
+        },
+        {
+          "text": "If there were more projects, these would be visible under this list and you can easily select any of the projects and tweak their settings as needed. Now, let's focus on the right side, the project settings shown for my-first-project. You will notice that it has the single folder that we had added to this project. You can add more folders from here too.",
+          "sentiment": "positive",
+          "confidence": 0.9514713595067884,
+          "scores": {
+            "positive": 0.9514713595067884,
+            "negative": 0.048528640493211594
+          }
+        },
+        {
+          "text": "I suggest that you first go through the entire list and see the flexibility now provided to help you change a ton of settings as per your project customization requirements. These include: Security Preset : You can determine if you'd like all terminal commands and file accesses to be reviewed first by you before the agent can perform actions.",
+          "sentiment": "positive",
+          "confidence": 0.91146147302979,
+          "scores": {
+            "positive": 0.91146147302979,
+            "negative": 0.08853852697021003
+          }
+        },
+        {
+          "text": "Agent Behaviour : In case of artifacts generated, for example the implementation_plan.md , where you would like to review before asking the agent to go ahead and execute the plan. Various Local Permissions i.e. file paths allowed for access, which URLs are allowed or blocked for the Agent, etc. You can even configure which specific MCP Tools are allowed for this Project. This is quite useful to prevent all globally configured MCP Servers to be made available to the Agent in this project.",
+          "sentiment": "neutral",
+          "confidence": 0.725811740169193,
+          "scores": {
+            "positive": 0.725811740169193,
+            "negative": 0.27418825983080697
+          }
+        },
+        {
+          "text": "Note : At any point in time, you can go to the settings for Antigravity or even project settings via the main settings option in the Antigravity interface. 4. Slash Commands There are some interesting slash commands available in Antigravity. In your conversation chat interface, if you type , you should see the commands as shown below: /plan command is important, if you want the model to create an implementation plan before executing.",
+          "sentiment": "positive",
+          "confidence": 0.8686396869636113,
+          "scores": {
+            "positive": 0.8686396869636113,
+            "negative": 0.13136031303638873
+          }
+        },
+        {
+          "text": "The /browser command is for launching the browser and asking it to do something. Try browsing to a website as shown below: This spawns up a browser sub-agent that attempts to launch a debugging session with Chrome and asks your permission first: Once you allow it, the browser will visit the site, get the latest news and then you will have the data returned to you in Antigravity.",
+          "sentiment": "neutral",
+          "confidence": 0.6885458265214252,
+          "scores": {
+            "positive": 0.6885458265214252,
+            "negative": 0.31145417347857485
+          }
+        },
+        {
+          "text": "The /schedule command is useful if you'd like to set up recurring or one-off tasks for the agent to execute at fixed intervals or on a schedule (e.g. 9:00 AM on Monday, Wednesday). At the same time, you are provided the same facility to do this via the user interface and that is covered in the Scheduling Commands section in the next step. 5. Scheduling Commands You can use the Schedule option in the main interface to automate recurring tasks or set one-time reminders in your specific projects.",
+          "sentiment": "positive",
+          "confidence": 0.7764020518313063,
+          "scores": {
+            "positive": 0.7764020518313063,
+            "negative": 0.22359794816869372
+          }
+        },
+        {
+          "text": "Let's create a daily task that reminds us of our daily 6 PM meeting. Click on New and fill out the details as shown below: Click on Add Scheduled Task and then will add the task to the list of scheduled tasks as shown below: Let's add another one that reminds us to take a break every 20 mins: We have two scheduled tasks now, as shown below: You can disable or delete any of the tasks.",
+          "sentiment": "positive",
+          "confidence": 0.8403097708913517,
+          "scores": {
+            "positive": 0.8403097708913517,
+            "negative": 0.15969022910864827
+          }
+        },
+        {
+          "text": "Remember that we have used basic prompts but your prompts could be detailed, could be invoking tools (talking to external systems) and doing a lot more work behind the scenes on a regular interval, based on your requirements. 6. Model Context Protocol (MCP) Servers The Model Context Protocol (MCP) is the standard to help connect agents to external systems. They play a key role in ensuring that the agent remains grounded in terms of your data and integration.",
+          "sentiment": "neutral",
+          "confidence": 0.6630715503935185,
+          "scores": {
+            "positive": 0.6630715503935185,
+            "negative": 0.3369284496064815
+          }
+        },
+        {
+          "text": "Antigravity supports MCP servers, both local and remote. It also ships with integrations to several MCP servers that work with Google Cloud services and they are simply one-click installs with a few configuration data. The latest version of Antigravity 2.0 has made it easy to add MCP Servers to Antigravity.",
+          "sentiment": "positive",
+          "confidence": 0.7759462270964527,
+          "scores": {
+            "positive": 0.7759462270964527,
+            "negative": 0.22405377290354733
+          }
+        },
+        {
+          "text": "Go to Settings \u2192 Customizations and you should see the MCP Server configuration as shown below: Go to the Installed MCP Servers section in the above configuration as shown below: If you click on the Open MCP Config button, you will be led to the file present in $HOME/.gemini/config/mcp_config.json and that is where all your configuration goes. If you are familiar with the MCP Servers configuration file, you can directly edit and save the contents in the file.",
+          "sentiment": "positive",
+          "confidence": 0.9568667871597019,
+          "scores": {
+            "positive": 0.9568667871597019,
+            "negative": 0.04313321284029814
+          }
+        },
+        {
+          "text": "You can see that it is empty at this point in time. To configure an MCP Server, all you need to do is click on the Add MCP button. This brings up a huge list of pre-configurations available for several MCP Servers, especially Google Cloud services that have been packaged as MCP Servers. A screen is shown below: Feel free to add any of them. For e.g. I clicked Add next to the Google Cloud Run MCP Server and it installed it.",
+          "sentiment": "neutral",
+          "confidence": 0.6589082836958895,
+          "scores": {
+            "positive": 0.6589082836958895,
+            "negative": 0.3410917163041105
+          }
+        },
+        {
+          "text": "It adds it to the list of MCP Servers as shown below, along with the tools that the MCP Server exposes.",
+          "sentiment": "neutral",
+          "confidence": 0.5219190463424414,
+          "scores": {
+            "positive": 0.47808095365755865,
+            "negative": 0.5219190463424414
+          }
+        },
+        {
+          "text": "You can simply enable/disable a tool by clicking on the specific tool name tooltip below or even simply disable the entire MCP Server by toggling on the on / off switch If you click the Open MCP Config button, you will see that the entry was added to the mcp_config.json file, as shown below: \"mcpServers\" \"cloudrun\" \"command\" \"npx\" \"args\" \"-y\", \"@google-cloud/cloud-run-mcp\" If you have been working with existing remote MCP Servers, you can simply add the details into the $HOME/.gemini/config/mcp_",
+          "sentiment": "positive",
+          "confidence": 0.8843573678620708,
+          "scores": {
+            "positive": 0.8843573678620708,
+            "negative": 0.11564263213792925
+          }
+        },
+        {
+          "text": "config.json file.",
+          "sentiment": "neutral",
+          "confidence": 0.7170538381719318,
+          "scores": {
+            "positive": 0.7170538381719318,
+            "negative": 0.2829461618280682
+          }
+        },
+        {
+          "text": "To use the configured MCP servers, you can ask Antigravity something that requires an MCP server. For example, you can have the cloudrun-mcp server enabled and ask Antigravity the following: Build and deploy a Cloud Run service . This should prompt Antigravity to look for and use the cloudrun-mcp server to configure and deploy a Cloud Run service. 7.",
+          "sentiment": "positive",
+          "confidence": 0.8755392932135367,
+          "scores": {
+            "positive": 0.8755392932135367,
+            "negative": 0.12446070678646326
+          }
+        },
+        {
+          "text": "Artifacts Antigravity might create Artifacts as it plans and gets its work done as a way to communicate its work and get feedback from the human user. These are rich markdown files, architecture diagrams, images, browser recordings, code diffs, and so on. Artifacts solve the trust gap. When an agent claims to fix a bug, the developer previously had to read the code to verify. In Antigravity, the agent produces an artifact to prove it.",
+          "sentiment": "positive",
+          "confidence": 0.9071728149137221,
+          "scores": {
+            "positive": 0.9071728149137221,
+            "negative": 0.09282718508627785
+          }
+        },
+        {
+          "text": "These are the main artifacts that might be produced by Antigravity: Task Lists : Before writing code, the agent can choose to create a structured plan. You don't typically need to edit this plan but you can review it and in some cases, add a comment to change it, if needed. Implementation Plan : An implementation plan is created before starting to accomplish a task when the /plan command is used.",
+          "sentiment": "neutral",
+          "confidence": 0.7362009748512847,
+          "scores": {
+            "positive": 0.7362009748512847,
+            "negative": 0.26379902514871534
+          }
+        },
+        {
+          "text": "These plans contain technical details on what revisions are necessary and are meant to be reviewed by the user, unless you have your artifact review policy set to Always Proceed Walkthrough : This might be created once the agent has completed task implementation, as a summary of the changes and how to test them. Code diffs : While technically not an artifact, Antigravity also produces code diffs that you can review and comment on.",
+          "sentiment": "positive",
+          "confidence": 0.9607437105710549,
+          "scores": {
+            "positive": 0.9607437105710549,
+            "negative": 0.0392562894289451
+          }
+        },
+        {
+          "text": "Screenshots : The agent might capture the state of the UI before and after a change. To understand artifacts better, go ahead and create a conversation with a new or existing project with the following prompt and /plan command: /plan Design a Node application that I can run from the command line to get me the latest news from Google. The Agent takes off and comes back with our first artifact: Implementation Plan.",
+          "sentiment": "positive",
+          "confidence": 0.9025603516133264,
+          "scores": {
+            "positive": 0.9025603516133264,
+            "negative": 0.09743964838667363
+          }
+        },
+        {
+          "text": "You can look at any of the artifacts produced by Antigravity by toggling the Auxiliary Pane shown in the top right corner. If you toggle the Auxiliary Pane , you see the following output, which mentions that there is 1 Artifact generated (Implementation Plan). Click on the Implementation Plan to see the details, as shown below: For now, we are ok with the plan and simply click on the Proceed button to move forward. You might be asked for permissions to move ahead, so please allow that.",
+          "sentiment": "positive",
+          "confidence": 0.9871098836650202,
+          "scores": {
+            "positive": 0.9871098836650202,
+            "negative": 0.012890116334979829
+          }
+        },
+        {
+          "text": "When everything is completed, tested and verified by the Agent, you will get a message saying that the task has been completed. Another artifact you might see is the Walkthrough along with files diffs as shown below. You may not need a full-fledged Editor / IDE to view the files generated. You can click on the package.json or index.js files and you will be able to see the content, comment on it. 8.",
+          "sentiment": "positive",
+          "confidence": 0.8867094268567602,
+          "scores": {
+            "positive": 0.8867094268567602,
+            "negative": 0.11329057314323976
+          }
+        },
+        {
+          "text": "Antigravity IDE You can opt to use the Antigravity IDE that we installed earlier in this codelab, if you prefer an IDE. You will notice that when you go to toggle the Auxiliary Panel in the main Antigravity interface, there is an Open IDE option. Click on that to open the Antigravity IDE. You might see a warning at the launch of the Antigravity IDE, that looks like this: This is normal. Go ahead and click on Yes .",
+          "sentiment": "positive",
+          "confidence": 0.9737632928256674,
+          "scores": {
+            "positive": 0.9737632928256674,
+            "negative": 0.026236707174332574
+          }
+        },
+        {
+          "text": "This will bring up the Antigravity IDE, which should be familiar to anyone who has used an IDE before. It has all the folders/files generated, an editor and an Agent Panel , where you can chat with the Agent about the code (explain, generate, fix, etc). 9. Skills While Antigravity's underlying models are powerful generalists, they don't know your specific project context or team standards.",
+          "sentiment": "positive",
+          "confidence": 0.9683862138990729,
+          "scores": {
+            "positive": 0.9683862138990729,
+            "negative": 0.03161378610092713
+          }
+        },
+        {
+          "text": "Loading every single rule or tool into the agent's context window leads to tool bloat, higher costs, latency, and confusion. Skills solve this through progressive disclosure. A skill is a specialized package of knowledge that sits dormant until needed. It is only loaded into the agent's context when your specific request matches the skill's description . Structure and Scope Skills are directory-based packages.",
+          "sentiment": "neutral",
+          "confidence": 0.6972783846821382,
+          "scores": {
+            "positive": 0.6972783846821382,
+            "negative": 0.3027216153178618
+          }
+        },
+        {
+          "text": "You can define them in two scopes depending on your needs: Global Scope ( ~/.gemini/config/skills/ ): Available across all Antigravity products (Antigravity, Antigravity IDE, Antigravity CLI) and projects. Project/Workspace Scope ( <project-root>/.agents/skills/ ): This would make the skill available only within a specific project.",
+          "sentiment": "positive",
+          "confidence": 0.8972769568645235,
+          "scores": {
+            "positive": 0.8972769568645235,
+            "negative": 0.10272304313547653
+          }
+        },
+        {
+          "text": "The Anatomy of a Skill A typical skill directory looks like this : my-skill/ \u251c\u2500\u2500 SKILL.md #(Required) metadata & instructions. \u251c\u2500\u2500 scripts/ # (Optional) Python or Bash scripts for execution. \u251c\u2500\u2500 references/ # (Optional) text, documentation, or templates. \u2514\u2500\u2500 assets/ # (Optional) Images or logos. Let's add some skills now. Code Review Skill This is an instruction-only skill i.e. we only need to create the SKILL.md file, that will contain the metadata and the skills instructions.",
+          "sentiment": "positive",
+          "confidence": 0.8445665620364461,
+          "scores": {
+            "positive": 0.8445665620364461,
+            "negative": 0.1554334379635539
+          }
+        },
+        {
+          "text": "Let's create a skill that provides details to the agent to review code changes for bugs, style issues and best practices.",
+          "sentiment": "positive",
+          "confidence": 0.8894904210526715,
+          "scores": {
+            "positive": 0.8894904210526715,
+            "negative": 0.11050957894732849
+          }
+        },
+        {
+          "text": "Assuming that you are in a specific project folder (e.g. $HOME/agy2-projects/my-skills-project) the first step is to create a directory in the project folder that will contain the skill. mkdir -p .agents/skills/code-review Create a SKILL.md file in the project folder e.g. .agents/skills/code-review that we just created, with the content shown below: --- name: code-review description: Reviews code changes for bugs, style issues, and best practices.",
+          "sentiment": "positive",
+          "confidence": 0.9038528218925448,
+          "scores": {
+            "positive": 0.9038528218925448,
+            "negative": 0.09614717810745521
+          }
+        },
+        {
+          "text": "Use when reviewing PRs or checking code quality. --- Code Review Skill When reviewing code, follow these steps: ## Review checklist 1. **Correctness**: Does the code do what it's supposed to? 2. **Edge cases**: Are error conditions handled? 3. **Style**: Does it follow project conventions?",
+          "sentiment": "neutral",
+          "confidence": 0.5228993548268527,
+          "scores": {
+            "positive": 0.5228993548268527,
+            "negative": 0.4771006451731473
+          }
+        },
+        {
+          "text": "4. **Performance**: Are there obvious inefficiencies? ## How to provide feedback Be specific about what needs to change Explain why, not just what Suggest alternatives when possible Notice that the SKILL.md file above contains the metadata (name and description) at the top and then the instructions. When the agent loads, it will only read the metadata of the skills and it will only load the full skills instructions, only when needed. Let us validate the Code Review skill .",
+          "sentiment": "positive",
+          "confidence": 0.9192131102350225,
+          "scores": {
+            "positive": 0.9192131102350225,
+            "negative": 0.0807868897649775
+          }
+        },
+        {
+          "text": "Open up a conversation in Antigravity in a specific project of your choice and provide the following prompt. It should show the code-review skill.",
+          "sentiment": "positive",
+          "confidence": 0.9447261105288498,
+          "scores": {
+            "positive": 0.9447261105288498,
+            "negative": 0.055273889471150195
+          }
+        },
+        {
+          "text": "Try it out Create a new file named demo_bad_code.py in the $HOME/agy2-projects/my-skills-project with the contents shown below: import time def get_user_data users id ): # Find user by ID for in users if 'id' == id return return None def process_payments items ): total for in items # Calculate tax tax 'price' 0.1 total total 'price' tax time sleep 0.1 # Simulate slow network call return total def run_batch (): users [{ 'id' 'name' 'Alice' }, 'id' 'name' 'Bob' }] items [{ 'price' 10 }, 'price' 20",
+          "sentiment": "neutral",
+          "confidence": 0.7033017568466574,
+          "scores": {
+            "positive": 0.7033017568466574,
+            "negative": 0.2966982431533426
+          }
+        },
+        {
+          "text": "}, 'price' 100 }] get_user_data users print \"User found: \" 'name' ]) # Will crash if None print \"Total: \" str process_payments items ))) if __name__ == \"__main__\" run_batch () Open a new conversation in a specific project in Antigravity and give the following prompt: review the @demo_bad_code.py file The Agent should identify the code-review skill, load the details and then perform the action as per the instructions given in the code-review/SKILL.md file.",
+          "sentiment": "positive",
+          "confidence": 0.8905781516488154,
+          "scores": {
+            "positive": 0.8905781516488154,
+            "negative": 0.10942184835118463
+          }
+        },
+        {
+          "text": "A sample output is shown below: 10. Conclusion Congratulations! You have now successfully installed Antigravity 2.0, configured your environment, and learned how to control your agents. What's Next? To see Antigravity 2.0 in action building real-world applications, you can look at the following codelab: Build and Deploy to Google Cloud with Antigravity : This codelab shows how to design, build, and deploy a serverless application to Google Cloud.",
+          "sentiment": "positive",
+          "confidence": 0.9692496418384731,
+          "scores": {
+            "positive": 0.9692496418384731,
+            "negative": 0.030750358161526936
+          }
+        },
+        {
+          "text": "Reference docs Official Site : https://antigravity.google/ Documentation: https://antigravity.google/docs/home Use cases : https://antigravity.google/use-cases Download : https://antigravity.google/download Youtube Channel for Google Antigravity : https://www.youtube.com/@googleantigravity Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License .",
+          "sentiment": "neutral",
+          "confidence": 0.5203321232324905,
+          "scores": {
+            "positive": 0.5203321232324905,
+            "negative": 0.47966787676750955
+          }
+        },
+        {
+          "text": "For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.",
+          "sentiment": "positive",
+          "confidence": 0.9035600527006356,
+          "scores": {
+            "positive": 0.9035600527006356,
+            "negative": 0.09643994729936445
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.techspot.com/downloads/7841-google-antigravity.html",
+      "title": "Google Antigravity Download | TechSpot",
+      "domain": "www.techspot.com",
+      "overall_sentiment": "positive",
+      "confidence": 0.802,
+      "scores": {
+        "positive": 0.8020379351264904,
+        "negative": 0.19796206487350965
+      },
+      "distribution": {
+        "positive": 77.8,
+        "neutral": 22.2,
+        "negative": 0.0
+      },
+      "statistics": {
+        "characters": 3948,
+        "words": 611,
+        "analyzed_units": 9
+      },
+      "results": [
+        {
+          "text": "Overview What's New Certified Similars Every advancement in model intelligence for coding has encouraged us to rethink how development should be done. The Integrated Development Environment (IDE) of today is a far cry from the IDE of just a few years ago. Gemini 3, our most intelligent model, represents a step-change for agentic coding, and requires us to think about what the next step-change of an IDE should be. Today, we are introducing Google Antigravity, our new agentic development platform.",
+          "sentiment": "positive",
+          "confidence": 0.8626067511895816,
+          "scores": {
+            "positive": 0.8626067511895816,
+            "negative": 0.13739324881041837
+          }
+        },
+        {
+          "text": "While the core is a familiar AI-powered IDE experience with the best of Google's models, Antigravity is evolving the IDE towards an agent-first future with browser control capabilities, asynchronous interaction patterns, and an agent-first product form factor that together, enable agents to autonomously plan and execute complex, end-to-end software tasks. Why We Built Antigravity We want Antigravity to be the home base for software development in the era of agents.",
+          "sentiment": "positive",
+          "confidence": 0.9196339763096364,
+          "scores": {
+            "positive": 0.9196339763096364,
+            "negative": 0.08036602369036361
+          }
+        },
+        {
+          "text": "Our vision is to ultimately enable anyone with an idea to experience liftoff and build that idea into reality. From today, Google Antigravity is available in public preview at no charge, with generous rate limits on Gemini 3 Pro usage. With models like Gemini 3, we have started hitting the point in agentic intelligence where models are capable of running for longer periods of time without intervention across multiple surfaces.",
+          "sentiment": "positive",
+          "confidence": 0.9141761732192359,
+          "scores": {
+            "positive": 0.9141761732192359,
+            "negative": 0.08582382678076406
+          }
+        },
+        {
+          "text": "Not yet for days at a time without intervention, but we're getting closer to a world where we interface with agents at higher abstractions over individual prompts and tool calls. In this world, the product surface that enables communication between the agent and user should look and feel different - and Antigravity is our answer to this. Autonomy Today, the most intuitive product form factor is working synchronously with an agent embedded within a surface (an editor, browser, terminal, etc).",
+          "sentiment": "positive",
+          "confidence": 0.7860199869127218,
+          "scores": {
+            "positive": 0.7860199869127218,
+            "negative": 0.2139800130872782
+          }
+        },
+        {
+          "text": "That is why Antigravity's primary \"Editor view\" is a state-of-the-art AI-powered IDE experience, with Tab completions, in-line Commands, and a fully functioning agent in the side panel. We also believe agents deserve a form factor that exposes this autonomy optimally and allows users to interact with them more asynchronously.",
+          "sentiment": "positive",
+          "confidence": 0.9300861652422991,
+          "scores": {
+            "positive": 0.9300861652422991,
+            "negative": 0.06991383475770085
+          }
+        },
+        {
+          "text": "So, in addition to the IDE-like Editor surface, we are introducing an agent-first Manager surface, which flips the paradigm of agents being embedded within surfaces to one where the surfaces are embedded into the agent. You can think of it like a mission control for spawning, orchestrating, and observing multiple agents across multiple workspaces in parallel. What's New Fixed project migration issues for projects with CJK characters in their titles.",
+          "sentiment": "positive",
+          "confidence": 0.9332717344825054,
+          "scores": {
+            "positive": 0.9332717344825054,
+            "negative": 0.06672826551749456
+          }
+        },
+        {
+          "text": "Fixed an issue that caused duplicate projects to be created when importing from Antigravity 1.0. Resolved an issue where Google One credits were not being applied or utilized. Fixed bug that prevented MCP servers from loading and bug that prevented accessing workspace-specific settings. Read More Fast servers and clean downloads. Serving tech enthusiasts for over 25 years Tested on TechSpot Labs.",
+          "sentiment": "neutral",
+          "confidence": 0.5584798448730117,
+          "scores": {
+            "positive": 0.44152015512698833,
+            "negative": 0.5584798448730117
+          }
+        },
+        {
+          "text": "Download options: Windows Windows Arm macOS macOS (Intel) Linux Last updated: October 1, 2026 Developer: Google License: Freeware OS: Windows, macOS, Linux File size: 133 MB Downloads: 2,940 User rating: 1.7 stars out of 5 votes Software similar to Google Antigravity 4.1 stars out of 5 18 votes Visual Studio Code 1.140.0 VS Code is Microsoft's free source code editor that supports debugging, Git control, syntax highlighting, intelligent code completion, and code refactoring.",
+          "sentiment": "neutral",
+          "confidence": 0.5029296322881002,
+          "scores": {
+            "positive": 0.49707036771189983,
+            "negative": 0.5029296322881002
+          }
+        },
+        {
+          "text": "Freeware Windows, macOS, Linux 3.9 stars out of 5 22 votes Eclipse IDE 2025-12 Eclipse IDE is a leading open platform for professional developers. Freeware Windows, macOS, Linux votes Visual Studio 2026 18.10.3 A free, fully featured, and extensible solution for individual developers to create applications for Android, iOS, Windows, and the web. Freeware Windows More similar downloads",
+          "sentiment": "positive",
+          "confidence": 0.9339561059435444,
+          "scores": {
+            "positive": 0.9339561059435444,
+            "negative": 0.06604389405645561
+          }
+        }
+      ]
+    }
+  ],
+  "skipped_sources": [
+    {
+      "url": "https://antigravity.google.com/",
+      "title": "Remote Control in Google Antigravity",
+      "reason": "Could not extract meaningful content from the page."
+    }
+  ]
+}

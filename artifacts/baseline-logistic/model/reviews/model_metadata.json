@@ -1,0 +1,31 @@
+{
+  "model": "Review document TF-IDF unigrams/bigrams + Logistic Regression",
+  "dataset": "Stanford Large Movie Review Dataset (IMDb)",
+  "dataset_source": "https://ai.stanford.edu/~amaas/data/sentiment/",
+  "dataset_sha256": "c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe",
+  "records_used": 49578,
+  "records_trained": 19921,
+  "validation_records": 4981,
+  "test_records": 24676,
+  "accuracy": 0.9060220457124332,
+  "f1": 0.9066462702789743,
+  "roc_auc": 0.9664236087399687,
+  "C": 12.0,
+  "negative_threshold": 0.49,
+  "positive_threshold": 0.51,
+  "pipeline_sha256": "f58e4798278c61f977034bf6d5b5240e1bf64118efc2ecb5b05df499274e8e6a",
+  "preprocessing": "Shared sentiment_model normalization/tokenizer; HTML br tags replaced with whitespace before training.",
+  "inference_unit": "Full extracted review document including its title; segments are explanatory only.",
+  "confidence_definition": "max(binary positive probability, binary negative probability); not neutral probability or independently calibrated certainty",
+  "neutral_policy": "Neutral is abstention/uncertainty, not a trained neutral label. Binary data cannot measure true neutral precision/recall/F1. Probabilities are logistic estimates, not guaranteed calibrated confidence.",
+  "evaluation_protocol": "Deduplicate normalized reviews; remove test matches to train. Stratified 80/20 split of official train, seed 42. Fit features/classifier on train only; select C and uncertainty thresholds on validation only; evaluate once on official test. No refit.",
+  "sklearn_version": "1.9.0",
+  "trained_at_utc": "2026-10-07T15:13:40.214983+00:00",
+  "fit_seconds": 60.326104706000024,
+  "limitations": [
+    "Binary English movie reviews; no true neutral training class.",
+    "Validation review split is not movie-disjoint.",
+    "Movie-review benchmark accuracy does not establish news, webpage, or sarcasm accuracy.",
+    "Reported failing article was not added to training or threshold selection."
+  ]
+}

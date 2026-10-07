@@ -1,0 +1,711 @@
+{
+  "selection_dataset": "validation only",
+  "target_precision_per_accepted_class": 0.9,
+  "minimum_accepted_records_per_class": 100,
+  "objective": "Maximize accepted count for each class subject to validation precision >= target; search 0.01 probability increments, negative < 0.5 and positive > 0.5.",
+  "selected": {
+    "negative": {
+      "class": "negative",
+      "threshold": 0.19,
+      "accepted_records": 173,
+      "precision": 0.9017341040462428,
+      "eligible": true
+    },
+    "positive": {
+      "class": "positive",
+      "threshold": 0.51,
+      "accepted_records": 829,
+      "precision": 0.9155609167671894,
+      "eligible": true
+    }
+  },
+  "candidates": [
+    {
+      "class": "negative",
+      "threshold": 0.01,
+      "accepted_records": 18,
+      "precision": 1.0,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.02,
+      "accepted_records": 36,
+      "precision": 0.9722222222222222,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.03,
+      "accepted_records": 49,
+      "precision": 0.9591836734693877,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.04,
+      "accepted_records": 62,
+      "precision": 0.967741935483871,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.05,
+      "accepted_records": 72,
+      "precision": 0.9583333333333334,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.06,
+      "accepted_records": 82,
+      "precision": 0.9512195121951219,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.07,
+      "accepted_records": 94,
+      "precision": 0.9361702127659575,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.08,
+      "accepted_records": 103,
+      "precision": 0.9223300970873787,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.09,
+      "accepted_records": 110,
+      "precision": 0.9272727272727272,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.1,
+      "accepted_records": 117,
+      "precision": 0.9316239316239316,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.11,
+      "accepted_records": 127,
+      "precision": 0.9291338582677166,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.12,
+      "accepted_records": 133,
+      "precision": 0.924812030075188,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.13,
+      "accepted_records": 140,
+      "precision": 0.9071428571428571,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.14,
+      "accepted_records": 145,
+      "precision": 0.9103448275862069,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.15,
+      "accepted_records": 149,
+      "precision": 0.912751677852349,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.16,
+      "accepted_records": 153,
+      "precision": 0.9019607843137255,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.17,
+      "accepted_records": 161,
+      "precision": 0.906832298136646,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.18,
+      "accepted_records": 168,
+      "precision": 0.8988095238095238,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.19,
+      "accepted_records": 173,
+      "precision": 0.9017341040462428,
+      "eligible": true
+    },
+    {
+      "class": "negative",
+      "threshold": 0.2,
+      "accepted_records": 176,
+      "precision": 0.8977272727272727,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.21,
+      "accepted_records": 183,
+      "precision": 0.8852459016393442,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.22,
+      "accepted_records": 188,
+      "precision": 0.8882978723404256,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.23,
+      "accepted_records": 191,
+      "precision": 0.8900523560209425,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.24,
+      "accepted_records": 192,
+      "precision": 0.890625,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.25,
+      "accepted_records": 195,
+      "precision": 0.8923076923076924,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.26,
+      "accepted_records": 198,
+      "precision": 0.8888888888888888,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.27,
+      "accepted_records": 207,
+      "precision": 0.8792270531400966,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.28,
+      "accepted_records": 214,
+      "precision": 0.8738317757009346,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.29,
+      "accepted_records": 217,
+      "precision": 0.8755760368663594,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.3,
+      "accepted_records": 226,
+      "precision": 0.8716814159292036,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.31,
+      "accepted_records": 227,
+      "precision": 0.8722466960352423,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.32,
+      "accepted_records": 231,
+      "precision": 0.8744588744588745,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.33,
+      "accepted_records": 235,
+      "precision": 0.8723404255319149,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.34,
+      "accepted_records": 238,
+      "precision": 0.8697478991596639,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.35,
+      "accepted_records": 240,
+      "precision": 0.8625,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.36,
+      "accepted_records": 245,
+      "precision": 0.8530612244897959,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.37,
+      "accepted_records": 252,
+      "precision": 0.8531746031746031,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.38,
+      "accepted_records": 255,
+      "precision": 0.8509803921568627,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.39,
+      "accepted_records": 259,
+      "precision": 0.8494208494208494,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.4,
+      "accepted_records": 262,
+      "precision": 0.851145038167939,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.41,
+      "accepted_records": 267,
+      "precision": 0.846441947565543,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.42,
+      "accepted_records": 267,
+      "precision": 0.846441947565543,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.43,
+      "accepted_records": 274,
+      "precision": 0.843065693430657,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.44,
+      "accepted_records": 278,
+      "precision": 0.841726618705036,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.45,
+      "accepted_records": 280,
+      "precision": 0.8357142857142857,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.46,
+      "accepted_records": 286,
+      "precision": 0.8321678321678322,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.47,
+      "accepted_records": 289,
+      "precision": 0.8269896193771626,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.48,
+      "accepted_records": 293,
+      "precision": 0.8191126279863481,
+      "eligible": false
+    },
+    {
+      "class": "negative",
+      "threshold": 0.49,
+      "accepted_records": 294,
+      "precision": 0.8197278911564626,
+      "eligible": false
+    },
+    {
+      "class": "positive",
+      "threshold": 0.51,
+      "accepted_records": 829,
+      "precision": 0.9155609167671894,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.52,
+      "accepted_records": 826,
+      "precision": 0.9176755447941889,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.53,
+      "accepted_records": 822,
+      "precision": 0.9197080291970803,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.54,
+      "accepted_records": 820,
+      "precision": 0.9207317073170732,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.55,
+      "accepted_records": 817,
+      "precision": 0.9228886168910648,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.56,
+      "accepted_records": 813,
+      "precision": 0.923739237392374,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.57,
+      "accepted_records": 808,
+      "precision": 0.9245049504950495,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.58,
+      "accepted_records": 804,
+      "precision": 0.9266169154228856,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.59,
+      "accepted_records": 803,
+      "precision": 0.9277708592777086,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.6,
+      "accepted_records": 794,
+      "precision": 0.929471032745592,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.61,
+      "accepted_records": 790,
+      "precision": 0.930379746835443,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.62,
+      "accepted_records": 784,
+      "precision": 0.9336734693877551,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.63,
+      "accepted_records": 782,
+      "precision": 0.9360613810741688,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.64,
+      "accepted_records": 778,
+      "precision": 0.9370179948586118,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.65,
+      "accepted_records": 774,
+      "precision": 0.9366925064599483,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.66,
+      "accepted_records": 765,
+      "precision": 0.9398692810457516,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.67,
+      "accepted_records": 763,
+      "precision": 0.9423328964613368,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.68,
+      "accepted_records": 759,
+      "precision": 0.9459815546772069,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.69,
+      "accepted_records": 758,
+      "precision": 0.945910290237467,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.7,
+      "accepted_records": 752,
+      "precision": 0.9481382978723404,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.71,
+      "accepted_records": 747,
+      "precision": 0.9518072289156626,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.72,
+      "accepted_records": 746,
+      "precision": 0.9517426273458445,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.73,
+      "accepted_records": 742,
+      "precision": 0.9528301886792453,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.74,
+      "accepted_records": 732,
+      "precision": 0.9576502732240437,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.75,
+      "accepted_records": 726,
+      "precision": 0.9586776859504132,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.76,
+      "accepted_records": 718,
+      "precision": 0.9596100278551533,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.77,
+      "accepted_records": 709,
+      "precision": 0.9619181946403385,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.78,
+      "accepted_records": 705,
+      "precision": 0.9645390070921985,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.79,
+      "accepted_records": 697,
+      "precision": 0.9655667144906743,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.8,
+      "accepted_records": 689,
+      "precision": 0.969521044992743,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.81,
+      "accepted_records": 683,
+      "precision": 0.9692532942898975,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.82,
+      "accepted_records": 670,
+      "precision": 0.9701492537313433,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.83,
+      "accepted_records": 660,
+      "precision": 0.9712121212121212,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.84,
+      "accepted_records": 647,
+      "precision": 0.9752704791344667,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.85,
+      "accepted_records": 635,
+      "precision": 0.9779527559055118,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.86,
+      "accepted_records": 628,
+      "precision": 0.9777070063694268,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.87,
+      "accepted_records": 618,
+      "precision": 0.9773462783171522,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.88,
+      "accepted_records": 602,
+      "precision": 0.9767441860465116,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.89,
+      "accepted_records": 586,
+      "precision": 0.9761092150170648,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.9,
+      "accepted_records": 567,
+      "precision": 0.9805996472663139,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.91,
+      "accepted_records": 552,
+      "precision": 0.9818840579710145,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.92,
+      "accepted_records": 521,
+      "precision": 0.980806142034549,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.93,
+      "accepted_records": 487,
+      "precision": 0.9835728952772074,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.94,
+      "accepted_records": 460,
+      "precision": 0.9847826086956522,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.95,
+      "accepted_records": 424,
+      "precision": 0.9858490566037735,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.96,
+      "accepted_records": 380,
+      "precision": 0.9868421052631579,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.97,
+      "accepted_records": 324,
+      "precision": 0.9845679012345679,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.98,
+      "accepted_records": 263,
+      "precision": 0.9961977186311787,
+      "eligible": true
+    },
+    {
+      "class": "positive",
+      "threshold": 0.99,
+      "accepted_records": 163,
+      "precision": 0.9938650306748467,
+      "eligible": true
+    }
+  ],
+  "meaning": "Neutral is abstention/uncertainty, not a trained neutral label. Binary data cannot measure true neutral precision/recall/F1. Binary probability estimates are not guaranteed certainty."
+}

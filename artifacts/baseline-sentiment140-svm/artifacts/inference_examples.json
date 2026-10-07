@@ -1,0 +1,38 @@
+{
+  "saved_pipeline_reload_matches": true,
+  "examples": [
+    {
+      "text": "I absolutely love this!",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9676506106839028,
+        "scores": {
+          "positive": 0.9676506106839028,
+          "negative": 0.03234938931609721
+        }
+      }
+    },
+    {
+      "text": "I hate this product.",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9644524080600398,
+        "scores": {
+          "positive": 0.0355475919399601,
+          "negative": 0.9644524080600398
+        }
+      }
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.5990229459535463,
+        "scores": {
+          "positive": 0.4009770540464536,
+          "negative": 0.5990229459535463
+        }
+      }
+    }
+  ]
+}

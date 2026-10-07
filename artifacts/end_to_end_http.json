@@ -1,0 +1,3938 @@
+{
+  "verified_at_utc": "2026-10-07T17:10:41.565547+00:00",
+  "base_url": "http://127.0.0.1:8000",
+  "mocked_responses": false,
+  "frontend_verified": true,
+  "health": {
+    "status": "ok",
+    "model_loaded": true,
+    "model_backend": "sentiment_model"
+  },
+  "text_examples": [
+    {
+      "text": "I absolutely love this!",
+      "prediction": {
+        "sentiment": "positive",
+        "confidence": 0.9730519156252357,
+        "scores": {
+          "negative": 0.01925988451998852,
+          "neutral": 0.007688199854775772,
+          "positive": 0.9730519156252357
+        }
+      }
+    },
+    {
+      "text": "I hate this product.",
+      "prediction": {
+        "sentiment": "negative",
+        "confidence": 0.9811997581649247,
+        "scores": {
+          "negative": 0.9811997581649247,
+          "neutral": 0.018693264179518745,
+          "positive": 0.00010697765555672234
+        }
+      }
+    },
+    {
+      "text": "The product arrived yesterday.",
+      "prediction": {
+        "sentiment": "neutral",
+        "confidence": 0.7644973875450813,
+        "scores": {
+          "negative": 0.008375553320964986,
+          "neutral": 0.7644973875450813,
+          "positive": 0.2271270591339538
+        }
+      }
+    }
+  ],
+  "validation_and_missing_route_checks_passed": true,
+  "live_webpage": {
+    "url": "https://example.com",
+    "title": "Example Domain",
+    "domain": "example.com",
+    "overall_sentiment": "negative",
+    "confidence": 0.5735,
+    "scores": {
+      "negative": 0.5734685333510537,
+      "neutral": 0.41233109282582503,
+      "positive": 0.0142003738231213
+    },
+    "distribution": {
+      "positive": 0.0,
+      "neutral": 0.0,
+      "negative": 100.0
+    },
+    "statistics": {
+      "characters": 156,
+      "words": 25,
+      "analyzed_units": 1
+    },
+    "results": [
+      {
+        "text": "This domain is for use in documentation examples without needing permission. This is not a service; avoid relying on it for testing and monitoring purposes.",
+        "sentiment": "negative",
+        "confidence": 0.5734685333510537,
+        "scores": {
+          "negative": 0.5734685333510537,
+          "neutral": 0.41233109282582503,
+          "positive": 0.0142003738231213
+        }
+      }
+    ],
+    "analysis_model": "svm_roberta_fusion",
+    "aggregation": "mean_segment_probability"
+  },
+  "live_keyword": {
+    "keyword": "Data centers",
+    "search_provider": "DuckDuckGo",
+    "searched_at_utc": "2026-10-07T17:11:18.278008+00:00",
+    "overall_sentiment": "neutral",
+    "confidence": 0.6324502459477181,
+    "scores": {
+      "negative": 0.060361551077395756,
+      "neutral": 0.6324502459477181,
+      "positive": 0.3071882029748861
+    },
+    "distribution": {
+      "positive": 0.0,
+      "neutral": 100.0,
+      "negative": 0.0
+    },
+    "statistics": {
+      "search_results_found": 10,
+      "sources_analyzed": 5,
+      "sources_skipped": 3,
+      "requested_sources": 5,
+      "analyzed_units": 364,
+      "words": 7960,
+      "characters": 54065
+    },
+    "aggregation": "Equal mean of each source's topic-passage class scores; distribution counts source tone labels. Tone does not establish topic stance or public opinion.",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Data_center",
+        "title": "Data center - Wikipedia",
+        "domain": "en.wikipedia.org",
+        "overall_sentiment": "neutral",
+        "confidence": 0.6156,
+        "scores": {
+          "negative": 0.0988654150938547,
+          "neutral": 0.6156453560271431,
+          "positive": 0.28548922887900213
+        },
+        "distribution": {
+          "positive": 26.0,
+          "neutral": 69.0,
+          "negative": 5.0
+        },
+        "statistics": {
+          "characters": 23790,
+          "words": 3537,
+          "analyzed_units": 100
+        },
+        "results": [
+          {
+            "text": "Data center",
+            "sentiment": "neutral",
+            "confidence": 0.8099965107246805,
+            "scores": {
+              "negative": 0.09151159958527734,
+              "neutral": 0.8099965107246805,
+              "positive": 0.09849188969004213
+            }
+          },
+          {
+            "text": "A data center is a physical room, building, or facility for storing, managing, and disseminating data and information, including computer systems and associated components, housing IT infrastructure, and training artificial intelligence.[1][2][3] The United States' act of Congress, the Energy Independence and Security Act of 2007, defines a data center as \"any facility that primarily contains electronic equipment used to process, store, and transmit digital information.\"[4] This includes \"a free",
+            "sentiment": "neutral",
+            "confidence": 0.9089474207826825,
+            "scores": {
+              "negative": 0.032737155234172026,
+              "neutral": 0.9089474207826825,
+              "positive": 0.05831542398314528
+            }
+          },
+          {
+            "text": "-standing structure\" or \"a facility within a larger structure, that uses environmental control equipment to maintain the proper conditions for the operation of electronic equipment.\"[5] According to IBM, data centers date back to the 1940s, with the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.6435931440739483,
+            "scores": {
+              "negative": 0.0052903904690896125,
+              "neutral": 0.6435931440739483,
+              "positive": 0.35111646545696223
+            }
+          },
+          {
+            "text": "Data centers have different models depending on their workloads.",
+            "sentiment": "neutral",
+            "confidence": 0.8708368191904616,
+            "scores": {
+              "negative": 0.08320060190188933,
+              "neutral": 0.8708368191904616,
+              "positive": 0.04596257890764898
+            }
+          },
+          {
+            "text": "An enterprise (on-premises) model hosts IT infrastructure and data on-premises, while cloud data centers, including hyperscale data centers, house IT infrastructure resources through an internet connection used by cloud service providers such as Amazon Web Services, Google Cloud Platform, IBM Cloud, and Microsoft Azure.",
+            "sentiment": "positive",
+            "confidence": 0.5071073950034131,
+            "scores": {
+              "negative": 0.0012253869055582367,
+              "neutral": 0.49166721809102876,
+              "positive": 0.5071073950034131
+            }
+          },
+          {
+            "text": "They frequently contain thousands of servers and many miles of high-speed data connection equipment, with the largest occupying up to 10,000,000 sq ft (930,000 m2).[7] Managed service data centers have third-party managers hired on behalf of a company, which leases the equipment and infrastructure instead of buying it.",
+            "sentiment": "neutral",
+            "confidence": 0.8586046421629929,
+            "scores": {
+              "negative": 0.03411075129220967,
+              "neutral": 0.8586046421629929,
+              "positive": 0.10728460654479748
+            }
+          },
+          {
+            "text": "Colocation data centers allow companies to rent space in an off-site data center owned by others, with the colocation data center hosting the infrastructure while the company provides and manages the components.",
+            "sentiment": "neutral",
+            "confidence": 0.860402062398215,
+            "scores": {
+              "negative": 0.013378580618858773,
+              "neutral": 0.860402062398215,
+              "positive": 0.12621935698292622
+            }
+          },
+          {
+            "text": "Edge data centers are smaller, decentralized facilities located closer to end users and devices.[8][9][10] In the 2024 U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.6774582506590722,
+            "scores": {
+              "negative": 0.0025434983217901765,
+              "neutral": 0.6774582506590722,
+              "positive": 0.3199982510191377
+            }
+          },
+          {
+            "text": "Data Center Energy Usage Report, Lawrence Berkeley National Laboratory estimated that hyperscale and colocation centers contained 74% of computer servers in 2023.[11]",
+            "sentiment": "neutral",
+            "confidence": 0.875032454078405,
+            "scores": {
+              "negative": 0.03837842060704238,
+              "neutral": 0.875032454078405,
+              "positive": 0.0865891253145526
+            }
+          },
+          {
+            "text": "Large data centers require significant energy to operate, with the largest consuming over 3,000 MW,[12] raising concerns about energy use.",
+            "sentiment": "neutral",
+            "confidence": 0.5091602068706469,
+            "scores": {
+              "negative": 0.4755442928246831,
+              "neutral": 0.5091602068706469,
+              "positive": 0.015295500304669918
+            }
+          },
+          {
+            "text": "The International Energy Agency (IEA) estimated that electricity consumption from these data centers amounted to around 415 terawatt hours (TWh), about 1.5% of global electricity consumption in 2024, with a growth rate of 12% per year over the previous five years.[13] The IEA projects that this amount could double to reach around 945 TWh by 2030, growing by around 15% per year.[13] In the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.5764147200537841,
+            "scores": {
+              "negative": 0.0023992662431884604,
+              "neutral": 0.5764147200537841,
+              "positive": 0.42118601370302744
+            }
+          },
+          {
+            "text": "alone, which has almost nine times more data centers than any other country,[7] power consumption by data centers is projected to account for \"almost half of the growth in electricity demand between now and 2030.\"[14] This includes increased electricity costs.[15]",
+            "sentiment": "neutral",
+            "confidence": 0.6234616663576451,
+            "scores": {
+              "negative": 0.30475653768667443,
+              "neutral": 0.6234616663576451,
+              "positive": 0.07178179595568035
+            }
+          },
+          {
+            "text": "Concerns over environmental impacts, energy and water use, and other costs have led to opposition to new data centers during the AI boom.",
+            "sentiment": "negative",
+            "confidence": 0.6410171526399724,
+            "scores": {
+              "negative": 0.6410171526399724,
+              "neutral": 0.3581873906515176,
+              "positive": 0.0007954567085100048
+            }
+          },
+          {
+            "text": "These movements have occurred in parts of Europe, the U.S., and South America.[16] Data Center Watch's first report covered a period from May 2024 to March 2025, during which it found that \"local opposition had blocked or delayed a total of $64 billion in data center projects (six projects were blocked entirely, while 10 were delayed).\"[17]",
+            "sentiment": "negative",
+            "confidence": 0.6981360919334552,
+            "scores": {
+              "negative": 0.6981360919334552,
+              "neutral": 0.2997426336480765,
+              "positive": 0.0021212744184682455
+            }
+          },
+          {
+            "text": "Data centers also represent a significant driver of economic activity and technological capacity.",
+            "sentiment": "positive",
+            "confidence": 0.5982164303869849,
+            "scores": {
+              "negative": 0.0016904206011955122,
+              "neutral": 0.40009314901181964,
+              "positive": 0.5982164303869849
+            }
+          },
+          {
+            "text": "At the same time, the rapid expansion of data centers has raised concerns about resource consumption, including increased electricity costs, and has prompted opposition to new projects in parts of Europe, the United States, and South America[19].",
+            "sentiment": "negative",
+            "confidence": 0.645106533441716,
+            "scores": {
+              "negative": 0.645106533441716,
+              "neutral": 0.3532586839506901,
+              "positive": 0.00163478260759385
+            }
+          },
+          {
+            "text": "Data centers are usually classified according to their ownership model, scale, and intended use.",
+            "sentiment": "neutral",
+            "confidence": 0.9004469929757621,
+            "scores": {
+              "negative": 0.07335755997381024,
+              "neutral": 0.9004469929757621,
+              "positive": 0.026195447050427745
+            }
+          },
+          {
+            "text": "server energy consumption in 2023, up from less than 40% in 2014; this share is projected to reach 85% by 2028.[20] However, these classifications are not mutually exclusive from each other, and they may overlap depending on the operational structure and service model of the particular data center.",
+            "sentiment": "neutral",
+            "confidence": 0.6599585560263806,
+            "scores": {
+              "negative": 0.012571276801476152,
+              "neutral": 0.6599585560263806,
+              "positive": 0.3274701671721433
+            }
+          },
+          {
+            "text": "Enterprise data centers are owned and operated by a single organization for their own internal information technology (IT) needs, rather than for commercial hosting of other companies' data.[23][24][25] They used to be essential infrastructures; as in 2014, enterprise data centers accounted for over 60% of the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.7062450019119524,
+            "scores": {
+              "negative": 0.026114605328553947,
+              "neutral": 0.7062450019119524,
+              "positive": 0.2676403927594936
+            }
+          },
+          {
+            "text": "server energy consumption, but this share fell sharply to about 10% by 2023 as workloads migrated to hyperscale and colocation facilities.[20] Energy efficiency at an enterprise data center tends to be significantly lower than at hyperscale facilities due to its cooling, which can account for over 30% of electricity consumption at enterprise sites, compared to roughly 7% at efficient hyperscale data centers.[21] The shift away from enterprise facilities toward cloud and colocation infrastructure",
+            "sentiment": "neutral",
+            "confidence": 0.6148758200896052,
+            "scores": {
+              "negative": 0.12715973886629797,
+              "neutral": 0.6148758200896052,
+              "positive": 0.2579644410440969
+            }
+          },
+          {
+            "text": "Colocation centers provide shared physical infrastructure, such as power, cooling, space, etc., to multiple tenants who lease space rather than building their own facilities.[23][24] Colocation data centers reduce expenditure for organizations while enabling operators to achieve economies of scale in power procurement and cooling efficiency.[21] Some of the largest data centers in the world are colocation centers,[26] and this category accounted for about 22% of worldwide data center capacity as",
+            "sentiment": "positive",
+            "confidence": 0.7353484920948428,
+            "scores": {
+              "negative": 0.002228838424906119,
+              "neutral": 0.2624226694802512,
+              "positive": 0.7353484920948428
+            }
+          },
+          {
+            "text": "Hyperscale data centers are large-scale facilities, typically exceeding 100 megawatts of power capacity, designed to support massive, scalable computing workloads for cloud services, AI training, and large-scale data processing.[25][21] By the end of 2024, there were 1,136 operational hyperscale data centers globally, a figure that doubled over the previous five years, with the U.S.",
+            "sentiment": "positive",
+            "confidence": 0.5870014344004841,
+            "scores": {
+              "negative": 0.0012923451711317775,
+              "neutral": 0.4117062204283842,
+              "positive": 0.5870014344004841
+            }
+          },
+          {
+            "text": "accounting for approximately 54% of total hyperscale capacity.[34] In particular, the three largest operators, Amazon Web Services, Microsoft Azure, and Google Cloud, collectively account for approximately 59% of all hyperscale data center capacity globally.[35] As a growing trend, hyperscale data centers represented about 41% of worldwide data center capacity in 2024 and are projected to exceed 60% by 2029 as enterprise on-premises infrastructure continues to decline.[22] AI data centers are be",
+            "sentiment": "positive",
+            "confidence": 0.5799183022981245,
+            "scores": {
+              "negative": 0.006434917176497096,
+              "neutral": 0.4136467805253784,
+              "positive": 0.5799183022981245
+            }
+          },
+          {
+            "text": "ing built more rapidly than conventional data centers; the International Energy Agency notes that while a typical data center can consume as much electricity as 100,000 households, the largest next-generation campuses currently under construction are expected to demand roughly 20 times that amount.[36]",
+            "sentiment": "positive",
+            "confidence": 0.5745655097900512,
+            "scores": {
+              "negative": 0.009758230585988344,
+              "neutral": 0.41567625962396054,
+              "positive": 0.5745655097900512
+            }
+          },
+          {
+            "text": "Edge data centers are smaller facilities, typically ranging from 1 to 10 megawatts.[37] They are positioned closer to end users or data sources to reduce network latency and support real-time applications,[21] such as autonomous vehicles, industrial automation, and content delivery.",
+            "sentiment": "positive",
+            "confidence": 0.5163955094741526,
+            "scores": {
+              "negative": 0.0014592092847157357,
+              "neutral": 0.4821452812411316,
+              "positive": 0.5163955094741526
+            }
+          },
+          {
+            "text": "Unlike hyperscale data centers, edge data centers are intentionally distributed across many locations rather than consolidated, with deployments occurring in urban areas, cell tower sites, as well as industrial locations.[21] The growth of edge computing infrastructure has been tied to the expansion of 5G wireless networks[38] and the increasing use of Internet of Things (IoT) devices,[21][39][40] which generate data that is more efficiently processed near its source than transmitted to a centra",
+            "sentiment": "positive",
+            "confidence": 0.6663029757308085,
+            "scores": {
+              "negative": 0.0022757894293125827,
+              "neutral": 0.33142123483987895,
+              "positive": 0.6663029757308085
+            }
+          },
+          {
+            "text": "lized data center.",
+            "sentiment": "neutral",
+            "confidence": 0.739707298336493,
+            "scores": {
+              "negative": 0.11762644426471307,
+              "neutral": 0.739707298336493,
+              "positive": 0.14266625739879404
+            }
+          },
+          {
+            "text": "Micro data centers (MDCs) are access-level data centers that are smaller than traditional data centers but provide the same features.[41] They are typically located near the data source to reduce communication delays, as their small size allows several MDCs to be spread out over a wide area.[42][43] MDCs are suited to user-facing, front end applications.[44] They are commonly used in edge computing and other areas where low latency data processing is needed.[45]",
+            "sentiment": "positive",
+            "confidence": 0.6653311745215021,
+            "scores": {
+              "negative": 0.0028459786702102223,
+              "neutral": 0.3318228468082877,
+              "positive": 0.6653311745215021
+            }
+          },
+          {
+            "text": "Modularity and flexibility are key elements in allowing a data center to grow and change over time.",
+            "sentiment": "positive",
+            "confidence": 0.6219577323441352,
+            "scores": {
+              "negative": 0.0027103586444213994,
+              "neutral": 0.3753319090114435,
+              "positive": 0.6219577323441352
+            }
+          },
+          {
+            "text": "Data center modules are pre-engineered, standardized building blocks that can be configured and moved as needed.[46]",
+            "sentiment": "neutral",
+            "confidence": 0.8677259878434284,
+            "scores": {
+              "negative": 0.020781472841587118,
+              "neutral": 0.8677259878434284,
+              "positive": 0.11149253931498448
+            }
+          },
+          {
+            "text": "A modular data center may consist of data center equipment contained within shipping containers or similar portable containers.[47] Components of the data center can be prefabricated and standardized, which facilitates moving if needed.[48]",
+            "sentiment": "neutral",
+            "confidence": 0.5471148616030013,
+            "scores": {
+              "negative": 0.0017803651185651342,
+              "neutral": 0.5471148616030013,
+              "positive": 0.45110477327843357
+            }
+          },
+          {
+            "text": "These modular data centers are useful for IT disaster recovery.[49][50] Mobile data centers are also used to move large quantities of data, by physically transporting the hardware that contains it, and in cryptocurrency mining, where fleets of mobile data centers are transported to take advantage of cheaper sources of energy.[26]",
+            "sentiment": "positive",
+            "confidence": 0.6830047022141525,
+            "scores": {
+              "negative": 0.0021719606866735415,
+              "neutral": 0.3148233370991738,
+              "positive": 0.6830047022141525
+            }
+          },
+          {
+            "text": "Data centers have their roots in the huge computer rooms of the 1940s, typified by the Electronic Numerical Integrator and Computer (ENIAC), one of the earliest examples of what has become to be known as a data center.[51][note 1] Early computer systems were complex to operate and maintain, and required a special environment in which to operate.",
+            "sentiment": "neutral",
+            "confidence": 0.7951864025047221,
+            "scores": {
+              "negative": 0.13226852725740598,
+              "neutral": 0.7951864025047221,
+              "positive": 0.07254507023787184
+            }
+          },
+          {
+            "text": "The use of the term data center, as applied to specially designed computer rooms, started to gain popular recognition about this time.[51][note 3]",
+            "sentiment": "neutral",
+            "confidence": 0.5691814181253565,
+            "scores": {
+              "negative": 0.0017222818524388118,
+              "neutral": 0.5691814181253565,
+              "positive": 0.42909630002220467
+            }
+          },
+          {
+            "text": "During the dot-com bubble (1997\u20132000), there was a boom in data center construction because companies needed fast Internet connectivity and non-stop operation to establish their Internet presence.[52] Many companies started building very large facilities, called internet data centers (IDCs),[53] which provided enhanced capabilities, such as crossover backup: \"If a Bell Atlantic line is cut, we can transfer them to ...",
+            "sentiment": "positive",
+            "confidence": 0.7165483120685389,
+            "scores": {
+              "negative": 0.0036233055732379305,
+              "neutral": 0.27982838235822316,
+              "positive": 0.7165483120685389
+            }
+          },
+          {
+            "text": "The global data center market saw steady growth in the 2010s, with a notable acceleration in the latter half of the decade.",
+            "sentiment": "positive",
+            "confidence": 0.6991479564893378,
+            "scores": {
+              "negative": 0.001055373235113746,
+              "neutral": 0.29979667027554846,
+              "positive": 0.6991479564893378
+            }
+          },
+          {
+            "text": "According to Gartner, worldwide data center infrastructure spending reached $200 billion in 2021, representing a 6% increase from 2020 despite economic challenges posed by the COVID-19 pandemic.[54]",
+            "sentiment": "positive",
+            "confidence": 0.609145175328502,
+            "scores": {
+              "negative": 0.0011681695235953114,
+              "neutral": 0.3896866551479027,
+              "positive": 0.609145175328502
+            }
+          },
+          {
+            "text": "In 2024, global energy consumption from data centers was 620 TWh, with 80% of that consumption concentrated in the U.S., China, and the United Kingdom.[55] Colocation centers were the most common category worldwide, with 4,799 colocation centers in 127 countries.",
+            "sentiment": "neutral",
+            "confidence": 0.7337315095853293,
+            "scores": {
+              "negative": 0.020085887509465973,
+              "neutral": 0.7337315095853293,
+              "positive": 0.2461826029052046
+            }
+          },
+          {
+            "text": "In that year, the largest data center in the world was Citadel, owned by Switch, at the Tahoe Reno Industrial Center in Reno, Nevada, occupying 7.2 million square feet.[26]",
+            "sentiment": "positive",
+            "confidence": 0.5058630690777748,
+            "scores": {
+              "negative": 0.0006792829744991537,
+              "neutral": 0.49345764794772595,
+              "positive": 0.5058630690777748
+            }
+          },
+          {
+            "text": "Growth of the data center industry has prompted local resistance.",
+            "sentiment": "neutral",
+            "confidence": 0.6768279400455025,
+            "scores": {
+              "negative": 0.2974723015254618,
+              "neutral": 0.6768279400455025,
+              "positive": 0.025699758429035584
+            }
+          },
+          {
+            "text": "These movements expressed concern about the centers' energy and water use, pollution, and impact on agriculture or the landscape.[16] A 2026 poll by Politico suggested that resistance to growth of the industry would make candidates' stance on data centers a significant issue for voters in the U.S.[56]",
+            "sentiment": "neutral",
+            "confidence": 0.6302808612528562,
+            "scores": {
+              "negative": 0.3521662662283008,
+              "neutral": 0.6302808612528562,
+              "positive": 0.017552872518843046
+            }
+          },
+          {
+            "text": "hosted 5,381 data centers in March 2024, the highest number of any country worldwide, accounting for 40% of the global market in 2023.[57] As of 2025, roughly one third of America's data centers were in three states: Virginia (643), Texas (395), and California (319).[58]",
+            "sentiment": "positive",
+            "confidence": 0.5188129703243913,
+            "scores": {
+              "negative": 0.0017594494562969483,
+              "neutral": 0.47942758021931187,
+              "positive": 0.5188129703243913
+            }
+          },
+          {
+            "text": "The largest concentration of data centers in the world is in Northern Virginia, with over 250 facilities in the region.[35] In 2025, Georgia was the fastest growing data center hub in the U.S., having enacted several state tax exemptions for the industry and hosting between 100 and 150 centers in the state.[59] Local governments have responded to the growing industry in Georgia with a variety of local ordinances to guide permitting of these facilities.[60]",
+            "sentiment": "positive",
+            "confidence": 0.621099307351866,
+            "scores": {
+              "negative": 0.0013558455619003937,
+              "neutral": 0.3775448470862336,
+              "positive": 0.621099307351866
+            }
+          },
+          {
+            "text": "GDP growth was only 0.1% without the investments in data centers for artificial intelligence.[61]",
+            "sentiment": "neutral",
+            "confidence": 0.7033579656298393,
+            "scores": {
+              "negative": 0.09006767499761373,
+              "neutral": 0.7033579656298393,
+              "positive": 0.2065743593725468
+            }
+          },
+          {
+            "text": "states had enacted moratoriums on data center development, amid concerns over electricity consumption, water use, noise and local environmental impacts.[62]",
+            "sentiment": "neutral",
+            "confidence": 0.5360648640352024,
+            "scores": {
+              "negative": 0.45781585568136157,
+              "neutral": 0.5360648640352024,
+              "positive": 0.006119280283436015
+            }
+          },
+          {
+            "text": "Data centers house critical computing resources in a controlled environment and must generally operate with very high availability.",
+            "sentiment": "positive",
+            "confidence": 0.619774235646193,
+            "scores": {
+              "negative": 0.0030904064236038755,
+              "neutral": 0.37713535793020303,
+              "positive": 0.619774235646193
+            }
+          },
+          {
+            "text": "For this reason, a data center must provide a secure environment that minimizes the risk of a security breach.",
+            "sentiment": "neutral",
+            "confidence": 0.683646511986989,
+            "scores": {
+              "negative": 0.02063369772254482,
+              "neutral": 0.683646511986989,
+              "positive": 0.2957197902904662
+            }
+          },
+          {
+            "text": "Industry research company International Data Corporation (IDC) put the average age of a data center at nine years As of August 2011[update].[64] As of December 2024[update], the mean age of data center facilities had risen to 11.3 years, according to research analyst Jacqueline Davis of the Uptime Institute.[65] Gartner, another research company, argued in 2010 that data centers older than seven years are obsolete.[66] The growth in data volume (163 zettabytes by 2025) is one factor driving the",
+            "sentiment": "neutral",
+            "confidence": 0.7785595494390176,
+            "scores": {
+              "negative": 0.0463041264815918,
+              "neutral": 0.7785595494390176,
+              "positive": 0.17513632407939062
+            }
+          },
+          {
+            "text": "need for data centers to modernize.[67] That focus is not new: rapid obsolescence of data center equipment was a concern by at least 2007,[68] and in May 2011, the data center research organization Uptime Institute reported that 36 percent of the large companies it surveyed expected to exhaust IT capacity within the next 18 months.[69]",
+            "sentiment": "neutral",
+            "confidence": 0.5580513013870794,
+            "scores": {
+              "negative": 0.385221622069204,
+              "neutral": 0.5580513013870794,
+              "positive": 0.05672707654371654
+            }
+          },
+          {
+            "text": "The Telecommunications Industry Association (TIA)'s Telecommunications Infrastructure Standard for Data Centers[70] specifies the minimum requirements for telecommunications infrastructure of data centers and computer rooms, including single tenant enterprise data centers and multi-tenant Internet hosting data centers.[timeframe?] The topology proposed in this document is intended to be applicable to any size data center.[71]",
+            "sentiment": "neutral",
+            "confidence": 0.8449776134163527,
+            "scores": {
+              "negative": 0.021017570424723485,
+              "neutral": 0.8449776134163527,
+              "positive": 0.13400481615892376
+            }
+          },
+          {
+            "text": "Telcordia GR-3160, NEBS Requirements for Telecommunications Data Center Equipment and Spaces,[72] provides guidelines for data center spaces within telecommunications networks, and environmental requirements for the equipment intended for installation in those spaces.",
+            "sentiment": "neutral",
+            "confidence": 0.9152920647805776,
+            "scores": {
+              "negative": 0.06579295632990233,
+              "neutral": 0.9152920647805776,
+              "positive": 0.018914978889519988
+            }
+          },
+          {
+            "text": "They may be applied to data center spaces housing data processing or IT equipment.",
+            "sentiment": "neutral",
+            "confidence": 0.8928704353073579,
+            "scores": {
+              "negative": 0.01584269871417339,
+              "neutral": 0.8928704353073579,
+              "positive": 0.09128686597846877
+            }
+          },
+          {
+            "text": "- Provide data center-based applications directly to the carrier's customers",
+            "sentiment": "neutral",
+            "confidence": 0.7441309020973166,
+            "scores": {
+              "negative": 0.008428671840632824,
+              "neutral": 0.7441309020973166,
+              "positive": 0.24744042606205055
+            }
+          },
+          {
+            "text": "- Provide a combination of these and similar data center applications",
+            "sentiment": "neutral",
+            "confidence": 0.8128712901496666,
+            "scores": {
+              "negative": 0.009735184264217055,
+              "neutral": 0.8128712901496666,
+              "positive": 0.17739352558611624
+            }
+          },
+          {
+            "text": "Options for low-voltage cable routing might include data cabling that is routed through overhead cable trays;[79] raised floor cabling, both for security reasons and to avoid the extra cost of cooling systems over the racks; and anti-static tiles for flooring, especially in low-cost data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.6879742291650454,
+            "scores": {
+              "negative": 0.019243540024715684,
+              "neutral": 0.6879742291650454,
+              "positive": 0.29278223081023896
+            }
+          },
+          {
+            "text": "Airflow management is the practice of achieving data center cooling efficiency by preventing the recirculation of hot exhaust air and by reducing bypass airflow.",
+            "sentiment": "neutral",
+            "confidence": 0.6829739895740046,
+            "scores": {
+              "negative": 0.021511843890946725,
+              "neutral": 0.6829739895740046,
+              "positive": 0.29551416653504864
+            }
+          },
+          {
+            "text": "Data centers feature fire protection systems, including passive and active design elements, as well as implementation of fire prevention programs in operations.",
+            "sentiment": "neutral",
+            "confidence": 0.7705021289720223,
+            "scores": {
+              "negative": 0.009172152871812618,
+              "neutral": 0.7705021289720223,
+              "positive": 0.22032571815616508
+            }
+          },
+          {
+            "text": "Physical access to data centers is usually restricted.",
+            "sentiment": "neutral",
+            "confidence": 0.5156051153555256,
+            "scores": {
+              "negative": 0.48293489731750455,
+              "neutral": 0.5156051153555256,
+              "positive": 0.0014599873269698178
+            }
+          },
+          {
+            "text": "Layered security often starts with fencing, bollards, and mantraps.[90] Video camera surveillance and permanent security guards are almost always present if the data center is large or contains sensitive information.",
+            "sentiment": "neutral",
+            "confidence": 0.8795703126679341,
+            "scores": {
+              "negative": 0.08516149545184015,
+              "neutral": 0.8795703126679341,
+              "positive": 0.03526819188022582
+            }
+          },
+          {
+            "text": "Data center transformation takes a step-by-step approach through integrated projects carried out over time.",
+            "sentiment": "neutral",
+            "confidence": 0.6250338361855007,
+            "scores": {
+              "negative": 0.002592850515292554,
+              "neutral": 0.6250338361855007,
+              "positive": 0.37237331329920675
+            }
+          },
+          {
+            "text": "This differs from a traditional method of data center upgrades, which takes a serial and siloed approach.[93] Typical projects within a data center transformation initiative include standardization/consolidation, virtualization, automation, and security.",
+            "sentiment": "neutral",
+            "confidence": 0.8311552518408014,
+            "scores": {
+              "negative": 0.0321930074096904,
+              "neutral": 0.8311552518408014,
+              "positive": 0.13665174074950812
+            }
+          },
+          {
+            "text": "Data center consolidation consists of reducing the number of data centers[94][95] and avoiding server sprawl (both physical and virtual),[96] which often includes replacing aging data center equipment.",
+            "sentiment": "neutral",
+            "confidence": 0.6609167512130291,
+            "scores": {
+              "negative": 0.016075987867356287,
+              "neutral": 0.6609167512130291,
+              "positive": 0.3230072609196146
+            }
+          },
+          {
+            "text": "This process is aided by standardization, which ensures these systems follow a uniform set of configurations, simplifying and improving efficiency.[95] Automating tasks such as provisioning, configuration, patching, release management, and compliance are other ways in which data centers can be upgraded.",
+            "sentiment": "positive",
+            "confidence": 0.732841255476355,
+            "scores": {
+              "negative": 0.0033800687111193817,
+              "neutral": 0.26377867581252556,
+              "positive": 0.732841255476355
+            }
+          },
+          {
+            "text": "The \"lights-out\" data center,[102] also known as a darkened or dark data center, is a data center that has largely eliminated the need for direct access by personnel, except under extraordinary circumstances.",
+            "sentiment": "neutral",
+            "confidence": 0.6816419141798811,
+            "scores": {
+              "negative": 0.009749013047661036,
+              "neutral": 0.6816419141798811,
+              "positive": 0.30860907277245797
+            }
+          },
+          {
+            "text": "Because staff do not need to enter the data center, it can be operated without lighting.",
+            "sentiment": "neutral",
+            "confidence": 0.5394864671203399,
+            "scores": {
+              "negative": 0.025986834756958496,
+              "neutral": 0.5394864671203399,
+              "positive": 0.43452669812270156
+            }
+          },
+          {
+            "text": "In addition to energy savings, reduced staffing costs, and the ability to locate the site farther from population centers, implementing a lights-out data center also reduces the threat of malicious attacks on the infrastructure.[103][104]",
+            "sentiment": "positive",
+            "confidence": 0.6305117778608864,
+            "scores": {
+              "negative": 0.01232638934622961,
+              "neutral": 0.357161832792884,
+              "positive": 0.6305117778608864
+            }
+          },
+          {
+            "text": "Generally, local authorities prefer noise levels at data centers to be \"10 dB below the existing night-time background noise level at the nearest residence.\"[105]",
+            "sentiment": "neutral",
+            "confidence": 0.8200181637721954,
+            "scores": {
+              "negative": 0.1577108753787034,
+              "neutral": 0.8200181637721954,
+              "positive": 0.022270960849101195
+            }
+          },
+          {
+            "text": "Occupational Safety and Health Administration (OSHA) regulations require monitoring of noise levels inside data centers if noise exceeds 85 decibels.[106] The average noise level in server areas of a data center may reach as high as 92\u201396 dB(A).[107]",
+            "sentiment": "neutral",
+            "confidence": 0.588040810650883,
+            "scores": {
+              "negative": 0.4001983957652267,
+              "neutral": 0.588040810650883,
+              "positive": 0.011760793583890256
+            }
+          },
+          {
+            "text": "Residents living near data centers have described the sound as \"a high-pitched whirring noise 24/7\", saying \"It's like being on a tarmac with an airplane engine running constantly ...",
+            "sentiment": "negative",
+            "confidence": 0.5203056127112037,
+            "scores": {
+              "negative": 0.5203056127112037,
+              "neutral": 0.46133803625407993,
+              "positive": 0.018356351034716355
+            }
+          },
+          {
+            "text": "Local political considerations, such as availability of subsidies and lack of opposition, are also important factors in locating data centers.[26]",
+            "sentiment": "neutral",
+            "confidence": 0.879019141523538,
+            "scores": {
+              "negative": 0.04399067456839585,
+              "neutral": 0.879019141523538,
+              "positive": 0.07699018390806625
+            }
+          },
+          {
+            "text": "Various metrics exist to measure the data-availability that results from data-center availability beyond 95% uptime, with the top of the scale counting how many nines can be placed after 99%.[115] The costs of avoiding downtime should not exceed the cost of the downtime itself.[116]",
+            "sentiment": "neutral",
+            "confidence": 0.6343519894166192,
+            "scores": {
+              "negative": 0.08003857699027044,
+              "neutral": 0.6343519894166192,
+              "positive": 0.2856094335931105
+            }
+          },
+          {
+            "text": "Dynamic infrastructure[117] provides the ability to intelligently, automatically, and securely move workloads within a data center[118] anytime, anywhere, for migrations, provisioning,[119] to enhance performance, or build colocation centre facilities.",
+            "sentiment": "positive",
+            "confidence": 0.6229268921721982,
+            "scores": {
+              "negative": 0.0011708413232376143,
+              "neutral": 0.3759022665045641,
+              "positive": 0.6229268921721982
+            }
+          },
+          {
+            "text": "Communications in modern data centers are most often based on networks running the Internet protocol suite.",
+            "sentiment": "neutral",
+            "confidence": 0.7503248326411808,
+            "scores": {
+              "negative": 0.00485020583301893,
+              "neutral": 0.7503248326411808,
+              "positive": 0.24482496152580024
+            }
+          },
+          {
+            "text": "Data centers contain a set of routers and switches that transport traffic between the servers and to the outside world,[122] which are connected according to the data center network architecture.",
+            "sentiment": "neutral",
+            "confidence": 0.9325284092072219,
+            "scores": {
+              "negative": 0.03171249654466952,
+              "neutral": 0.9325284092072219,
+              "positive": 0.03575909424810855
+            }
+          },
+          {
+            "text": "Some of the servers at a data center are used for running the basic internet and intranet services needed by internal users in the organization (e.g., e-mail servers, proxy servers, and DNS servers).",
+            "sentiment": "neutral",
+            "confidence": 0.9199031548914289,
+            "scores": {
+              "negative": 0.05389912824511964,
+              "neutral": 0.9199031548914289,
+              "positive": 0.026197716863451403
+            }
+          },
+          {
+            "text": "Additional off-site monitoring systems are also typical in case of a communications failure inside the data center.",
+            "sentiment": "neutral",
+            "confidence": 0.625548922976976,
+            "scores": {
+              "negative": 0.37045199898410974,
+              "neutral": 0.625548922976976,
+              "positive": 0.003999078038914449
+            }
+          },
+          {
+            "text": "Energy consumption and the environmental impacts it creates are a central issue for data centers.[124][125] Power draw ranges from a few kilowatts (kW) for small server racks to several tens of megawatts (MW) for large facilities.",
+            "sentiment": "neutral",
+            "confidence": 0.49062361994957765,
+            "scores": {
+              "negative": 0.49019074858342465,
+              "neutral": 0.49062361994957765,
+              "positive": 0.019185631466997685
+            }
+          },
+          {
+            "text": "Modern hyperscale data centers can exhibit power densities exceeding 100 times those of conventional office buildings, primarily due to the high concentration of servers and cooling systems required to manage continuous digital workloads.[126] For higher power density facilities, electricity costs are a dominant operating expense and account for over 10% of the total cost of ownership (TCO) of a data center.[127]",
+            "sentiment": "neutral",
+            "confidence": 0.49980907476458775,
+            "scores": {
+              "negative": 0.02431233729279537,
+              "neutral": 0.49980907476458775,
+              "positive": 0.4758785879426168
+            }
+          },
+          {
+            "text": "As of 2024, data centers in the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.9275488787658317,
+            "scores": {
+              "negative": 0.03760731059709039,
+              "neutral": 0.9275488787658317,
+              "positive": 0.034843810637077983
+            }
+          },
+          {
+            "text": "are primarily powered by natural gas, which supplies 40% of their electricity (with renewable energy at 24%, nuclear at about 20%, and coal at about 15%).[128] The Associated Press reported that electricity for AI data centers in the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.9044866607550641,
+            "scores": {
+              "negative": 0.018361080506866627,
+              "neutral": 0.9044866607550641,
+              "positive": 0.07715225873806919
+            }
+          },
+          {
+            "text": "Fossil energy is also often cheaper in locations where data centers are developed, and experts believe that energy demands from generative AI and data centers would be difficult to fulfill with renewable energy alone.",
+            "sentiment": "positive",
+            "confidence": 0.6021786219506315,
+            "scores": {
+              "negative": 0.039734443877430366,
+              "neutral": 0.3580869341719381,
+              "positive": 0.6021786219506315
+            }
+          },
+          {
+            "text": "Some companies such as Google, Amazon, and Meta have expressed interest in nuclear power for their data centers.[129] As of 2020, according to the IEA, solar photovoltaic-generated electricity is at its lowest cost in history.[130] Other data centers, including xAI's Colossus, OpenAI's Stargate, and Meta's Prometheus use their own off-grid natural gas plants.[131][132] Electric vehicle and lithium-ion batteries have also been used for powering data centers, including for Colossus.[133][134]",
+            "sentiment": "positive",
+            "confidence": 0.5761147511189193,
+            "scores": {
+              "negative": 0.0013884339792258399,
+              "neutral": 0.4224968149018549,
+              "positive": 0.5761147511189193
+            }
+          },
+          {
+            "text": "Power utility companies upgrade their infrastructure to handle the demands of new data centers, and the cost of these changes typically falls on residential or smaller commercial consumers.[128][129][15] In 2025, the Mountain Valley Pipeline announced plans to expand its capacity by 25% to meet energy needs for data centers.[35]",
+            "sentiment": "neutral",
+            "confidence": 0.5565264693107476,
+            "scores": {
+              "negative": 0.005238269048900643,
+              "neutral": 0.5565264693107476,
+              "positive": 0.43823526164035176
+            }
+          },
+          {
+            "text": "In December 2025, the Federal Energy Regulatory Commission (FERC) issued a unanimous order allowing data centers in the U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.640870007094215,
+            "scores": {
+              "negative": 0.0012269470716412038,
+              "neutral": 0.640870007094215,
+              "positive": 0.3579030458341438
+            }
+          },
+          {
+            "text": "to connect directly to power plants.[135] United States Secretary of Energy Chris Wright expressed support for un-retiring coal plants to power AI data centers.[136] Electricity demands from AI data centers have slowed or reversed the retirement of peaking power plants in the U.S.[137] For example, in 2025, Southern Company announced that energy use from data centers would prevent the company from retiring coal-fired power plants as it had earlier promised.[35] In Nevada, the Desert Research Ins",
+            "sentiment": "neutral",
+            "confidence": 0.5553120190107201,
+            "scores": {
+              "negative": 0.008516141700893001,
+              "neutral": 0.5553120190107201,
+              "positive": 0.4361718392883869
+            }
+          },
+          {
+            "text": "titute (DRI) calculated that 35% of the state's energy production could go to data centers by the year 2030 if all projects planned in the state as of 2026 are completed.[138] DRI also stated, in areas where there are clusters of data centers, local consumers may end up paying the extra cost of expanding infrastructure.[138]",
+            "sentiment": "neutral",
+            "confidence": 0.7360083074629938,
+            "scores": {
+              "negative": 0.17967387960676,
+              "neutral": 0.7360083074629938,
+              "positive": 0.08431781293024616
+            }
+          },
+          {
+            "text": "In 2024, data centers were estimated to account for about 1.5% of global electricity consumption (approximately 415 TWh) and around 1% of greenhouse gas emissions according to U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.8639699354692746,
+            "scores": {
+              "negative": 0.043522912988947206,
+              "neutral": 0.8639699354692746,
+              "positive": 0.09250715154177817
+            }
+          },
+          {
+            "text": "Due to accelerated demand from AI, global data center electricity consumption is projected to more than double to around 945 TWh by 2030 in the IEA's base-case scenario, representing just under 3% of 2030 total global electricity consumption.[140] This growing electricity demand, much of which is still generated by fossil fuels, increases the potential environmental impacts.[141] In addition to operational energy demand, embodied life cycle emissions should be considered, which include the extra",
+            "sentiment": "neutral",
+            "confidence": 0.6316892836246171,
+            "scores": {
+              "negative": 0.1880537868700959,
+              "neutral": 0.6316892836246171,
+              "positive": 0.18025692950528702
+            }
+          },
+          {
+            "text": "Global data center carbon dioxide emissions are projected to rise from an estimated 220 million tonnes in 2024 to 300\u2013320 million tonnes by 2035.[143] In 2024, Google and Microsoft each consumed 24 TWh \u2013 more than many countries.[144] As a result, there is increasing industry pressure for decarbonization.",
+            "sentiment": "neutral",
+            "confidence": 0.5935680276949339,
+            "scores": {
+              "negative": 0.2691635216522367,
+              "neutral": 0.5935680276949339,
+              "positive": 0.13726845065282944
+            }
+          },
+          {
+            "text": "Companies are pursuing direct clean energy agreements, such as Tencent who has pledged to be carbon neutral by 2030,[145] and Microsoft's 2024 agreement to re-open the Three Mile Island nuclear power plant to provide 100% of the electric power for its AI data centers for 20 years.[146]",
+            "sentiment": "positive",
+            "confidence": 0.5958228124304419,
+            "scores": {
+              "negative": 0.0015162707767805777,
+              "neutral": 0.40266091679277755,
+              "positive": 0.5958228124304419
+            }
+          },
+          {
+            "text": "The most commonly used energy-efficiency metric for data centers is power usage effectiveness (PUE), calculated as the ratio of total power entering the data center to the power used by IT equipment.",
+            "sentiment": "neutral",
+            "confidence": 0.73440462044068,
+            "scores": {
+              "negative": 0.008243941878021596,
+              "neutral": 0.73440462044068,
+              "positive": 0.2573514376812984
+            }
+          },
+          {
+            "text": "data center has a PUE of 2.0,[147] meaning two watts of total power (overhead + IT equipment) for every watt delivered to IT equipment.",
+            "sentiment": "neutral",
+            "confidence": 0.9099225011040868,
+            "scores": {
+              "negative": 0.04011868236578684,
+              "neutral": 0.9099225011040868,
+              "positive": 0.04995881653012637
+            }
+          },
+          {
+            "text": "State-of-the-art data centers are estimated to have a PUE of roughly 1.2.[148] Google publishes quarterly efficiency metrics from its data centers in operation.[149] PUEs of as low as 1.01 have been achieved with two-phase immersion cooling.[150]",
+            "sentiment": "positive",
+            "confidence": 0.6097478112550648,
+            "scores": {
+              "negative": 0.0016685426146351079,
+              "neutral": 0.38858364613029994,
+              "positive": 0.6097478112550648
+            }
+          },
+          {
+            "text": "The EPA has an Energy Star rating for standalone or large data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.6662646348546976,
+            "scores": {
+              "negative": 0.005518184709058498,
+              "neutral": 0.6662646348546976,
+              "positive": 0.32821718043624404
+            }
+          },
+          {
+            "text": "To qualify for the ecolabel, a data center must be within the top quartile in energy efficiency of all reported facilities.[151] The Energy Efficiency Improvement Act of 2015 (U.S.) requires federal facilities\u2014including data centers\u2014to operate more efficiently.",
+            "sentiment": "neutral",
+            "confidence": 0.5034724273034348,
+            "scores": {
+              "negative": 0.006105170380025855,
+              "neutral": 0.5034724273034348,
+              "positive": 0.4904224023165395
+            }
+          },
+          {
+            "text": "California's Title 24 (2014) of the California Code of Regulations mandates that every newly constructed data center have some form of airflow containment to optimize energy efficiency.[152][153]",
+            "sentiment": "neutral",
+            "confidence": 0.8707881123013836,
+            "scores": {
+              "negative": 0.010250835837648358,
+              "neutral": 0.8707881123013836,
+              "positive": 0.11896105186096796
+            }
+          },
+          {
+            "text": "The European Union (EU) also has a similar initiative: EU Code of Conduct for Data Centres.[154]",
+            "sentiment": "neutral",
+            "confidence": 0.7984088560203076,
+            "scores": {
+              "negative": 0.005377072228223224,
+              "neutral": 0.7984088560203076,
+              "positive": 0.19621407175146927
+            }
+          },
+          {
+            "text": "Efficiency improvements and renewable energy integration are helping to offset some emissions, but fossil fuels remain a major source of electricity for data center operations worldwide.[155]",
+            "sentiment": "positive",
+            "confidence": 0.647882525310599,
+            "scores": {
+              "negative": 0.005736279434213453,
+              "neutral": 0.3463811952551876,
+              "positive": 0.647882525310599
+            }
+          },
+          {
+            "text": "In 2011, server racks in data centers were designed for more than 25 kW, and the typical server was estimated to waste about 30% of the electricity it consumed.",
+            "sentiment": "negative",
+            "confidence": 0.6300527821014508,
+            "scores": {
+              "negative": 0.6300527821014508,
+              "neutral": 0.34923267607328345,
+              "positive": 0.02071454182526569
+            }
+          },
+          {
+            "text": "A high-availability data center is estimated to have a 1 MW demand and consume $20 million in electricity over its lifetime, with cooling accounting for 35% to 45% of the data center's total cost of ownership.",
+            "sentiment": "neutral",
+            "confidence": 0.8668079494851437,
+            "scores": {
+              "negative": 0.061404118505316754,
+              "neutral": 0.8668079494851437,
+              "positive": 0.07178793200953956
+            }
+          }
+        ],
+        "analysis_model": "svm_roberta_fusion",
+        "aggregation": "mean_topic_passage_probability",
+        "topic_evidence": {
+          "method": "complete_phrase_with_plural_and_center_spelling_variants",
+          "title_matches": true,
+          "matched_passages": 391,
+          "extracted_passages": 1719,
+          "extracted_words": 18291
+        }
+      },
+      {
+        "url": "https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-data-center.html",
+        "title": "What is a Data Center - Types of Data Centers - Cisco",
+        "domain": "www.cisco.com",
+        "overall_sentiment": "neutral",
+        "confidence": 0.6189,
+        "scores": {
+          "negative": 0.03499447672559105,
+          "neutral": 0.6188535201263422,
+          "positive": 0.34615200314806677
+        },
+        "distribution": {
+          "positive": 34.9,
+          "neutral": 65.1,
+          "negative": 0.0
+        },
+        "statistics": {
+          "characters": 7105,
+          "words": 1016,
+          "analyzed_units": 63
+        },
+        "results": [
+          {
+            "text": "At its simplest, a data center is a physical facility that organizations use to house their critical applications and data.",
+            "sentiment": "neutral",
+            "confidence": 0.561692667542283,
+            "scores": {
+              "negative": 0.004254653473505956,
+              "neutral": 0.561692667542283,
+              "positive": 0.4340526789842111
+            }
+          },
+          {
+            "text": "A data center's design is based on a network of computing and storage resources that enable the delivery of shared applications and data.",
+            "sentiment": "positive",
+            "confidence": 0.5560297606291853,
+            "scores": {
+              "negative": 0.0019246417529503465,
+              "neutral": 0.4420455976178643,
+              "positive": 0.5560297606291853
+            }
+          },
+          {
+            "text": "The key components of data center design include routers, switches, firewalls, storage systems, servers, and application-delivery controllers.",
+            "sentiment": "neutral",
+            "confidence": 0.8578496838745947,
+            "scores": {
+              "negative": 0.021048657099015437,
+              "neutral": 0.8578496838745947,
+              "positive": 0.12110165902638993
+            }
+          },
+          {
+            "text": "Modern data centers have evolved quickly.",
+            "sentiment": "positive",
+            "confidence": 0.5188225945708047,
+            "scores": {
+              "negative": 0.008565692685553667,
+              "neutral": 0.47261171274364155,
+              "positive": 0.5188225945708047
+            }
+          },
+          {
+            "text": "Today, data is distributed across a wide range of environments\u2014including on-premises data centers, edge locations, and both public and private clouds.",
+            "sentiment": "neutral",
+            "confidence": 0.533139147716503,
+            "scores": {
+              "negative": 0.0020863190601525397,
+              "neutral": 0.533139147716503,
+              "positive": 0.4647745332233445
+            }
+          },
+          {
+            "text": "To function effectively, the data center must be able to communicate seamlessly across all these environments.",
+            "sentiment": "positive",
+            "confidence": 0.5943155511139653,
+            "scores": {
+              "negative": 0.003707378850489201,
+              "neutral": 0.4019770700355455,
+              "positive": 0.5943155511139653
+            }
+          },
+          {
+            "text": "For example, when applications run in the cloud, they rely on the cloud provider\u2019s data center infrastructure.",
+            "sentiment": "neutral",
+            "confidence": 0.7272773692400982,
+            "scores": {
+              "negative": 0.0061815470434693435,
+              "neutral": 0.7272773692400982,
+              "positive": 0.2665410837164325
+            }
+          },
+          {
+            "text": "The latest progression in the data center landscape centers on cloud-native architectures.",
+            "sentiment": "positive",
+            "confidence": 0.5050645704475213,
+            "scores": {
+              "negative": 0.0007325829447065976,
+              "neutral": 0.4942028466077721,
+              "positive": 0.5050645704475213
+            }
+          },
+          {
+            "text": "These data centers are purpose-built to host cloud-native applications, which are designed to maximize the unique capabilities of distributed, scalable cloud environments.",
+            "sentiment": "positive",
+            "confidence": 0.7359092278695682,
+            "scores": {
+              "negative": 0.0019034826264585215,
+              "neutral": 0.26218728950397324,
+              "positive": 0.7359092278695682
+            }
+          },
+          {
+            "text": "Businesses depend on data centers that support business applications and activities, including:",
+            "sentiment": "positive",
+            "confidence": 0.5204191353853607,
+            "scores": {
+              "negative": 0.0028851728120602056,
+              "neutral": 0.4766956918025792,
+              "positive": 0.5204191353853607
+            }
+          },
+          {
+            "text": "What are the core components of a data center?",
+            "sentiment": "neutral",
+            "confidence": 0.924903648366103,
+            "scores": {
+              "negative": 0.05090492628903623,
+              "neutral": 0.924903648366103,
+              "positive": 0.02419142534486079
+            }
+          },
+          {
+            "text": "Data center design includes routers, switches, firewalls, storage systems, servers, and application delivery controllers.",
+            "sentiment": "neutral",
+            "confidence": 0.8715451923821999,
+            "scores": {
+              "negative": 0.01852303707226063,
+              "neutral": 0.8715451923821999,
+              "positive": 0.10993177054553951
+            }
+          },
+          {
+            "text": "Because these components store and manage business-critical data and applications, data center security is critical in data center design.",
+            "sentiment": "positive",
+            "confidence": 0.542782646627814,
+            "scores": {
+              "negative": 0.009142504626737082,
+              "neutral": 0.44807484874544895,
+              "positive": 0.542782646627814
+            }
+          },
+          {
+            "text": "This connects servers (physical and virtualized), data center services, storage, and external connectivity to end-user locations.",
+            "sentiment": "neutral",
+            "confidence": 0.6142705831076612,
+            "scores": {
+              "negative": 0.0028502091525471427,
+              "neutral": 0.6142705831076612,
+              "positive": 0.38287920773979167
+            }
+          },
+          {
+            "text": "Data is the fuel of the modern data center.",
+            "sentiment": "neutral",
+            "confidence": 0.5029332936959993,
+            "scores": {
+              "negative": 0.0067584583499408915,
+              "neutral": 0.5029332936959993,
+              "positive": 0.49030824795405986
+            }
+          },
+          {
+            "text": "Applications are the engines of a data center.",
+            "sentiment": "neutral",
+            "confidence": 0.7266017573274672,
+            "scores": {
+              "negative": 0.023384350932420046,
+              "neutral": 0.7266017573274672,
+              "positive": 0.2500138917401128
+            }
+          },
+          {
+            "text": "How do data centers operate?",
+            "sentiment": "neutral",
+            "confidence": 0.8155891972787596,
+            "scores": {
+              "negative": 0.17416739135098788,
+              "neutral": 0.8155891972787596,
+              "positive": 0.01024341137025247
+            }
+          },
+          {
+            "text": "Data center services are typically deployed to protect the performance and integrity of the core data center components.",
+            "sentiment": "neutral",
+            "confidence": 0.7844385594803966,
+            "scores": {
+              "negative": 0.01215636109044104,
+              "neutral": 0.7844385594803966,
+              "positive": 0.20340507942916222
+            }
+          },
+          {
+            "text": "These include firewall and intrusion protection to safeguard the data center.",
+            "sentiment": "neutral",
+            "confidence": 0.8362136563519068,
+            "scores": {
+              "negative": 0.016566372195935992,
+              "neutral": 0.8362136563519068,
+              "positive": 0.1472199714521572
+            }
+          },
+          {
+            "text": "What is data center security?",
+            "sentiment": "neutral",
+            "confidence": 0.7825639966961623,
+            "scores": {
+              "negative": 0.2085266331197228,
+              "neutral": 0.7825639966961623,
+              "positive": 0.008909370184114909
+            }
+          },
+          {
+            "text": "Data center security encompasses the technologies, policies, and practices designed to protect the infrastructure, workloads, and applications that power modern businesses.",
+            "sentiment": "positive",
+            "confidence": 0.5512531254477656,
+            "scores": {
+              "negative": 0.004884154545800863,
+              "neutral": 0.44386272000643356,
+              "positive": 0.5512531254477656
+            }
+          },
+          {
+            "text": "As data centers grow to support hybrid and multicloud models, security must also adapt to protect distributed environments.",
+            "sentiment": "neutral",
+            "confidence": 0.525068180135719,
+            "scores": {
+              "negative": 0.0035360919690210677,
+              "neutral": 0.525068180135719,
+              "positive": 0.4713957278952599
+            }
+          },
+          {
+            "text": "Effective data center security maintains business continuity, protects sensitive information, and supports compliance with industry regulations.",
+            "sentiment": "positive",
+            "confidence": 0.6528688859357822,
+            "scores": {
+              "negative": 0.004885804757823658,
+              "neutral": 0.3422453093063941,
+              "positive": 0.6528688859357822
+            }
+          },
+          {
+            "text": "Protect the AI-Ready Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.5757290306758946,
+            "scores": {
+              "negative": 0.004696467606516344,
+              "neutral": 0.5757290306758946,
+              "positive": 0.41957450171758914
+            }
+          },
+          {
+            "text": "Discover how to seismically shift the way you protect your AI-ready data center with Cisco Hybrid Mesh Firewall.",
+            "sentiment": "neutral",
+            "confidence": 0.5943401283767945,
+            "scores": {
+              "negative": 0.003095507564343025,
+              "neutral": 0.5943401283767945,
+              "positive": 0.4025643640588624
+            }
+          },
+          {
+            "text": "Data center components require significant infrastructure to support the center's hardware and software.",
+            "sentiment": "neutral",
+            "confidence": 0.8070547822060404,
+            "scores": {
+              "negative": 0.010976304669632633,
+              "neutral": 0.8070547822060404,
+              "positive": 0.18196891312432695
+            }
+          },
+          {
+            "text": "What are the standards for data center physical infrastructure?",
+            "sentiment": "neutral",
+            "confidence": 0.8927442949533956,
+            "scores": {
+              "negative": 0.09542998754524103,
+              "neutral": 0.8927442949533956,
+              "positive": 0.011825717501363334
+            }
+          },
+          {
+            "text": "The most widely adopted standard for data center design and data center infrastructure is ANSI/TIA-942.",
+            "sentiment": "positive",
+            "confidence": 0.6078156026136353,
+            "scores": {
+              "negative": 0.001790449343427685,
+              "neutral": 0.3903939480429371,
+              "positive": 0.6078156026136353
+            }
+          },
+          {
+            "text": "It includes standards for ANSI/TIA-942-ready certification, which ensures compliance with one of four categories of data center tiers rated for levels of redundancy and fault tolerance.",
+            "sentiment": "neutral",
+            "confidence": 0.873318484017777,
+            "scores": {
+              "negative": 0.03548859387716204,
+              "neutral": 0.873318484017777,
+              "positive": 0.09119292210506093
+            }
+          },
+          {
+            "text": "A Tier 1 data center offers limited protection against physical events.",
+            "sentiment": "neutral",
+            "confidence": 0.8474716153531259,
+            "scores": {
+              "negative": 0.08660993996968418,
+              "neutral": 0.8474716153531259,
+              "positive": 0.06591844467718987
+            }
+          },
+          {
+            "text": "This data center offers improved protection against physical events.",
+            "sentiment": "positive",
+            "confidence": 0.7784774886474999,
+            "scores": {
+              "negative": 0.0027407243533735985,
+              "neutral": 0.21878178699912662,
+              "positive": 0.7784774886474999
+            }
+          },
+          {
+            "text": "This data center protects against virtually all physical events, providing redundant-capacity components and multiple independent distribution paths.",
+            "sentiment": "positive",
+            "confidence": 0.6073037217057274,
+            "scores": {
+              "negative": 0.004445066025881911,
+              "neutral": 0.3882512122683906,
+              "positive": 0.6073037217057274
+            }
+          },
+          {
+            "text": "This data center provides the highest levels of fault tolerance and redundancy.",
+            "sentiment": "positive",
+            "confidence": 0.858275123637015,
+            "scores": {
+              "negative": 0.01331896517271765,
+              "neutral": 0.1284059111902674,
+              "positive": 0.858275123637015
+            }
+          },
+          {
+            "text": "Types of data centers",
+            "sentiment": "neutral",
+            "confidence": 0.7860900485597938,
+            "scores": {
+              "negative": 0.1238213841860494,
+              "neutral": 0.7860900485597938,
+              "positive": 0.09008856725415673
+            }
+          },
+          {
+            "text": "Many types of data centers and service models are available.",
+            "sentiment": "neutral",
+            "confidence": 0.5710305191339216,
+            "scores": {
+              "negative": 0.003505867585367427,
+              "neutral": 0.5710305191339216,
+              "positive": 0.4254636132807111
+            }
+          },
+          {
+            "text": "Their classification depends on whether they are owned by one or many organizations, how they fit (if they fit) into the topology of other data centers, what technologies they use for computing and storage, and even their energy efficiency.",
+            "sentiment": "neutral",
+            "confidence": 0.8924524853898204,
+            "scores": {
+              "negative": 0.0424072127598024,
+              "neutral": 0.8924524853898204,
+              "positive": 0.06514030185037725
+            }
+          },
+          {
+            "text": "The six main types of data centers include the following.",
+            "sentiment": "neutral",
+            "confidence": 0.9145085307884817,
+            "scores": {
+              "negative": 0.024937826802908843,
+              "neutral": 0.9145085307884817,
+              "positive": 0.06055364240860941
+            }
+          },
+          {
+            "text": "AI data centers",
+            "sentiment": "neutral",
+            "confidence": 0.655627791871431,
+            "scores": {
+              "negative": 0.024880213179181168,
+              "neutral": 0.655627791871431,
+              "positive": 0.31949199494938785
+            }
+          },
+          {
+            "text": "An AI data center is specifically designed to support the demanding computational requirements of artificial intelligence workloads.",
+            "sentiment": "neutral",
+            "confidence": 0.5886981520515813,
+            "scores": {
+              "negative": 0.005419583788542266,
+              "neutral": 0.5886981520515813,
+              "positive": 0.4058822641598765
+            }
+          },
+          {
+            "text": "Unlike traditional data centers, AI data centers prioritize parallel processing and optimized workflows to train and deploy machine learning models at scale.",
+            "sentiment": "positive",
+            "confidence": 0.6579854099456454,
+            "scores": {
+              "negative": 0.002526758453961877,
+              "neutral": 0.33948783160039264,
+              "positive": 0.6579854099456454
+            }
+          },
+          {
+            "text": "Minimizing latency is a key focus in AI data centers, because real-time AI applications\u2014predictive analytics and natural language processing\u2014require rapid data processing and decision making.",
+            "sentiment": "positive",
+            "confidence": 0.6840658485112833,
+            "scores": {
+              "negative": 0.0027606277291278556,
+              "neutral": 0.3131735237595889,
+              "positive": 0.6840658485112833
+            }
+          },
+          {
+            "text": "By combining powerful compute resources with low-latency architectures, AI data centers enable organizations to unlock the full potential of artificial intelligence in dynamic and data-intensive environments.",
+            "sentiment": "positive",
+            "confidence": 0.8180361840983827,
+            "scores": {
+              "negative": 0.0025772722183768667,
+              "neutral": 0.1793865436832404,
+              "positive": 0.8180361840983827
+            }
+          },
+          {
+            "text": "Enterprise data centers",
+            "sentiment": "neutral",
+            "confidence": 0.7610124997851784,
+            "scores": {
+              "negative": 0.014812259090735561,
+              "neutral": 0.7610124997851784,
+              "positive": 0.22417524112408596
+            }
+          },
+          {
+            "text": "Enterprise data centers are company owned and operated, typically located on corporate campuses and tailored to serve internal users.",
+            "sentiment": "neutral",
+            "confidence": 0.7377650187003926,
+            "scores": {
+              "negative": 0.005121612413329415,
+              "neutral": 0.7377650187003926,
+              "positive": 0.2571133688862779
+            }
+          },
+          {
+            "text": "Managed services data centers",
+            "sentiment": "neutral",
+            "confidence": 0.8777884308501405,
+            "scores": {
+              "negative": 0.04652479010834013,
+              "neutral": 0.8777884308501405,
+              "positive": 0.07568677904151931
+            }
+          },
+          {
+            "text": "Managed services data centers are managed by a third party (such as a managed services provider) on behalf of a company.",
+            "sentiment": "neutral",
+            "confidence": 0.9229390271287433,
+            "scores": {
+              "negative": 0.0406302076684377,
+              "neutral": 0.9229390271287433,
+              "positive": 0.03643076520281897
+            }
+          },
+          {
+            "text": "Colocation data centers",
+            "sentiment": "neutral",
+            "confidence": 0.8211844239577126,
+            "scores": {
+              "negative": 0.07873864842834984,
+              "neutral": 0.8211844239577126,
+              "positive": 0.10007692761393762
+            }
+          },
+          {
+            "text": "In colocation (\"colo\") data centers, a company rents space within a data center owned by others and located off company premises.",
+            "sentiment": "neutral",
+            "confidence": 0.9294166116958701,
+            "scores": {
+              "negative": 0.04781322108405425,
+              "neutral": 0.9294166116958701,
+              "positive": 0.02277016722007559
+            }
+          },
+          {
+            "text": "The colocation data center hosts the infrastructure: building, cooling, bandwidth, security, and so on, while the company provides and manages the components, including servers, storage, and firewalls.",
+            "sentiment": "neutral",
+            "confidence": 0.8206152193912276,
+            "scores": {
+              "negative": 0.017077880072146955,
+              "neutral": 0.8206152193912276,
+              "positive": 0.16230690053662536
+            }
+          },
+          {
+            "text": "Cloud data centers",
+            "sentiment": "neutral",
+            "confidence": 0.8065715731132964,
+            "scores": {
+              "negative": 0.032289166081634284,
+              "neutral": 0.8065715731132964,
+              "positive": 0.16113926080506938
+            }
+          },
+          {
+            "text": "In this off-premises form of data center, data and applications are hosted by a cloud services provider such as Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft (Azure), IBM Cloud, or other public cloud provider, often within hyperscale data centers designed to efficiently support massive workloads and global scalability.",
+            "sentiment": "positive",
+            "confidence": 0.6296741060279152,
+            "scores": {
+              "negative": 0.001226734254578755,
+              "neutral": 0.3690991597175061,
+              "positive": 0.6296741060279152
+            }
+          },
+          {
+            "text": "Edge data centers",
+            "sentiment": "neutral",
+            "confidence": 0.8143023819878116,
+            "scores": {
+              "negative": 0.02751053775214233,
+              "neutral": 0.8143023819878116,
+              "positive": 0.15818708026004613
+            }
+          },
+          {
+            "text": "An edge data center is a smaller, decentralized facility located closer to end users and devices, designed to process data locally, reduce latency, and support real-time applications in industries like IoT, autonomous vehicles, and content delivery.",
+            "sentiment": "positive",
+            "confidence": 0.633736357821696,
+            "scores": {
+              "negative": 0.001702549252425265,
+              "neutral": 0.36456109292587874,
+              "positive": 0.633736357821696
+            }
+          },
+          {
+            "text": "Configure, operate, and analyze your network from one place across data center networks.",
+            "sentiment": "neutral",
+            "confidence": 0.8639040454648197,
+            "scores": {
+              "negative": 0.021606139568652722,
+              "neutral": 0.8639040454648197,
+              "positive": 0.11448981496652762
+            }
+          },
+          {
+            "text": "It has meant the term \"data center\" is now used to refer to the department that has responsibility for these systems irrespective of where they are located.",
+            "sentiment": "neutral",
+            "confidence": 0.7595721553073133,
+            "scores": {
+              "negative": 0.22883980040727955,
+              "neutral": 0.7595721553073133,
+              "positive": 0.011588044285407098
+            }
+          },
+          {
+            "text": "Organizations can choose to build and maintain their own hybrid cloud data centers, lease space within colocation facilities (colos), consume shared compute and storage services, or use public cloud-based services.",
+            "sentiment": "neutral",
+            "confidence": 0.6473544782046269,
+            "scores": {
+              "negative": 0.0032126143082324685,
+              "neutral": 0.6473544782046269,
+              "positive": 0.34943290748714073
+            }
+          },
+          {
+            "text": "In this multicloud era, the data center has become vast and complex, geared to drive the ultimate user experience.",
+            "sentiment": "positive",
+            "confidence": 0.6099760993995784,
+            "scores": {
+              "negative": 0.0048544426320839395,
+              "neutral": 0.3851694579683376,
+              "positive": 0.6099760993995784
+            }
+          },
+          {
+            "text": "Can data centers use less power?",
+            "sentiment": "neutral",
+            "confidence": 0.7541849256365184,
+            "scores": {
+              "negative": 0.2037971264567689,
+              "neutral": 0.7541849256365184,
+              "positive": 0.04201794790671273
+            }
+          },
+          {
+            "text": "Data centers are significant energy consumers, and their power demands are rising as digital transformation accelerates.",
+            "sentiment": "positive",
+            "confidence": 0.5556385372719043,
+            "scores": {
+              "negative": 0.003090398765932669,
+              "neutral": 0.44127106396216315,
+              "positive": 0.5556385372719043
+            }
+          },
+          {
+            "text": "The GPUs that power AI data centers, consume 10 to 15 times more power per processing cycle than CPUs that power traditional data centers because of the computational intensity of training and running AI models.",
+            "sentiment": "neutral",
+            "confidence": 0.6801849224459281,
+            "scores": {
+              "negative": 0.28272460248459724,
+              "neutral": 0.6801849224459281,
+              "positive": 0.03709047506947456
+            }
+          },
+          {
+            "text": "To reduce power costs and sourcing challenges, data centers can implement advanced energy strategies\u2014such as optimizing power use, adopting clean energy, and enhancing cooling efficiency.",
+            "sentiment": "positive",
+            "confidence": 0.67679634372966,
+            "scores": {
+              "negative": 0.0030925096602265625,
+              "neutral": 0.3201111466101133,
+              "positive": 0.67679634372966
+            }
+          },
+          {
+            "text": "Related Data Center Topics",
+            "sentiment": "neutral",
+            "confidence": 0.9138496152077092,
+            "scores": {
+              "negative": 0.056593593407160754,
+              "neutral": 0.9138496152077092,
+              "positive": 0.029556791385129923
+            }
+          },
+          {
+            "text": "Discover how a modernized data center infrastructure can prepare you for the future, boost security, reduce complexity, remove silos, and simplify compute and networking operations.",
+            "sentiment": "positive",
+            "confidence": 0.8056340994064453,
+            "scores": {
+              "negative": 0.002388023182791486,
+              "neutral": 0.1919778774107632,
+              "positive": 0.8056340994064453
+            }
+          }
+        ],
+        "analysis_model": "svm_roberta_fusion",
+        "aggregation": "mean_topic_passage_probability",
+        "topic_evidence": {
+          "method": "complete_phrase_with_plural_and_center_spelling_variants",
+          "title_matches": true,
+          "matched_passages": 63,
+          "extracted_passages": 118,
+          "extracted_words": 1641
+        }
+      },
+      {
+        "url": "https://www.ibm.com/think/topics/data-centers",
+        "title": "What Is a Data Center? | IBM",
+        "domain": "www.ibm.com",
+        "overall_sentiment": "neutral",
+        "confidence": 0.5882,
+        "scores": {
+          "negative": 0.05590622530591198,
+          "neutral": 0.588209723896614,
+          "positive": 0.355884050797474
+        },
+        "distribution": {
+          "positive": 34.8,
+          "neutral": 60.9,
+          "negative": 4.3
+        },
+        "statistics": {
+          "characters": 9250,
+          "words": 1353,
+          "analyzed_units": 69
+        },
+        "results": [
+          {
+            "text": "A data center is a physical room, building or facility that houses IT infrastructure for building, running and delivering applications and services.",
+            "sentiment": "neutral",
+            "confidence": 0.6872402148042837,
+            "scores": {
+              "negative": 0.003231697488610074,
+              "neutral": 0.6872402148042837,
+              "positive": 0.3095280877071062
+            }
+          },
+          {
+            "text": "Data centers started out as privately owned, tightly controlled on-premises facilities housing traditional IT infrastructure for the exclusive use of one company.",
+            "sentiment": "neutral",
+            "confidence": 0.87104416637501,
+            "scores": {
+              "negative": 0.055712485984447065,
+              "neutral": 0.87104416637501,
+              "positive": 0.07324334764054286
+            }
+          },
+          {
+            "text": "These CSP data centers house virtualized IT infrastructure for the shared use of multiple companies and customers.",
+            "sentiment": "positive",
+            "confidence": 0.5544365322544743,
+            "scores": {
+              "negative": 0.0013130148570727179,
+              "neutral": 0.4442504528884531,
+              "positive": 0.5544365322544743
+            }
+          },
+          {
+            "text": "Data centers date back to the 1940s.",
+            "sentiment": "neutral",
+            "confidence": 0.8654286938293299,
+            "scores": {
+              "negative": 0.12225885649943784,
+              "neutral": 0.8654286938293299,
+              "positive": 0.012312449671232219
+            }
+          },
+          {
+            "text": "The US military's Electrical Numerical Integrator and Computer (ENIAC), completed in 1945 at the University of Pennsylvania, is an early example of a data center that required dedicated space to house its massive machines.",
+            "sentiment": "neutral",
+            "confidence": 0.8156782752670385,
+            "scores": {
+              "negative": 0.07884166278449205,
+              "neutral": 0.8156782752670385,
+              "positive": 0.10548006194846955
+            }
+          },
+          {
+            "text": "These microcomputers that began filling old mainframe computer rooms became known as \u201cservers,\u201d and the rooms became known as \u201cdata centers.\u201d",
+            "sentiment": "neutral",
+            "confidence": 0.8573380762419522,
+            "scores": {
+              "negative": 0.04486384676590697,
+              "neutral": 0.8573380762419522,
+              "positive": 0.09779807699214084
+            }
+          },
+          {
+            "text": "The advent of cloud computing in the early 2000s significantly disrupted the traditional data center landscape.",
+            "sentiment": "neutral",
+            "confidence": 0.6935425254045936,
+            "scores": {
+              "negative": 0.04813383027075632,
+              "neutral": 0.6935425254045936,
+              "positive": 0.25832364432465
+            }
+          },
+          {
+            "text": "In 2006, Google launched the first hyperscale data center in The Dalles, Oregon.",
+            "sentiment": "positive",
+            "confidence": 0.6083578402706538,
+            "scores": {
+              "negative": 0.0005671415566787658,
+              "neutral": 0.39107501817266743,
+              "positive": 0.6083578402706538
+            }
+          },
+          {
+            "text": "This hyperscale facility currently occupies 1.3 million square feet of space and employs a staff of approximately 200 data center operators.1",
+            "sentiment": "neutral",
+            "confidence": 0.8736736906260293,
+            "scores": {
+              "negative": 0.009136982586090754,
+              "neutral": 0.8736736906260293,
+              "positive": 0.11718932678787991
+            }
+          },
+          {
+            "text": "There are different types of data center facilities, and a single company might use more than one type, depending on workloads and business needs.",
+            "sentiment": "neutral",
+            "confidence": 0.8824755709337949,
+            "scores": {
+              "negative": 0.03939093583176555,
+              "neutral": 0.8824755709337949,
+              "positive": 0.0781334932344395
+            }
+          },
+          {
+            "text": "This data center model hosts all IT infrastructure and data on-premises.",
+            "sentiment": "neutral",
+            "confidence": 0.598427135312195,
+            "scores": {
+              "negative": 0.0025605509100518524,
+              "neutral": 0.598427135312195,
+              "positive": 0.3990123137777529
+            }
+          },
+          {
+            "text": "Many companies choose on-premises data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.8383869686261992,
+            "scores": {
+              "negative": 0.021019569300161047,
+              "neutral": 0.8383869686261992,
+              "positive": 0.14059346207363976
+            }
+          },
+          {
+            "text": "The company is responsible for all deployment, monitoring and management tasks in an enterprise data center.",
+            "sentiment": "neutral",
+            "confidence": 0.8334242033123465,
+            "scores": {
+              "negative": 0.015146420097898808,
+              "neutral": 0.8334242033123465,
+              "positive": 0.15142937658975472
+            }
+          },
+          {
+            "text": "Cloud data centers (also called cloud computing data centers) house IT infrastructure resources for shared use by multiple customers\u2014from scores to millions\u2014through an internet connection.",
+            "sentiment": "positive",
+            "confidence": 0.5338368903094187,
+            "scores": {
+              "negative": 0.001143466428880523,
+              "neutral": 0.46501964326170064,
+              "positive": 0.5338368903094187
+            }
+          },
+          {
+            "text": "Many of the largest cloud data centers\u2014called hyperscale data centers\u2014are run by major cloud service providers (CSPs), such as Amazon Web Services (AWS), Google Cloud Platform, IBM Cloud and Microsoft Azure.",
+            "sentiment": "positive",
+            "confidence": 0.764550758337585,
+            "scores": {
+              "negative": 0.0013529464698627818,
+              "neutral": 0.23409629519255215,
+              "positive": 0.764550758337585
+            }
+          },
+          {
+            "text": "These companies have major data centers in every region of the world.",
+            "sentiment": "neutral",
+            "confidence": 0.5937317729580167,
+            "scores": {
+              "negative": 0.008247732067841722,
+              "neutral": 0.5937317729580167,
+              "positive": 0.39802049497414166
+            }
+          },
+          {
+            "text": "For example, IBM operates over 60 IBM Cloud Data Centers in various locations around the world.",
+            "sentiment": "positive",
+            "confidence": 0.5621564958594267,
+            "scores": {
+              "negative": 0.0005319944692405197,
+              "neutral": 0.4373115096713328,
+              "positive": 0.5621564958594267
+            }
+          },
+          {
+            "text": "Hyperscale data centers are larger than traditional data centers and can cover millions of square feet.",
+            "sentiment": "positive",
+            "confidence": 0.6667377067832232,
+            "scores": {
+              "negative": 0.0027499826004663474,
+              "neutral": 0.33051231061631037,
+              "positive": 0.6667377067832232
+            }
+          },
+          {
+            "text": "Cloud service providers typically maintain smaller, edge data centers (EDCs) located closer to cloud customers (and cloud customers\u2019 customers).",
+            "sentiment": "neutral",
+            "confidence": 0.5624627170454639,
+            "scores": {
+              "negative": 0.001959855300847881,
+              "neutral": 0.5624627170454639,
+              "positive": 0.4355774276536882
+            }
+          },
+          {
+            "text": "Edge data centers form the foundation for edge computing, a distributed computing framework that brings applications closer to end users.",
+            "sentiment": "positive",
+            "confidence": 0.7555957545863341,
+            "scores": {
+              "negative": 0.0015887850323178122,
+              "neutral": 0.24281546038134813,
+              "positive": 0.7555957545863341
+            }
+          },
+          {
+            "text": "Edge data centers are ideal for real-time, data-intensive workloads like big data analytics, artificial intelligence (AI), machine learning (ML) and content delivery.",
+            "sentiment": "positive",
+            "confidence": 0.829017992101769,
+            "scores": {
+              "negative": 0.0022926702178705963,
+              "neutral": 0.16868933768036046,
+              "positive": 0.829017992101769
+            }
+          },
+          {
+            "text": "Managed data centers and colocation facilities are options for organizations that lack the space, staff or expertise to manage their IT infrastructure on-premises.",
+            "sentiment": "negative",
+            "confidence": 0.6043044913351073,
+            "scores": {
+              "negative": 0.6043044913351073,
+              "neutral": 0.3779828359646029,
+              "positive": 0.017712672700289835
+            }
+          },
+          {
+            "text": "These options are ideal for those who prefer not to host their infrastructure by using the shared resources of a public cloud data center.",
+            "sentiment": "positive",
+            "confidence": 0.7937816245087754,
+            "scores": {
+              "negative": 0.012305930831529789,
+              "neutral": 0.19391244465969476,
+              "positive": 0.7937816245087754
+            }
+          },
+          {
+            "text": "In a managed data center, the client company leases dedicated servers, storage and networking hardware from the provider, and the provider handles the client company's administration, monitoring and management.",
+            "sentiment": "neutral",
+            "confidence": 0.9343041631662069,
+            "scores": {
+              "negative": 0.03830479570562076,
+              "neutral": 0.9343041631662069,
+              "positive": 0.027391041128172353
+            }
+          },
+          {
+            "text": "Companies often choose managed data centers and colocation facilities to house remote data backup and disaster recovery (DR) technology for small and midsized businesses (SMBs).",
+            "sentiment": "neutral",
+            "confidence": 0.8362462257579812,
+            "scores": {
+              "negative": 0.024828873777116286,
+              "neutral": 0.8362462257579812,
+              "positive": 0.13892490046490236
+            }
+          },
+          {
+            "text": "Most modern data centers, including in-house on-premises ones, have evolved from the traditional IT architecture.",
+            "sentiment": "neutral",
+            "confidence": 0.5033949272426956,
+            "scores": {
+              "negative": 0.001732840290565884,
+              "neutral": 0.5033949272426956,
+              "positive": 0.4948722324667385
+            }
+          },
+          {
+            "text": "This virtualization has led to new data center architectures such as software-defined data centers (SDDC), a server management concept that virtualizes infrastructure elements such as networking, storage and compute, delivering them as a service.",
+            "sentiment": "positive",
+            "confidence": 0.5139057051099665,
+            "scores": {
+              "negative": 0.0026519412733990743,
+              "neutral": 0.4834423536166345,
+              "positive": 0.5139057051099665
+            }
+          },
+          {
+            "text": "As-a-service data center models are poised to become more prevalent, with IDC forecasting that 65% of tech buyers will prioritize these models by 2026.3",
+            "sentiment": "positive",
+            "confidence": 0.5791182768058335,
+            "scores": {
+              "negative": 0.0009427800705210796,
+              "neutral": 0.41993894312364544,
+              "positive": 0.5791182768058335
+            }
+          },
+          {
+            "text": "The combination of cloud architecture and SDI offers many advantages to data centers and their users, such as:",
+            "sentiment": "positive",
+            "confidence": 0.8922405611673654,
+            "scores": {
+              "negative": 0.0030427411492001326,
+              "neutral": 0.10471669768343454,
+              "positive": 0.8922405611673654
+            }
+          },
+          {
+            "text": "Even companies that use on-premises data centers can add capacity on demand by bursting workloads to the cloud when necessary.",
+            "sentiment": "positive",
+            "confidence": 0.5986296249270083,
+            "scores": {
+              "negative": 0.0014401420266157636,
+              "neutral": 0.399930233046376,
+              "positive": 0.5986296249270083
+            }
+          },
+          {
+            "text": "CSPs offer these services for use in a private on-premises data center or as cloud solutions in either a private cloud, public cloud, hybrid cloud or multicloud environment.",
+            "sentiment": "neutral",
+            "confidence": 0.5485804809024908,
+            "scores": {
+              "negative": 0.0014187214536282658,
+              "neutral": 0.5485804809024908,
+              "positive": 0.45000079764388107
+            }
+          },
+          {
+            "text": "Other data solutions include modular data centers\u2014pre-engineered facilities designed for use as data centers that are also pre-piped and equipped with necessary cooling equipment.",
+            "sentiment": "neutral",
+            "confidence": 0.5893774763506443,
+            "scores": {
+              "negative": 0.00216495927281744,
+              "neutral": 0.5893774763506443,
+              "positive": 0.40845756437653813
+            }
+          },
+          {
+            "text": "Data center servers come in several form factors:",
+            "sentiment": "neutral",
+            "confidence": 0.9022471776178134,
+            "scores": {
+              "negative": 0.05347303884870427,
+              "neutral": 0.9022471776178134,
+              "positive": 0.044279783533482345
+            }
+          },
+          {
+            "text": "The choice of server form factor depends on many factors, including available space in the data center, the workloads running on the servers, the available power and cost.",
+            "sentiment": "neutral",
+            "confidence": 0.8942648834109511,
+            "scores": {
+              "negative": 0.05978274137437869,
+              "neutral": 0.8942648834109511,
+              "positive": 0.045952375214670174
+            }
+          },
+          {
+            "text": "Two other data center storage configurations include network attached storage (NAS) and a storage area network (SAN).",
+            "sentiment": "neutral",
+            "confidence": 0.935481850357171,
+            "scores": {
+              "negative": 0.023629848012593158,
+              "neutral": 0.935481850357171,
+              "positive": 0.04088830163023584
+            }
+          },
+          {
+            "text": "A single data center might use all three storage configurations\u2014DAS, NAS and SAN\u2014and file storage, block storage and object storage types.",
+            "sentiment": "neutral",
+            "confidence": 0.9116712134580323,
+            "scores": {
+              "negative": 0.023611028219307745,
+              "neutral": 0.9116712134580323,
+              "positive": 0.06471775832266005
+            }
+          },
+          {
+            "text": "Data center network topology refers to the physical layout and interconnection of a data center's network devices, including infrastructure, connections between servers and components, and data flow.",
+            "sentiment": "neutral",
+            "confidence": 0.8936228695670924,
+            "scores": {
+              "negative": 0.01957567280997392,
+              "neutral": 0.8936228695670924,
+              "positive": 0.08680145762293377
+            }
+          },
+          {
+            "text": "The data center network consists of various network equipment, such as switches, routers and fiber optics that network traffic across the servers (called east/west traffic) and to or from the servers to the clients (called north/south traffic).",
+            "sentiment": "neutral",
+            "confidence": 0.9338001056472176,
+            "scores": {
+              "negative": 0.033160979512585224,
+              "neutral": 0.9338001056472176,
+              "positive": 0.03303891484019719
+            }
+          },
+          {
+            "text": "As noted above, a data center typically has virtualized network services.",
+            "sentiment": "neutral",
+            "confidence": 0.8659488981936877,
+            "scores": {
+              "negative": 0.00738091636405255,
+              "neutral": 0.8659488981936877,
+              "positive": 0.12667018544225964
+            }
+          },
+          {
+            "text": "Data centers need high-bandwidth connections to allow for communications between servers and storage systems and between inbound and outbound network traffic.",
+            "sentiment": "neutral",
+            "confidence": 0.6799179499028712,
+            "scores": {
+              "negative": 0.007104728647021715,
+              "neutral": 0.6799179499028712,
+              "positive": 0.31297732145010704
+            }
+          },
+          {
+            "text": "For hyperscale data centers, bandwidth requirements can range from several gigabits per second (Gbps) to terabits per second (Tbps).",
+            "sentiment": "neutral",
+            "confidence": 0.8865321752727766,
+            "scores": {
+              "negative": 0.03757319810778721,
+              "neutral": 0.8865321752727766,
+              "positive": 0.0758946266194362
+            }
+          },
+          {
+            "text": "Data centers need to be always-on at every level.",
+            "sentiment": "neutral",
+            "confidence": 0.7953033356607319,
+            "scores": {
+              "negative": 0.04898714189043061,
+              "neutral": 0.7953033356607319,
+              "positive": 0.15570952244883757
+            }
+          },
+          {
+            "text": "Cable management is an important data center design concern, as various cables connect thousands of servers.",
+            "sentiment": "neutral",
+            "confidence": 0.5062728248637959,
+            "scores": {
+              "negative": 0.03376133172598692,
+              "neutral": 0.5062728248637959,
+              "positive": 0.45996584341021723
+            }
+          },
+          {
+            "text": "Data center construction and expansion must consider building codes and industry standards to ensure efficient and safe cabling.",
+            "sentiment": "neutral",
+            "confidence": 0.5435346344547005,
+            "scores": {
+              "negative": 0.004563469787497316,
+              "neutral": 0.5435346344547005,
+              "positive": 0.45190189575780215
+            }
+          },
+          {
+            "text": "Data center downtime is costly to data center providers and to their customers.",
+            "sentiment": "negative",
+            "confidence": 0.8297189181013386,
+            "scores": {
+              "negative": 0.8297189181013386,
+              "neutral": 0.16972402087542962,
+              "positive": 0.0005570610232319905
+            }
+          },
+          {
+            "text": "Data center operators and architects go to great lengths to increase the resiliency of their systems.",
+            "sentiment": "positive",
+            "confidence": 0.642799167310741,
+            "scores": {
+              "negative": 0.0025788542441356594,
+              "neutral": 0.35462197844512333,
+              "positive": 0.642799167310741
+            }
+          },
+          {
+            "text": "Other measures include backup data center cooling infrastructure that keeps servers running at optimal temperatures, even if the primary cooling system fails.",
+            "sentiment": "neutral",
+            "confidence": 0.6274382116579698,
+            "scores": {
+              "negative": 0.013444446294632128,
+              "neutral": 0.6274382116579698,
+              "positive": 0.3591173420473981
+            }
+          },
+          {
+            "text": "Many large data center providers have data centers located in geographically distinct regions.",
+            "sentiment": "neutral",
+            "confidence": 0.6744181579021614,
+            "scores": {
+              "negative": 0.0037885960378434163,
+              "neutral": 0.6744181579021614,
+              "positive": 0.3217932460599952
+            }
+          },
+          {
+            "text": "The Uptime Institute uses a four-tier system to rate the redundancy and resiliency of data centers.4",
+            "sentiment": "neutral",
+            "confidence": 0.880729462891765,
+            "scores": {
+              "negative": 0.06531783214387915,
+              "neutral": 0.880729462891765,
+              "positive": 0.05395270496435575
+            }
+          },
+          {
+            "text": "Data centers are designed and equipped to control interrelated environmental factors that can damage or destroy hardware and lead to expensive or catastrophic downtime.",
+            "sentiment": "negative",
+            "confidence": 0.7947611759244367,
+            "scores": {
+              "negative": 0.7947611759244367,
+              "neutral": 0.20473750911822533,
+              "positive": 0.0005013149573380277
+            }
+          },
+          {
+            "text": "Data centers contain sensitive information and business-critical applications, which call for a comprehensive security strategy that spans physical data centers and multicloud environments.",
+            "sentiment": "neutral",
+            "confidence": 0.6400092868626405,
+            "scores": {
+              "negative": 0.01066164052285528,
+              "neutral": 0.6400092868626405,
+              "positive": 0.3493290726145042
+            }
+          },
+          {
+            "text": "Data center security measures include the physical security of hardware and storage devices, along with administrative and access controls.",
+            "sentiment": "neutral",
+            "confidence": 0.8992122440110827,
+            "scores": {
+              "negative": 0.047737041773263995,
+              "neutral": 0.8992122440110827,
+              "positive": 0.053050714215653334
+            }
+          },
+          {
+            "text": "Hyperscale data centers, for instance, require specialized firewalls and other protocols for enhanced cybersecurity.",
+            "sentiment": "neutral",
+            "confidence": 0.9080230727075526,
+            "scores": {
+              "negative": 0.026425806794441675,
+              "neutral": 0.9080230727075526,
+              "positive": 0.0655511204980058
+            }
+          },
+          {
+            "text": "Data center management encompasses the tasks and tools organizations need to keep their private data centers operational, secure and compliant.",
+            "sentiment": "positive",
+            "confidence": 0.5482160847981,
+            "scores": {
+              "negative": 0.005945339082874171,
+              "neutral": 0.4458385761190258,
+              "positive": 0.5482160847981
+            }
+          },
+          {
+            "text": "The person responsible for carrying out these tasks is known as a data center manager.",
+            "sentiment": "neutral",
+            "confidence": 0.8541724847061053,
+            "scores": {
+              "negative": 0.13460583825024192,
+              "neutral": 0.8541724847061053,
+              "positive": 0.011221677043652798
+            }
+          },
+          {
+            "text": "A data center manager performs general maintenance, such as software and hardware upgrades, general cleaning or deciding the physical arrangement of servers.",
+            "sentiment": "neutral",
+            "confidence": 0.9130304688580977,
+            "scores": {
+              "negative": 0.063216705931651,
+              "neutral": 0.9130304688580977,
+              "positive": 0.023752825210251436
+            }
+          },
+          {
+            "text": "They also take proactive or reactive measures against any threat or event that harms the data center.",
+            "sentiment": "neutral",
+            "confidence": 0.6740874380688986,
+            "scores": {
+              "negative": 0.3185422646547949,
+              "neutral": 0.6740874380688986,
+              "positive": 0.007370297276306406
+            }
+          },
+          {
+            "text": "Data center managers in the enterprise can use data center infrastructure management (DCIM) solutions to simplify overall management and achieve IT performance optimization.",
+            "sentiment": "positive",
+            "confidence": 0.6890389837998883,
+            "scores": {
+              "negative": 0.0017629796095189546,
+              "neutral": 0.30919803659059275,
+              "positive": 0.6890389837998883
+            }
+          },
+          {
+            "text": "These software solutions provide a centralized platform for data center managers to monitor, measure, manage and control all data center elements in real time.",
+            "sentiment": "positive",
+            "confidence": 0.6613924884155692,
+            "scores": {
+              "negative": 0.0020165763606102755,
+              "neutral": 0.3365909352238204,
+              "positive": 0.6613924884155692
+            }
+          },
+          {
+            "text": "Gartner notes that 87% of business leaders plan to invest more in sustainability in the coming years.5 To that end, reducing the environmental impact of data centers aligns with broader business goals in the global effort to combat climate change.",
+            "sentiment": "positive",
+            "confidence": 0.68543088936394,
+            "scores": {
+              "negative": 0.001595542932654651,
+              "neutral": 0.3129735677034052,
+              "positive": 0.68543088936394
+            }
+          },
+          {
+            "text": "Today\u2019s proliferation of AI-driven workloads is driving data center growth.",
+            "sentiment": "positive",
+            "confidence": 0.6769909765662387,
+            "scores": {
+              "negative": 0.0013647405648153715,
+              "neutral": 0.3216442828689459,
+              "positive": 0.6769909765662387
+            }
+          },
+          {
+            "text": "Goldman Sachs Research estimates that data center power demand will grow 160% by 2030.5",
+            "sentiment": "neutral",
+            "confidence": 0.5992909505771006,
+            "scores": {
+              "negative": 0.0019694332323654954,
+              "neutral": 0.5992909505771006,
+              "positive": 0.3987396161905338
+            }
+          },
+          {
+            "text": "The need to reduce power usage is driving enterprise organizations to push for renewable energy solutions to power their hyperscale data centers.",
+            "sentiment": "positive",
+            "confidence": 0.5606372887386057,
+            "scores": {
+              "negative": 0.003186678991596534,
+              "neutral": 0.4361760322697978,
+              "positive": 0.5606372887386057
+            }
+          },
+          {
+            "text": "This occurrence has led to the growth in green data centers, or sustainable data centers, facilities that house IT infrastructure and use energy-efficient technologies to optimize energy use and minimize environmental impact.",
+            "sentiment": "positive",
+            "confidence": 0.7841181301884007,
+            "scores": {
+              "negative": 0.002791827297667809,
+              "neutral": 0.2130900425139315,
+              "positive": 0.7841181301884007
+            }
+          },
+          {
+            "text": "By embracing technologies such as virtualization, energy-efficient hardware and renewable energy sources in data centers, organizations can optimize energy use, reduce waste and save money.",
+            "sentiment": "positive",
+            "confidence": 0.8670549939865568,
+            "scores": {
+              "negative": 0.005726065109047488,
+              "neutral": 0.1272189409043956,
+              "positive": 0.8670549939865568
+            }
+          },
+          {
+            "text": "Certifications play a pivotal role in recognizing and promoting sustainable practices within data centers.",
+            "sentiment": "positive",
+            "confidence": 0.6762010292937847,
+            "scores": {
+              "negative": 0.0022135091291382246,
+              "neutral": 0.32158546157707724,
+              "positive": 0.6762010292937847
+            }
+          },
+          {
+            "text": "1 \"Google: The Dalles, OR Data Center\".",
+            "sentiment": "neutral",
+            "confidence": 0.6236956420131333,
+            "scores": {
+              "negative": 0.006325162989060044,
+              "neutral": 0.6236956420131333,
+              "positive": 0.3699791949978066
+            }
+          },
+          {
+            "text": "2 \"Investing in the rising data center economy\".",
+            "sentiment": "neutral",
+            "confidence": 0.5112733822182001,
+            "scores": {
+              "negative": 0.001838345844793465,
+              "neutral": 0.5112733822182001,
+              "positive": 0.4868882719370065
+            }
+          },
+          {
+            "text": "5 \"AI is poised to drive 160% increase in data center power demand\".",
+            "sentiment": "positive",
+            "confidence": 0.5971504920572078,
+            "scores": {
+              "negative": 0.0022074842831305975,
+              "neutral": 0.4006420236596615,
+              "positive": 0.5971504920572078
+            }
+          }
+        ],
+        "analysis_model": "svm_roberta_fusion",
+        "aggregation": "mean_topic_passage_probability",
+        "topic_evidence": {
+          "method": "complete_phrase_with_plural_and_center_spelling_variants",
+          "title_matches": true,
+          "matched_passages": 69,
+          "extracted_passages": 125,
+          "extracted_words": 2251
+        }
+      },
+      {
+        "url": "https://www.hostingseekers.com/blog/types-of-data-centers/",
+        "title": "Types of Data Centers Explained (2026 Guide)",
+        "domain": "www.hostingseekers.com",
+        "overall_sentiment": "neutral",
+        "confidence": 0.5773,
+        "scores": {
+          "negative": 0.03520824706079109,
+          "neutral": 0.5772724819211263,
+          "positive": 0.3875192710180825
+        },
+        "distribution": {
+          "positive": 44.0,
+          "neutral": 55.0,
+          "negative": 1.0
+        },
+        "statistics": {
+          "characters": 11151,
+          "words": 1604,
+          "analyzed_units": 100
+        },
+        "results": [
+          {
+            "text": "Types of Data Centers: Beginner-Friendly Guide (2026 Edition)",
+            "sentiment": "neutral",
+            "confidence": 0.728570905351191,
+            "scores": {
+              "negative": 0.004821220537475315,
+              "neutral": 0.728570905351191,
+              "positive": 0.2666078741113337
+            }
+          },
+          {
+            "text": "Having a basic understanding of how data centers function helps explain how many of today\u2019s services are delivered.",
+            "sentiment": "positive",
+            "confidence": 0.5127798914186478,
+            "scores": {
+              "negative": 0.005607934281163896,
+              "neutral": 0.48161217430018827,
+              "positive": 0.5127798914186478
+            }
+          },
+          {
+            "text": "Every time you stream a movie, open a website, or use a cloud app, a data center is working behind the scenes to keep everything running smoothly.",
+            "sentiment": "positive",
+            "confidence": 0.6516321307691704,
+            "scores": {
+              "negative": 0.0015195761263314565,
+              "neutral": 0.3468482931044983,
+              "positive": 0.6516321307691704
+            }
+          },
+          {
+            "text": "But not all data centers are the same, as some power global tech giants, while others support small businesses, local services, or specific government operations.",
+            "sentiment": "neutral",
+            "confidence": 0.7261245192118047,
+            "scores": {
+              "negative": 0.017325989099010407,
+              "neutral": 0.7261245192118047,
+              "positive": 0.25654949168918495
+            }
+          },
+          {
+            "text": "In this beginner-friendly 2026 edition, we break down the different types of data centers in simple terms, explain how they work, and help you understand which types dominate today\u2019s fast-growing digital landscape.",
+            "sentiment": "positive",
+            "confidence": 0.5660746232514637,
+            "scores": {
+              "negative": 0.001200005474136748,
+              "neutral": 0.4327253712743995,
+              "positive": 0.5660746232514637
+            }
+          },
+          {
+            "text": "Whether you are a student, tech enthusiast, or business owner, this guide provides a clear foundation for navigating modern data centers.",
+            "sentiment": "positive",
+            "confidence": 0.7750754077511144,
+            "scores": {
+              "negative": 0.0015048846315315193,
+              "neutral": 0.22341970761735414,
+              "positive": 0.7750754077511144
+            }
+          },
+          {
+            "text": "As of 2025, there are around 5427 data centers in the United States, the most of any country worldwide.",
+            "sentiment": "neutral",
+            "confidence": 0.7056187824181751,
+            "scores": {
+              "negative": 0.0035052869879318165,
+              "neutral": 0.7056187824181751,
+              "positive": 0.290875930593893
+            }
+          },
+          {
+            "text": "Data Centers Each Country Has (Nov 2025)",
+            "sentiment": "neutral",
+            "confidence": 0.9276784960552692,
+            "scores": {
+              "negative": 0.035786044868366736,
+              "neutral": 0.9276784960552692,
+              "positive": 0.03653545907636407
+            }
+          },
+          {
+            "text": "Global Data Center Market Size",
+            "sentiment": "neutral",
+            "confidence": 0.9190874624137677,
+            "scores": {
+              "negative": 0.03736375358194971,
+              "neutral": 0.9190874624137677,
+              "positive": 0.04354878400428269
+            }
+          },
+          {
+            "text": "The global data center industry is experiencing powerful, sustained growth.",
+            "sentiment": "positive",
+            "confidence": 0.9061493976719445,
+            "scores": {
+              "negative": 0.0032097501050448213,
+              "neutral": 0.09064085222301069,
+              "positive": 0.9061493976719445
+            }
+          },
+          {
+            "text": "Gartner\u2019s latest figures show data center systems spending skyrocketing to $489.5 billion in 2025, a massive 46.8% leap from $333.4 billion in 2024.",
+            "sentiment": "positive",
+            "confidence": 0.7104538361479996,
+            "scores": {
+              "negative": 0.002112743595269866,
+              "neutral": 0.2874334202567304,
+              "positive": 0.7104538361479996
+            }
+          },
+          {
+            "text": "The global data center market shows a highly uneven but strategically important regional distribution.",
+            "sentiment": "neutral",
+            "confidence": 0.6114953918363213,
+            "scores": {
+              "negative": 0.02615430732694991,
+              "neutral": 0.6114953918363213,
+              "positive": 0.3623503008367288
+            }
+          },
+          {
+            "text": "Meanwhile, the Rest of the World collectively surpasses every individual region, reflecting the accelerating expansion of data centers in emerging markets, including India, Southeast Asia, and the Middle East.",
+            "sentiment": "positive",
+            "confidence": 0.727746475761686,
+            "scores": {
+              "negative": 0.0029212993935175766,
+              "neutral": 0.2693322248447964,
+              "positive": 0.727746475761686
+            }
+          },
+          {
+            "text": "Global Data Center Market Size by Region (2025)",
+            "sentiment": "neutral",
+            "confidence": 0.9048051062189603,
+            "scores": {
+              "negative": 0.02967884491240569,
+              "neutral": 0.9048051062189603,
+              "positive": 0.0655160488686341
+            }
+          },
+          {
+            "text": "What Do Data Centers Do?",
+            "sentiment": "neutral",
+            "confidence": 0.845076479324381,
+            "scores": {
+              "negative": 0.1441033782607233,
+              "neutral": 0.845076479324381,
+              "positive": 0.010820142414895656
+            }
+          },
+          {
+            "text": "Data centers act as the backbone of the digital world.",
+            "sentiment": "positive",
+            "confidence": 0.5451007404506214,
+            "scores": {
+              "negative": 0.003279691062618944,
+              "neutral": 0.45161956848675955,
+              "positive": 0.5451007404506214
+            }
+          },
+          {
+            "text": "Every digital service we rely on, whether it\u2019s browsing a website, making an online payment, watching a video, or running an AI-powered app, is supported by the infrastructure inside a data center.",
+            "sentiment": "positive",
+            "confidence": 0.6811944332032145,
+            "scores": {
+              "negative": 0.00134328780226158,
+              "neutral": 0.31746227899452395,
+              "positive": 0.6811944332032145
+            }
+          },
+          {
+            "text": "At their core, data centers host thousands of interconnected servers, networking devices, and storage systems.",
+            "sentiment": "neutral",
+            "confidence": 0.6997015448461985,
+            "scores": {
+              "negative": 0.00974460759332861,
+              "neutral": 0.6997015448461985,
+              "positive": 0.29055384756047287
+            }
+          },
+          {
+            "text": "To ensure uninterrupted operations, data centers are built with redundant power, advanced cooling systems, and failover mechanisms.",
+            "sentiment": "neutral",
+            "confidence": 0.6309894835612788,
+            "scores": {
+              "negative": 0.014124796093926818,
+              "neutral": 0.6309894835612788,
+              "positive": 0.3548857203447945
+            }
+          },
+          {
+            "text": "In simple terms, data centers function as the \u201cengine room\u201d of the internet, keeping the modern digital ecosystem running smoothly 24/7, powering everything from small business applications to large-scale cloud platforms, fintech systems, AI workloads, and global online services.",
+            "sentiment": "positive",
+            "confidence": 0.6781999180373042,
+            "scores": {
+              "negative": 0.0016396599027085172,
+              "neutral": 0.32016042205998735,
+              "positive": 0.6781999180373042
+            }
+          },
+          {
+            "text": "Types of Data Centers",
+            "sentiment": "neutral",
+            "confidence": 0.8076727080597026,
+            "scores": {
+              "negative": 0.13247547617517139,
+              "neutral": 0.8076727080597026,
+              "positive": 0.059851815765126055
+            }
+          },
+          {
+            "text": "A colocation (or \u201ccolo\u201d) data center is a facility where businesses rent physical space to place their own servers and hardware.",
+            "sentiment": "neutral",
+            "confidence": 0.9015653638988462,
+            "scores": {
+              "negative": 0.0185916260617525,
+              "neutral": 0.9015653638988462,
+              "positive": 0.07984301003940132
+            }
+          },
+          {
+            "text": "AI Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.8198452623899254,
+            "scores": {
+              "negative": 0.025749052327639698,
+              "neutral": 0.8198452623899254,
+              "positive": 0.1544056852824349
+            }
+          },
+          {
+            "text": "AI data centers are high-performance, GPU-dense facilities designed to support heavy AI/ML workloads, including model training, LLMs, big data analytics, and HPC (High-Performance Computing).",
+            "sentiment": "positive",
+            "confidence": 0.5533751578598751,
+            "scores": {
+              "negative": 0.0013697967385742022,
+              "neutral": 0.44525504540155075,
+              "positive": 0.5533751578598751
+            }
+          },
+          {
+            "text": "Enterprise Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.8695320327371464,
+            "scores": {
+              "negative": 0.022311010429549374,
+              "neutral": 0.8695320327371464,
+              "positive": 0.10815695683330424
+            }
+          },
+          {
+            "text": "Enterprise data centers are owned and operated by a single organization, typically located on-site or at the company\u2019s own facility.",
+            "sentiment": "neutral",
+            "confidence": 0.888395921029528,
+            "scores": {
+              "negative": 0.011733782362681128,
+              "neutral": 0.888395921029528,
+              "positive": 0.09987029660779101
+            }
+          },
+          {
+            "text": "The company designs, builds, and manages the data center according to its operational, security, and compliance needs.",
+            "sentiment": "neutral",
+            "confidence": 0.7917755332877506,
+            "scores": {
+              "negative": 0.012934722556603006,
+              "neutral": 0.7917755332877506,
+              "positive": 0.19528974415564626
+            }
+          },
+          {
+            "text": "Managed Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.8574900906201975,
+            "scores": {
+              "negative": 0.08325823827795842,
+              "neutral": 0.8574900906201975,
+              "positive": 0.059251671101843956
+            }
+          },
+          {
+            "text": "In a managed data center, the provider controls the operations, monitoring, maintenance, security, and optimization of the entire infrastructure.",
+            "sentiment": "neutral",
+            "confidence": 0.7888906416708623,
+            "scores": {
+              "negative": 0.014780080529923087,
+              "neutral": 0.7888906416708623,
+              "positive": 0.19632927779921458
+            }
+          },
+          {
+            "text": "Businesses outsource data center management tasks such as patching, monitoring, backups, and disaster recovery, while using dedicated or shared infrastructure.",
+            "sentiment": "neutral",
+            "confidence": 0.8352700449082315,
+            "scores": {
+              "negative": 0.036757944798667584,
+              "neutral": 0.8352700449082315,
+              "positive": 0.12797201029310087
+            }
+          },
+          {
+            "text": "Cloud Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.8587455625437052,
+            "scores": {
+              "negative": 0.033508644050346856,
+              "neutral": 0.8587455625437052,
+              "positive": 0.10774579340594799
+            }
+          },
+          {
+            "text": "Cloud data centers host virtualized infrastructure delivered over the internet.",
+            "sentiment": "neutral",
+            "confidence": 0.5249510615899612,
+            "scores": {
+              "negative": 0.001762765006490807,
+              "neutral": 0.5249510615899612,
+              "positive": 0.47328617340354795
+            }
+          },
+          {
+            "text": "Micro Data Center",
+            "sentiment": "neutral",
+            "confidence": 0.8175683211066044,
+            "scores": {
+              "negative": 0.07615083094369714,
+              "neutral": 0.8175683211066044,
+              "positive": 0.10628084794969848
+            }
+          },
+          {
+            "text": "Micro data centers are small, modular, self-contained units designed for edge computing.",
+            "sentiment": "positive",
+            "confidence": 0.5811752461749091,
+            "scores": {
+              "negative": 0.00209388672371981,
+              "neutral": 0.41673086710137114,
+              "positive": 0.5811752461749091
+            }
+          },
+          {
+            "text": "Benefits of Data Centers",
+            "sentiment": "positive",
+            "confidence": 0.5358885656377125,
+            "scores": {
+              "negative": 0.0036030914574239395,
+              "neutral": 0.46050834290486353,
+              "positive": 0.5358885656377125
+            }
+          },
+          {
+            "text": "Data centers are built with powerful servers, fast networking, and optimized infrastructure, enabling them to handle demanding workloads such as analytics, enterprise applications, large databases, media streaming, and AI tasks without slowdowns.",
+            "sentiment": "positive",
+            "confidence": 0.7914412406342367,
+            "scores": {
+              "negative": 0.0028896973743709974,
+              "neutral": 0.20566906199139234,
+              "positive": 0.7914412406342367
+            }
+          },
+          {
+            "text": "Data centers implement multi-layered security measures, both physical and logical.",
+            "sentiment": "neutral",
+            "confidence": 0.8454978771918372,
+            "scores": {
+              "negative": 0.027368755829609355,
+              "neutral": 0.8454978771918372,
+              "positive": 0.1271333669785534
+            }
+          },
+          {
+            "text": "Many data centers also comply with strict industry standards (such as ISO, PCI-DSS, HIPAA), helping organizations meet regulatory requirements.",
+            "sentiment": "positive",
+            "confidence": 0.5962398581257327,
+            "scores": {
+              "negative": 0.0012113207186923158,
+              "neutral": 0.4025488211555751,
+              "positive": 0.5962398581257327
+            }
+          },
+          {
+            "text": "One of the core strengths of data centers is their ability to keep operations running even when issues arise.",
+            "sentiment": "positive",
+            "confidence": 0.7871902696775971,
+            "scores": {
+              "negative": 0.0037659739744665445,
+              "neutral": 0.2090437563479364,
+              "positive": 0.7871902696775971
+            }
+          },
+          {
+            "text": "Data centers allow organizations to scale up or down based on demand.",
+            "sentiment": "positive",
+            "confidence": 0.550473168327936,
+            "scores": {
+              "negative": 0.002086538109076015,
+              "neutral": 0.4474402935629881,
+              "positive": 0.550473168327936
+            }
+          },
+          {
+            "text": "Whether a business needs more storage, greater processing power, or additional network capacity, data centers provide flexible resources that can be expanded quickly without significant infrastructure changes.",
+            "sentiment": "positive",
+            "confidence": 0.745240591392443,
+            "scores": {
+              "negative": 0.002663801256747274,
+              "neutral": 0.25209560735080977,
+              "positive": 0.745240591392443
+            }
+          },
+          {
+            "text": "Building a private data center is extremely expensive.",
+            "sentiment": "negative",
+            "confidence": 0.8046923941701715,
+            "scores": {
+              "negative": 0.8046923941701715,
+              "neutral": 0.19159891093458276,
+              "positive": 0.0037086948952457137
+            }
+          },
+          {
+            "text": "By using shared, colocation, or cloud data centers, companies significantly reduce capital expenditure (CapEx).",
+            "sentiment": "positive",
+            "confidence": 0.6770276221403333,
+            "scores": {
+              "negative": 0.0028084016182713506,
+              "neutral": 0.3201639762413953,
+              "positive": 0.6770276221403333
+            }
+          },
+          {
+            "text": "Cloud and hyperscale data centers are distributed across multiple regions worldwide.",
+            "sentiment": "neutral",
+            "confidence": 0.8331214524576044,
+            "scores": {
+              "negative": 0.01319424069138851,
+              "neutral": 0.8331214524576044,
+              "positive": 0.15368430685100706
+            }
+          },
+          {
+            "text": "What are the Essential Components of a Data Center?",
+            "sentiment": "neutral",
+            "confidence": 0.9147795706672559,
+            "scores": {
+              "negative": 0.06520184836284226,
+              "neutral": 0.9147795706672559,
+              "positive": 0.02001858096990174
+            }
+          },
+          {
+            "text": "A fully functioning data center relies on a combination of hardware, software, power, cooling, and security systems.",
+            "sentiment": "neutral",
+            "confidence": 0.7517769879294093,
+            "scores": {
+              "negative": 0.012998172453005455,
+              "neutral": 0.7517769879294093,
+              "positive": 0.23522483961758528
+            }
+          },
+          {
+            "text": "Servers are the core computing units of a data center.",
+            "sentiment": "neutral",
+            "confidence": 0.869559288124716,
+            "scores": {
+              "negative": 0.03680162480433826,
+              "neutral": 0.869559288124716,
+              "positive": 0.09363908707094577
+            }
+          },
+          {
+            "text": "Connectivity is the backbone of a data center.",
+            "sentiment": "positive",
+            "confidence": 0.6489627181124282,
+            "scores": {
+              "negative": 0.004696500656159848,
+              "neutral": 0.34634078123141204,
+              "positive": 0.6489627181124282
+            }
+          },
+          {
+            "text": "Data centers require continuous, stable power.",
+            "sentiment": "neutral",
+            "confidence": 0.7507553519302501,
+            "scores": {
+              "negative": 0.020069523448396853,
+              "neutral": 0.7507553519302501,
+              "positive": 0.22917512462135312
+            }
+          },
+          {
+            "text": "Data centers rely on advanced software tools to monitor performance, energy usage, temperature, network health, security events, and hardware conditions.",
+            "sentiment": "neutral",
+            "confidence": 0.7882534690746444,
+            "scores": {
+              "negative": 0.010977670197161817,
+              "neutral": 0.7882534690746444,
+              "positive": 0.2007688607281938
+            }
+          },
+          {
+            "text": "Data Center Design Standards",
+            "sentiment": "neutral",
+            "confidence": 0.8734271525459545,
+            "scores": {
+              "negative": 0.08621864968369135,
+              "neutral": 0.8734271525459545,
+              "positive": 0.04035419777035413
+            }
+          },
+          {
+            "text": "The Uptime Institute\u2019s Tier system is one of the most important and globally recognized frameworks for rating data center reliability and resilience.",
+            "sentiment": "positive",
+            "confidence": 0.83411834451398,
+            "scores": {
+              "negative": 0.002374602348959118,
+              "neutral": 0.16350705313706096,
+              "positive": 0.83411834451398
+            }
+          },
+          {
+            "text": "It classifies data centers into four tiers based on redundancy, availability, and fault tolerance.",
+            "sentiment": "neutral",
+            "confidence": 0.6971775409375195,
+            "scores": {
+              "negative": 0.2938195188118605,
+              "neutral": 0.6971775409375195,
+              "positive": 0.009002940250619894
+            }
+          },
+          {
+            "text": "ANSI/BICSI 002 provides detailed guidelines for planning, designing, building, and operating data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.6112825728080303,
+            "scores": {
+              "negative": 0.0023298214666220003,
+              "neutral": 0.6112825728080303,
+              "positive": 0.3863876057253478
+            }
+          },
+          {
+            "text": "- Used widely by architects, engineers, and data center operators",
+            "sentiment": "neutral",
+            "confidence": 0.6473331712120777,
+            "scores": {
+              "negative": 0.0041364140880246255,
+              "neutral": 0.6473331712120777,
+              "positive": 0.34853041469989765
+            }
+          },
+          {
+            "text": "TIA-942 is one of the most comprehensive standards specifically focused on a data center\u2019s telecommunications and network infrastructure.",
+            "sentiment": "positive",
+            "confidence": 0.8274206188454845,
+            "scores": {
+              "negative": 0.0027268546683145048,
+              "neutral": 0.16985252648620108,
+              "positive": 0.8274206188454845
+            }
+          },
+          {
+            "text": "These international standards focus on security and IT service management, ensuring data centers meet globally accepted best practices.",
+            "sentiment": "positive",
+            "confidence": 0.5094194855767767,
+            "scores": {
+              "negative": 0.0033145398239198777,
+              "neutral": 0.48726597459930326,
+              "positive": 0.5094194855767767
+            }
+          },
+          {
+            "text": "Together, these standards ensure that data centers maintain strong security, consistent service quality, and operational discipline.",
+            "sentiment": "positive",
+            "confidence": 0.6832940990301422,
+            "scores": {
+              "negative": 0.002854451789601287,
+              "neutral": 0.3138514491802565,
+              "positive": 0.6832940990301422
+            }
+          },
+          {
+            "text": "How to Select a Data Center Type?",
+            "sentiment": "neutral",
+            "confidence": 0.8521142282441314,
+            "scores": {
+              "negative": 0.1357379628945763,
+              "neutral": 0.8521142282441314,
+              "positive": 0.012147808861292254
+            }
+          },
+          {
+            "text": "Your organization\u2019s current scale and expected growth trajectory significantly influence the type of data center you should choose.",
+            "sentiment": "neutral",
+            "confidence": 0.8076062093806692,
+            "scores": {
+              "negative": 0.010156481877071665,
+              "neutral": 0.8076062093806692,
+              "positive": 0.18223730874225905
+            }
+          },
+          {
+            "text": "Small businesses and startups often benefit from cloud or managed data centers because they require minimal upfront investment and allow quick deployment.",
+            "sentiment": "positive",
+            "confidence": 0.8652700592289972,
+            "scores": {
+              "negative": 0.0031091491252199163,
+              "neutral": 0.13162079164578278,
+              "positive": 0.8652700592289972
+            }
+          },
+          {
+            "text": "Mid-sized companies generally need more predictable performance and better control over infrastructure, making colocation or enterprise data centers more suitable.",
+            "sentiment": "positive",
+            "confidence": 0.6833054639191412,
+            "scores": {
+              "negative": 0.004700183711033615,
+              "neutral": 0.31199435236982515,
+              "positive": 0.6833054639191412
+            }
+          },
+          {
+            "text": "Large enterprises, on the other hand, tend to rely on enterprise or AI data centers due to their ability to handle massive workloads, automation-driven processes, and highly complex operations.",
+            "sentiment": "positive",
+            "confidence": 0.5249947357330731,
+            "scores": {
+              "negative": 0.00783755318531995,
+              "neutral": 0.46716771108160693,
+              "positive": 0.5249947357330731
+            }
+          },
+          {
+            "text": "High-performance computing tasks, such as machine learning, AI model training, or heavy analytics, require the advanced capabilities offered by AI data centers or high-end cloud environments.",
+            "sentiment": "positive",
+            "confidence": 0.590651926363676,
+            "scores": {
+              "negative": 0.002028433343242231,
+              "neutral": 0.4073196402930819,
+              "positive": 0.590651926363676
+            }
+          },
+          {
+            "text": "Traditional business software, such as CRM systems, email, or ERP applications, can operate efficiently in enterprise, cloud, or managed data centers.",
+            "sentiment": "positive",
+            "confidence": 0.7140119307971157,
+            "scores": {
+              "negative": 0.0018177464934937045,
+              "neutral": 0.2841703227093907,
+              "positive": 0.7140119307971157
+            }
+          },
+          {
+            "text": "If your applications need extremely low latency, such as real-time processing or localized computing, micro data centers or nearby colocation facilities are better suited.",
+            "sentiment": "positive",
+            "confidence": 0.682940105006869,
+            "scores": {
+              "negative": 0.004495335837436826,
+              "neutral": 0.3125645591556942,
+              "positive": 0.682940105006869
+            }
+          },
+          {
+            "text": "This evaluation ensures your data center choice can deliver the compute and storage performance your applications require.",
+            "sentiment": "positive",
+            "confidence": 0.7296645503843991,
+            "scores": {
+              "negative": 0.0027944861491687413,
+              "neutral": 0.2675409634664321,
+              "positive": 0.7296645503843991
+            }
+          },
+          {
+            "text": "Enterprise data centers are ideal for businesses that want complete ownership of their infrastructure, from hardware to security and maintenance",
+            "sentiment": "positive",
+            "confidence": 0.8997451489643102,
+            "scores": {
+              "negative": 0.004507742289344082,
+              "neutral": 0.09574710874634561,
+              "positive": 0.8997451489643102
+            }
+          },
+          {
+            "text": "For companies that want minimal day-to-day involvement, managed or cloud data centers offer entirely handled infrastructure services.",
+            "sentiment": "neutral",
+            "confidence": 0.5721977976036847,
+            "scores": {
+              "negative": 0.0036424286922074394,
+              "neutral": 0.5721977976036847,
+              "positive": 0.424159773704108
+            }
+          },
+          {
+            "text": "Organizations in heavily regulated sectors such as banking or healthcare may need Tier III or Tier IV colocation or enterprise data centers that meet strict reliability and security standards.",
+            "sentiment": "neutral",
+            "confidence": 0.9103009138983169,
+            "scores": {
+              "negative": 0.043392197668517894,
+              "neutral": 0.9103009138983169,
+              "positive": 0.04630688843316524
+            }
+          },
+          {
+            "text": "Businesses with standard compliance requirements can operate smoothly in the cloud or in managed data centers that meet certifications such as ISO or SOC.",
+            "sentiment": "positive",
+            "confidence": 0.6281079514141422,
+            "scores": {
+              "negative": 0.002425687031472219,
+              "neutral": 0.36946636155438556,
+              "positive": 0.6281079514141422
+            }
+          },
+          {
+            "text": "Your budget will ultimately influence the type of data center you can adopt.",
+            "sentiment": "neutral",
+            "confidence": 0.9048019776019399,
+            "scores": {
+              "negative": 0.042340820031051433,
+              "neutral": 0.9048019776019399,
+              "positive": 0.052857202367008756
+            }
+          },
+          {
+            "text": "Cloud and managed data centers are cost-effective options because they follow a pay-as-you-go model, reducing the need for significant upfront investments.",
+            "sentiment": "positive",
+            "confidence": 0.8000996883016673,
+            "scores": {
+              "negative": 0.004132398660039596,
+              "neutral": 0.19576791303829322,
+              "positive": 0.8000996883016673
+            }
+          },
+          {
+            "text": "Enterprise and AI data centers require significant capital investment since you are responsible for building, owning, and maintaining everything.",
+            "sentiment": "neutral",
+            "confidence": 0.5488694412094743,
+            "scores": {
+              "negative": 0.009307907108175431,
+              "neutral": 0.5488694412094743,
+              "positive": 0.4418226516823503
+            }
+          },
+          {
+            "text": "If your business anticipates rapid growth, choosing a scalable data center type is essential.",
+            "sentiment": "positive",
+            "confidence": 0.734218515293456,
+            "scores": {
+              "negative": 0.0033778443669441145,
+              "neutral": 0.2624036403395998,
+              "positive": 0.734218515293456
+            }
+          },
+          {
+            "text": "Cloud, AI, and micro data centers are known for their ability to scale quickly and efficiently without requiring physical hardware expansion.",
+            "sentiment": "positive",
+            "confidence": 0.8340759291706467,
+            "scores": {
+              "negative": 0.00293848043498912,
+              "neutral": 0.1629855903943642,
+              "positive": 0.8340759291706467
+            }
+          },
+          {
+            "text": "In contrast, enterprise data centers require significant reinvestment when scaling, as expansion often means buying new equipment or even new facilities.",
+            "sentiment": "neutral",
+            "confidence": 0.6402414867060561,
+            "scores": {
+              "negative": 0.017830112591592825,
+              "neutral": 0.6402414867060561,
+              "positive": 0.34192840070235114
+            }
+          },
+          {
+            "text": "The physical location of your data center affects speed and overall user experience.",
+            "sentiment": "neutral",
+            "confidence": 0.8225634993525985,
+            "scores": {
+              "negative": 0.026998052229840704,
+              "neutral": 0.8225634993525985,
+              "positive": 0.1504384484175607
+            }
+          },
+          {
+            "text": "Companies with a global customer base often rely on cloud data centers or distributed microdata centers to serve users across multiple regions with minimal latency.",
+            "sentiment": "positive",
+            "confidence": 0.5533297994517514,
+            "scores": {
+              "negative": 0.0017829000055166644,
+              "neutral": 0.444887300542732,
+              "positive": 0.5533297994517514
+            }
+          },
+          {
+            "text": "Your internal IT capabilities influence the type of data center you should choose.",
+            "sentiment": "neutral",
+            "confidence": 0.8533178365443105,
+            "scores": {
+              "negative": 0.016800376343265085,
+              "neutral": 0.8533178365443105,
+              "positive": 0.12988178711242446
+            }
+          },
+          {
+            "text": "Organizations with limited technical staff benefit from managed or cloud data centers because the provider handles most tasks, from maintenance to monitoring.",
+            "sentiment": "positive",
+            "confidence": 0.7126520094783408,
+            "scores": {
+              "negative": 0.004329105578643676,
+              "neutral": 0.28301888494301547,
+              "positive": 0.7126520094783408
+            }
+          },
+          {
+            "text": "Understanding the different types of data centers on-premises, colocation, cloud, managed, and edge facilities helps you make smarter infrastructure decisions.",
+            "sentiment": "positive",
+            "confidence": 0.5757348950934797,
+            "scores": {
+              "negative": 0.0018327548138718135,
+              "neutral": 0.42243235009264846,
+              "positive": 0.5757348950934797
+            }
+          },
+          {
+            "text": "For small businesses or startups, cloud and managed data centers offer flexibility and minimal setup.",
+            "sentiment": "positive",
+            "confidence": 0.6626918649560445,
+            "scores": {
+              "negative": 0.001156213630404876,
+              "neutral": 0.3361519214135505,
+              "positive": 0.6626918649560445
+            }
+          },
+          {
+            "text": "And for ultra-low-latency applications, edge data centers are becoming game changers.",
+            "sentiment": "positive",
+            "confidence": 0.7469908935061964,
+            "scores": {
+              "negative": 0.0016803632955689335,
+              "neutral": 0.25132874319823456,
+              "positive": 0.7469908935061964
+            }
+          },
+          {
+            "text": "As you begin your data center journey, focus on your workload requirements, budget, compliance needs, future scalability, and the level of control you want over your infrastructure.",
+            "sentiment": "neutral",
+            "confidence": 0.6763067884897211,
+            "scores": {
+              "negative": 0.012238481764502141,
+              "neutral": 0.6763067884897211,
+              "positive": 0.3114547297457766
+            }
+          },
+          {
+            "text": "With these factors in mind, you can select the data center model that aligns perfectly with your long-term IT strategy.",
+            "sentiment": "positive",
+            "confidence": 0.712090810323351,
+            "scores": {
+              "negative": 0.0015131470039916257,
+              "neutral": 0.2863960426726574,
+              "positive": 0.712090810323351
+            }
+          },
+          {
+            "text": "What is a data center?",
+            "sentiment": "neutral",
+            "confidence": 0.8389557605308656,
+            "scores": {
+              "negative": 0.14178671310624863,
+              "neutral": 0.8389557605308656,
+              "positive": 0.01925752636288572
+            }
+          },
+          {
+            "text": "A data center is a facility that houses servers, storage systems, networking equipment, and other IT infrastructure needed to store, process, and deliver data.",
+            "sentiment": "neutral",
+            "confidence": 0.8667411608166189,
+            "scores": {
+              "negative": 0.010019053040103079,
+              "neutral": 0.8667411608166189,
+              "positive": 0.12323978614327813
+            }
+          },
+          {
+            "text": "How many types of data centers are there?",
+            "sentiment": "neutral",
+            "confidence": 0.8975550666461228,
+            "scores": {
+              "negative": 0.08445413971835249,
+              "neutral": 0.8975550666461228,
+              "positive": 0.017990793635524648
+            }
+          },
+          {
+            "text": "Generally, there are five primary types: on-premises (enterprise), colocation, cloud, managed, and edge data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.7564681034439641,
+            "scores": {
+              "negative": 0.006805826364085935,
+              "neutral": 0.7564681034439641,
+              "positive": 0.2367260701919499
+            }
+          },
+          {
+            "text": "Which type of data center is best for small businesses?",
+            "sentiment": "neutral",
+            "confidence": 0.8589291719351919,
+            "scores": {
+              "negative": 0.011023227100649766,
+              "neutral": 0.8589291719351919,
+              "positive": 0.1300476009641583
+            }
+          },
+          {
+            "text": "Small businesses often choose cloud or managed data centers because they are cost-effective, scalable, and require minimal technical expertise.",
+            "sentiment": "positive",
+            "confidence": 0.7664887830165891,
+            "scores": {
+              "negative": 0.003113697130739788,
+              "neutral": 0.23039751985267126,
+              "positive": 0.7664887830165891
+            }
+          },
+          {
+            "text": "What is the difference between on-premises and cloud data centers?",
+            "sentiment": "neutral",
+            "confidence": 0.9213097107573083,
+            "scores": {
+              "negative": 0.04750605264097506,
+              "neutral": 0.9213097107573083,
+              "positive": 0.031184236601716677
+            }
+          },
+          {
+            "text": "What is a colocation data center?",
+            "sentiment": "neutral",
+            "confidence": 0.8910119443727937,
+            "scores": {
+              "negative": 0.08920629984235227,
+              "neutral": 0.8910119443727937,
+              "positive": 0.01978175578485396
+            }
+          },
+          {
+            "text": "A colocation data center is a facility where businesses rent space, power, cooling, and connectivity for their own servers while the provider manages the environment.",
+            "sentiment": "neutral",
+            "confidence": 0.8998834874375695,
+            "scores": {
+              "negative": 0.019785084935374866,
+              "neutral": 0.8998834874375695,
+              "positive": 0.08033142762705554
+            }
+          },
+          {
+            "text": "What are edge data centers used for?",
+            "sentiment": "neutral",
+            "confidence": 0.8761800071116711,
+            "scores": {
+              "negative": 0.11220806051163393,
+              "neutral": 0.8761800071116711,
+              "positive": 0.011611932376694943
+            }
+          },
+          {
+            "text": "Edge data centers place computing resources closer to users or devices to reduce latency, making them ideal for IoT, autonomous vehicles, smart cities, and real-time applications.",
+            "sentiment": "positive",
+            "confidence": 0.8370863949537232,
+            "scores": {
+              "negative": 0.0026981269822521025,
+              "neutral": 0.16021547806402475,
+              "positive": 0.8370863949537232
+            }
+          },
+          {
+            "text": "Are data centers secure?",
+            "sentiment": "neutral",
+            "confidence": 0.8569269492397255,
+            "scores": {
+              "negative": 0.12413873947153604,
+              "neutral": 0.8569269492397255,
+              "positive": 0.018934311288738483
+            }
+          },
+          {
+            "text": "Most data centers follow strict security measures, including 24/7 monitoring, biometric access controls, fire suppression systems, and redundant power systems.",
+            "sentiment": "neutral",
+            "confidence": 0.8572188858982388,
+            "scores": {
+              "negative": 0.114605433269042,
+              "neutral": 0.8572188858982388,
+              "positive": 0.028175680832719163
+            }
+          },
+          {
+            "text": "How do I choose the right data center type?",
+            "sentiment": "neutral",
+            "confidence": 0.8372286385692773,
+            "scores": {
+              "negative": 0.14534057938671707,
+              "neutral": 0.8372286385692773,
+              "positive": 0.01743078204400562
+            }
+          }
+        ],
+        "analysis_model": "svm_roberta_fusion",
+        "aggregation": "mean_topic_passage_probability",
+        "topic_evidence": {
+          "method": "complete_phrase_with_plural_and_center_spelling_variants",
+          "title_matches": true,
+          "matched_passages": 105,
+          "extracted_passages": 339,
+          "extracted_words": 3272
+        }
+      },
+      {
+        "url": "https://www.poynter.org/fact-checking/2026/what-are-data-centers-for-ai/",
+        "title": "What are data centers? Here\u2019s how they work and why they matter - Poynter",
+        "domain": "www.poynter.org",
+        "overall_sentiment": "neutral",
+        "confidence": 0.7623,
+        "scores": {
+          "negative": 0.07683339120082995,
+          "neutral": 0.7622701477673651,
+          "positive": 0.1608964610318049
+        },
+        "distribution": {
+          "positive": 3.1,
+          "neutral": 96.9,
+          "negative": 0.0
+        },
+        "statistics": {
+          "characters": 2769,
+          "words": 450,
+          "analyzed_units": 32
+        },
+        "results": [
+          {
+            "text": "A data center built by the Markley Group looms over a residential neighborhood in Lowell, Mass., on June 30, 2026.",
+            "sentiment": "neutral",
+            "confidence": 0.9503422875701995,
+            "scores": {
+              "negative": 0.01592746859458257,
+              "neutral": 0.9503422875701995,
+              "positive": 0.03373024383521797
+            }
+          },
+          {
+            "text": "Whether on social media or in real life, you might have heard someone \u2014 perhaps even political candidates this midterm cycle \u2014 talk about data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.9044535868889699,
+            "scores": {
+              "negative": 0.055098762010326326,
+              "neutral": 0.9044535868889699,
+              "positive": 0.040447651100703697
+            }
+          },
+          {
+            "text": "housed in data centers.",
+            "sentiment": "neutral",
+            "confidence": 0.8096666685697637,
+            "scores": {
+              "negative": 0.11451556490487924,
+              "neutral": 0.8096666685697637,
+              "positive": 0.07581776652535709
+            }
+          },
+          {
+            "text": "While data centers are not new, growing numbers of them have been built around the country in the last few years, increasing locals\u2019 concerns about the sites",
+            "sentiment": "neutral",
+            "confidence": 0.7882073441757598,
+            "scores": {
+              "negative": 0.13589013045949835,
+              "neutral": 0.7882073441757598,
+              "positive": 0.07590252536474193
+            }
+          },
+          {
+            "text": "to have more data centers,",
+            "sentiment": "neutral",
+            "confidence": 0.5820124452623439,
+            "scores": {
+              "negative": 0.015263641238684303,
+              "neutral": 0.5820124452623439,
+              "positive": 0.4027239134989719
+            }
+          },
+          {
+            "text": "Here, we\u2019ll explain: what data centers are, how they operate, what artificial intelligence\u2019s role is, and what it could mean for communities when a data center opens nearby.",
+            "sentiment": "neutral",
+            "confidence": 0.8506580818215408,
+            "scores": {
+              "negative": 0.007633181788210104,
+              "neutral": 0.8506580818215408,
+              "positive": 0.14170873639024906
+            }
+          },
+          {
+            "text": "Data centers: An overview",
+            "sentiment": "neutral",
+            "confidence": 0.8808902862272008,
+            "scores": {
+              "negative": 0.08886145770107215,
+              "neutral": 0.8808902862272008,
+              "positive": 0.030248256071727084
+            }
+          },
+          {
+            "text": "data center",
+            "sentiment": "neutral",
+            "confidence": 0.7898172527754963,
+            "scores": {
+              "negative": 0.0765572370914312,
+              "neutral": 0.7898172527754963,
+              "positive": 0.13362551013307236
+            }
+          },
+          {
+            "text": "The average data center is",
+            "sentiment": "neutral",
+            "confidence": 0.8762520348789862,
+            "scores": {
+              "negative": 0.0763139444010505,
+              "neutral": 0.8762520348789862,
+              "positive": 0.04743402071996326
+            }
+          },
+          {
+            "text": "Data centers have been around for",
+            "sentiment": "neutral",
+            "confidence": 0.8944922653678977,
+            "scores": {
+              "negative": 0.06795512568256798,
+              "neutral": 0.8944922653678977,
+              "positive": 0.0375526089495343
+            }
+          },
+          {
+            "text": "Early data centers ran databases, email, and web hosting, using a modest amount of power that varied throughout the day, Nikolopoulos said.",
+            "sentiment": "neutral",
+            "confidence": 0.8732074581337447,
+            "scores": {
+              "negative": 0.020750252881682314,
+              "neutral": 0.8732074581337447,
+              "positive": 0.10604228898457306
+            }
+          },
+          {
+            "text": "Today\u2019s data centers use considerably more electricity because of the larger amount of information they process, he said.",
+            "sentiment": "neutral",
+            "confidence": 0.7994952607384488,
+            "scores": {
+              "negative": 0.1067341114606338,
+              "neutral": 0.7994952607384488,
+              "positive": 0.09377062780091742
+            }
+          },
+          {
+            "text": "What do data centers need to function?",
+            "sentiment": "neutral",
+            "confidence": 0.8049034344168442,
+            "scores": {
+              "negative": 0.18662726698616608,
+              "neutral": 0.8049034344168442,
+              "positive": 0.00846929859698964
+            }
+          },
+          {
+            "text": "A typical AI data center can",
+            "sentiment": "neutral",
+            "confidence": 0.650894973970637,
+            "scores": {
+              "negative": 0.009757735801873741,
+              "neutral": 0.650894973970637,
+              "positive": 0.33934729022748933
+            }
+          },
+          {
+            "text": "as much electricity annually as 100,000 households; the largest data centers under construction will demand 20 times that amount, the International Energy Agency",
+            "sentiment": "neutral",
+            "confidence": 0.7435137626664248,
+            "scores": {
+              "negative": 0.029835713001783577,
+              "neutral": 0.7435137626664248,
+              "positive": 0.22665052433179161
+            }
+          },
+          {
+            "text": "In 2024, data centers worldwide consumed about",
+            "sentiment": "neutral",
+            "confidence": 0.8608592087897706,
+            "scores": {
+              "negative": 0.016172686280631957,
+              "neutral": 0.8608592087897706,
+              "positive": 0.12296810492959744
+            }
+          },
+          {
+            "text": "said that by 2030, the total power demand for data centers would account for 9.5% to 15.3% of that year\u2019s total U.S.",
+            "sentiment": "neutral",
+            "confidence": 0.870957030143928,
+            "scores": {
+              "negative": 0.009800304743374056,
+              "neutral": 0.870957030143928,
+              "positive": 0.11924266511269788
+            }
+          },
+          {
+            "text": "The link between data centers and our increasing use of artificial intelligence",
+            "sentiment": "neutral",
+            "confidence": 0.6381653283201278,
+            "scores": {
+              "negative": 0.004588224853325134,
+              "neutral": 0.6381653283201278,
+              "positive": 0.35724644682654705
+            }
+          },
+          {
+            "text": "\u201cEvery day digital communications like the internet, banking, healthcare systems, cloud computing/gaming, and websites all use remote servers and therefore data centers,\u201d said via email Ke Xu, a Rochester Institute of Technology professor who develops energy-efficient AI hardware.",
+            "sentiment": "neutral",
+            "confidence": 0.5131840360272558,
+            "scores": {
+              "negative": 0.0021724189138831902,
+              "neutral": 0.5131840360272558,
+              "positive": 0.4846435450588609
+            }
+          },
+          {
+            "text": "How can a new data center affect a community?",
+            "sentiment": "neutral",
+            "confidence": 0.6609026156663712,
+            "scores": {
+              "negative": 0.33404480852242374,
+              "neutral": 0.6609026156663712,
+              "positive": 0.0050525758112050624
+            }
+          },
+          {
+            "text": "Data center supporters say the facilities can",
+            "sentiment": "neutral",
+            "confidence": 0.6864963243000415,
+            "scores": {
+              "negative": 0.01458300194964797,
+              "neutral": 0.6864963243000415,
+              "positive": 0.2989206737503105
+            }
+          },
+          {
+            "text": "in the last five years, and data center demand is a big driver in some areas.",
+            "sentiment": "neutral",
+            "confidence": 0.6954040038532623,
+            "scores": {
+              "negative": 0.007146499876762281,
+              "neutral": 0.6954040038532623,
+              "positive": 0.29744949626997547
+            }
+          },
+          {
+            "text": "have reported that people who live near data centers hear constant noises from the facilities.",
+            "sentiment": "neutral",
+            "confidence": 0.5237952097325081,
+            "scores": {
+              "negative": 0.47298747877837366,
+              "neutral": 0.5237952097325081,
+              "positive": 0.00321731148911816
+            }
+          },
+          {
+            "text": "Where are data centers now and where are they opening?",
+            "sentiment": "neutral",
+            "confidence": 0.907924820840855,
+            "scores": {
+              "negative": 0.07780767700859569,
+              "neutral": 0.907924820840855,
+              "positive": 0.014267502150549257
+            }
+          },
+          {
+            "text": "There are currently more than 3,000 data centers in the U.S., most in urban areas,",
+            "sentiment": "neutral",
+            "confidence": 0.8250012106432014,
+            "scores": {
+              "negative": 0.008233702368040038,
+              "neutral": 0.8250012106432014,
+              "positive": 0.1667650869887585
+            }
+          },
+          {
+            "text": "More than half of planned data centers will be built in rural areas, Pew reported in April.",
+            "sentiment": "neutral",
+            "confidence": 0.7445882318389717,
+            "scores": {
+              "negative": 0.0056306150154751605,
+              "neutral": 0.7445882318389717,
+              "positive": 0.2497811531455531
+            }
+          },
+          {
+            "text": "1,900 data centers",
+            "sentiment": "neutral",
+            "confidence": 0.8575783297173605,
+            "scores": {
+              "negative": 0.04562307271135534,
+              "neutral": 0.8575783297173605,
+              "positive": 0.09679859757128423
+            }
+          },
+          {
+            "text": "largest operating data centers",
+            "sentiment": "neutral",
+            "confidence": 0.9001177124700055,
+            "scores": {
+              "negative": 0.03861233459376894,
+              "neutral": 0.9001177124700055,
+              "positive": 0.06126995293622556
+            }
+          },
+          {
+            "text": "are in Texas, Arizona, Wisconsin and Tennessee, according to Cleanview, a market intelligence company that tracks data center development.",
+            "sentiment": "neutral",
+            "confidence": 0.7240227003019281,
+            "scores": {
+              "negative": 0.0019641077906397404,
+              "neutral": 0.7240227003019281,
+              "positive": 0.2740131919074321
+            }
+          },
+          {
+            "text": "Amazon, Microsoft, Google, and Meta own data centers across the country, as do data center real estate investment companies that",
+            "sentiment": "positive",
+            "confidence": 0.6552303646277576,
+            "scores": {
+              "negative": 0.002421246045284136,
+              "neutral": 0.3423483893269582,
+              "positive": 0.6552303646277576
+            }
+          },
+          {
+            "text": "a pause on data center approvals until state agencies audit how much power and water they will use, whether they are receiving tax breaks and what cooling system they will use.",
+            "sentiment": "neutral",
+            "confidence": 0.7021974896942595,
+            "scores": {
+              "negative": 0.2950558389471896,
+              "neutral": 0.7021974896942595,
+              "positive": 0.002746671358550907
+            }
+          },
+          {
+            "text": "data centers",
+            "sentiment": "neutral",
+            "confidence": 0.7402949434246212,
+            "scores": {
+              "negative": 0.11410290602334562,
+              "neutral": 0.7402949434246212,
+              "positive": 0.14560215055203327
+            }
+          }
+        ],
+        "analysis_model": "svm_roberta_fusion",
+        "aggregation": "mean_topic_passage_probability",
+        "topic_evidence": {
+          "method": "complete_phrase_with_plural_and_center_spelling_variants",
+          "title_matches": true,
+          "matched_passages": 32,
+          "extracted_passages": 208,
+          "extracted_words": 1459
+        }
+      }
+    ],
+    "skipped_sources": [
+      {
+        "url": "https://www.datacentermap.com/india/visakhapatnam/",
+        "title": "Visakhapatnam Data Centers - 6 Facilities from Operators",
+        "reason": "Website returned HTTP 429."
+      },
+      {
+        "url": "https://www.datacenters.com/locations/india/andhra-pradesh",
+        "title": "Andhra Pradesh Data Centers - Providers Map in Andhra Pradesh, India",
+        "reason": "Website returned HTTP 429."
+      },
+      {
+        "url": "https://www.forbes.com/sites/technology/article/what-is-a-data-center/",
+        "title": "Why Data Centers Are Booming\u2014And What They're Actually For - Forbes",
+        "reason": "Website returned HTTP 403."
+      }
+    ]
+  },
+  "passed": true
+}

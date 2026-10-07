@@ -1,0 +1,83 @@
+{
+  "source": "https://github.com/cardiffnlp/tweeteval",
+  "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+  "files": {
+    "train_text.txt": {
+      "sha256": "368f01052ea6fd8ffc408a2a2e6ac9669e31542581a0396ef16591ea26eb98a6",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/train_text.txt"
+    },
+    "train_labels.txt": {
+      "sha256": "122bfb1732fb6995b0e5c5f726c0ba457c469c3b6e60513007ce5037f23e65d4",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/train_labels.txt"
+    },
+    "val_text.txt": {
+      "sha256": "e5b021e6fc45064c260b09814b803d8f56cada519c4d952d72f43d48a350a964",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/val_text.txt"
+    },
+    "val_labels.txt": {
+      "sha256": "b4566926c72e2e4e2916c864def94e76c4cdde52446af2c7ba4fc2006e057e51",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/val_labels.txt"
+    },
+    "test_text.txt": {
+      "sha256": "09a93a55c63fd93f97485ef7302889d7edb4091cd49733aa37da094f0bfa0675",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_text.txt"
+    },
+    "test_labels.txt": {
+      "sha256": "6afb4afe9374d1f983bcf9a7c79b108d0f37fdf020a83f30488309bed215db9d",
+      "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_labels.txt"
+    }
+  },
+  "rows": 59899,
+  "official_label_mapping": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "binary_label_mapping": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "deduplication": "Remove all normalized conflicting-label groups. Collapse duplicates with test > validation > train priority; preserve official split assignment.",
+  "conflicting_normalized_groups": 6,
+  "source_splits": {
+    "train": {
+      "records": 45615,
+      "original_labels": {
+        "2": 17849,
+        "1": 20673,
+        "0": 7093
+      },
+      "retained_binary_records": 24929,
+      "excluded": {
+        "neutral_excluded_from_binary_model": 20653,
+        "duplicate": 27,
+        "conflicting_label": 6
+      }
+    },
+    "val": {
+      "records": 2000,
+      "original_labels": {
+        "1": 869,
+        "2": 819,
+        "0": 312
+      },
+      "retained_binary_records": 1131,
+      "excluded": {
+        "neutral_excluded_from_binary_model": 869
+      }
+    },
+    "test": {
+      "records": 12284,
+      "original_labels": {
+        "1": 5937,
+        "2": 2375,
+        "0": 3972
+      },
+      "retained_binary_records": 6343,
+      "excluded": {
+        "neutral_excluded_from_binary_model": 5934,
+        "conflicting_label": 7
+      }
+    }
+  }
+}

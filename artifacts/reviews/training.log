@@ -1,0 +1,14 @@
+Review splits: 19921 train, 2490 calibration, 2491 validation
+Fitting word/character TF-IDF on train only
+Features ready: (19921, 250000), 26,050,293 nonzero values
+SVM validation: {'C': 0.5, 'accuracy': 0.9112806101967081, 'f1': 0.9111379171692803, 'brier_score': 0.06591694062177998, 'iterations': 27, 'convergence_warnings': []}
+SVM validation: {'C': 1.0, 'accuracy': 0.9112806101967081, 'f1': 0.9112093210124548, 'brier_score': 0.06685254012882091, 'iterations': 39, 'convergence_warnings': []}
+SVM validation: {'C': 2.0, 'accuracy': 0.9104777197912485, 'f1': 0.9104057854560065, 'brier_score': 0.06786200278806404, 'iterations': 60, 'convergence_warnings': []}
+{
+  "accuracy": 0.8997811638839358,
+  "f1": 0.899295516553325,
+  "roc_auc": 0.9633333566547013,
+  "negative_threshold": 0.49,
+  "positive_threshold": 0.51,
+  "fit_seconds": 46.99781280000025
+}

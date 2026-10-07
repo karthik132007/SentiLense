@@ -1,0 +1,255 @@
+{
+  "url": "https://www.rediff.com/movies/review/the-paradise-movie-review-torture-porn/20260925.htm",
+  "title": "The Paradise Movie Review: Torture Porn - Rediff.com movies",
+  "analysis": {
+    "url": "https://www.rediff.com/movies/review/the-paradise-movie-review-torture-porn/20260925.htm",
+    "title": "The Paradise Movie Review: Torture Porn - Rediff.com movies",
+    "domain": "www.rediff.com",
+    "overall_sentiment": "negative",
+    "confidence": 0.8108,
+    "scores": {
+      "positive": 0.1892259423294629,
+      "negative": 0.8107740576705371
+    },
+    "analysis_model": "imdb_review",
+    "aggregation": "full_review_document",
+    "distribution": {
+      "positive": 28.0,
+      "neutral": 0.0,
+      "negative": 72.0
+    },
+    "statistics": {
+      "characters": 11467,
+      "words": 1972,
+      "analyzed_units": 25
+    },
+    "results": [
+      {
+        "text": "The Paradise is a mind-numbingly senseless, hellish cycle of violence, gore, and torture porn that makes you question if everyone involved in the film harbours some sort of bloodlust, complains Sreeju Sudhakaran.",
+        "sentiment": "positive",
+        "confidence": 0.5447490585259286,
+        "scores": {
+          "positive": 0.5447490585259286,
+          "negative": 0.4552509414740714
+        }
+      },
+      {
+        "text": "Key Points - The Paradise is characterised by extreme violence, including graphic depictions of dismemberment and brutalisation of various characters. - Nani's character Jadal is a leader of the marginalised Savari tribe, rising as a Robin Hood figure who finds purpose in violence. - Despite the dark themes, the film incorporates elements like a mass song, tributes to Chiranjeevi, and a political character for broader appeal. The Paradise is a nomenclature paradox.",
+        "sentiment": "positive",
+        "confidence": 0.6795710195788239,
+        "scores": {
+          "positive": 0.6795710195788239,
+          "negative": 0.32042898042117607
+        }
+      },
+      {
+        "text": "Unlike what the name suggests, it is a mind-numbingly senseless, hellish cycle of violence, gore, and torture porn that makes you question if everyone involved in the film harbours some sort of bloodlust. In fact, it is so difficult to find any positives in The Paradise that I had to imagine a complete conversation about how writer-director Srikanth Odela managed to convince 'Natural Star' Nani to say yes to his script.",
+        "sentiment": "negative",
+        "confidence": 0.7963949945608569,
+        "scores": {
+          "positive": 0.20360500543914303,
+          "negative": 0.7963949945608569
+        }
+      },
+      {
+        "text": "And even if the movie doesn't break any conventions, let my review do so through this entirely imagined pitch meeting... The Vision for The Paradise Nani: Sri bro, we cannot just sit on the success of Dasara. It was a hit, but not everyone liked it. We need to go bigger and better. Srikanth: Already on it, brother. I have a kickass idea that could launch you to pan-India stardom. I call the movie, drumroll please, The Paradise. Nani: Err... I am not keen on this pan-India trend.",
+        "sentiment": "negative",
+        "confidence": 0.7756163480667448,
+        "scores": {
+          "positive": 0.22438365193325518,
+          "negative": 0.7756163480667448
+        }
+      },
+      {
+        "text": "I would rather make a good, entertaining movie for my fans in Andhra and Telangana. (Looks directly into the camera and smiles.) Srikanth: Waah, brother, nice sentiment. 'Vocal for local'! Use that dialogue at the pre-release events. But would you mind if I add some pan-India elements? Nani: What are you thinking? Srikanth: What comes to mind first when I say pan-India? Nani: Baahubali and RRR. Srikanth: Come on, let us keep our benchmarks reasonable. Nani: Arre, tell me straight.",
+        "sentiment": "positive",
+        "confidence": 0.5682557776379918,
+        "scores": {
+          "positive": 0.5682557776379918,
+          "negative": 0.43174422236200816
+        }
+      },
+      {
+        "text": "Srikanth: KGF and Dhurandhar. A setting like KGF, rooted in real-life incidents with a historical touch, about a hero who becomes the saviour of an ostracised community. A dullish colour palette. And if I can get her dates, Easwari Rao. She loves these films. Nani: And why Dhurandhar? Am I being sent as a spy to Pakistan? Srikanth: No. The movie would be divided chapter-wise with profound sounding English titles. I also want the hyper-violence, but I want to push it much, much further.",
+        "sentiment": "negative",
+        "confidence": 0.5539054922448878,
+        "scores": {
+          "positive": 0.44609450775511217,
+          "negative": 0.5539054922448878
+        }
+      },
+      {
+        "text": "Nani: I just did Hit 3, which was pretty violent. Srikanth: The Paradise will make Hit 3 look like Chhota Chetan. Nani: How violent? Srikanth: Heads, fingers and limbs chopped off. A man's face shoved into a moving fan and splattered in gory detail. Men, women, children, animals, nobody is spared from beheadings, torture and mutilation. And there is a scene where your character will slice a man\u2019s throat into a bucket, slowly relishing it. Nani's phone pings.",
+        "sentiment": "negative",
+        "confidence": 0.6780735577656553,
+        "scores": {
+          "positive": 0.32192644223434475,
+          "negative": 0.6780735577656553
+        }
+      },
+      {
+        "text": "Nani: It's my wife messaging from the next room. She says we should both go to therapy. I wonder why... Srikanth: Ignore her. The climax is going to be outrageously challenging for the Censor Board. Women and men brutally slashed, chopped and blasted. A newborn baby casually tossed around while villains run after it with swords. Nani: Why? Srikanth: TIDA. Nani: What is TIDA? Srikanth: It is actually TADA. But we will legally have to write TIDA, even though everyone will pronounce it TADA.",
+        "sentiment": "negative",
+        "confidence": 0.5433556528611447,
+        "scores": {
+          "positive": 0.45664434713885527,
+          "negative": 0.5433556528611447
+        }
+      },
+      {
+        "text": "Nani: Who is making us write TIDA? (Both look at the camera.) Nani: Fine. But what does TIDA have to do with a newborn? Srikanth: Still figuring that out. (Takes out two loose pages.) The script is not quite complete. My neighbour's baby was crying all night. Nani's phone pings again. Nani: Wife's sent me the therapist's number. What is going on with her? Anyway, what is the actual story? The Plot Srikanth: The Paradise would be set in the '80s.",
+        "sentiment": "negative",
+        "confidence": 0.7575710568984038,
+        "scores": {
+          "positive": 0.24242894310159618,
+          "negative": 0.7575710568984038
+        }
+      },
+      {
+        "text": "It would revolve around the Savari, a marginalised tribe in Secunderabad, who are suppressed and socially boycotted by upper caste locals. You play Jadal, a Savari man who rises as their fierce leader and gives them the identity and belonging they have been fighting for. Nani: That could work. But Ram Charan is also doing a film about a marginalised community fighting for its identity. Srikanth: I know. But he does it through sports. Far too complicated. Ours is simpler. Nani: What am I doing?",
+        "sentiment": "positive",
+        "confidence": 0.7283775270534889,
+        "scores": {
+          "positive": 0.7283775270534889,
+          "negative": 0.2716224729465111
+        }
+      },
+      {
+        "text": "Srikanth: Your character starts as a Robin Hood, stealing from the rich and powerful. Then you find a purpose in your violence and become your tribe's leader. Nani: Never heard that one before. What are my mass scenes? Srikanth: Let's first talk about your introduction scene. You are in prison, single-handedly taking down a horde of criminals twice your size. They pile over you like a hill, you break out and sit on the mound of bodies like a throne. Total mass!",
+        "sentiment": "negative",
+        "confidence": 0.6005868716165648,
+        "scores": {
+          "positive": 0.39941312838343523,
+          "negative": 0.6005868716165648
+        }
+      },
+      {
+        "text": "Nani: Will fans believe I can do that with my current body structure? (They stare at each other, then burst out laughing.) Srikanth: I also have a cool shot where a flock of crows flies overhead and you suddenly emerge from them to attack the villains. Nani: Murder. Srikanth: Yes, you murder them mercilessly. Nani: No, a group of crows is called a 'murder'. So I am a superhero in the movie? Srikanth: No. Nani: Fine. What about my first mass song? Srikanth: Anirudh is scoring Aaya Sher.",
+        "sentiment": "negative",
+        "confidence": 0.5811244275659647,
+        "scores": {
+          "positive": 0.4188755724340353,
+          "negative": 0.5811244275659647
+        }
+      },
+      {
+        "text": "Your entire community celebrates your heroics in that song. Nani: What did I do? Srikanth: Gave six of them biryani. Nani: Anirudh is busy and expensive. Use him well. Srikanth: Every scene will have his music blaring. Some will be so loud you will not hear the dialogue. Nani: What? Srikanth: Exactly what the audience will ask. Nani: What is the hero's emotional core? Srikanth: Let us say it together. Both shout: Amma Prema! Srikanth: You know your movies, brother.",
+        "sentiment": "positive",
+        "confidence": 0.8758415626690432,
+        "scores": {
+          "positive": 0.8758415626690432,
+          "negative": 0.12415843733095677
+        }
+      },
+      {
+        "text": "I have spoken to Sonali Kulkarni about playing your mother, Samakka. Your character hates her in the first half and loves her in the second. Nani: Why hate her? Srikanth: Jadal discovers she prostituted herself to survive. It makes him furious. I have even borrowed the famous scene from Deewar to heighten that revelation scene. Instead of 'Mera Baap Chor Hai', the villain tattoos My mother is a wh*re' across your hand. Nani: Hard-hitting. Hope the censors do not blur it.",
+        "sentiment": "negative",
+        "confidence": 0.524553315120381,
+        "scores": {
+          "positive": 0.4754466848796191,
+          "negative": 0.524553315120381
+        }
+      },
+      {
+        "text": "Srikanth: Why would they? Anyway, at the pre-interval high point, you discover why she did it and rescue her from public humiliation and death. Very sentimental. Nani: Fine. Who is the heroine? Is she from my tribe? Srikanth: With all due respect, are you mad? Of course, your character would be romancing a fair-skinned, uppered-caste girl. I am in talks with Kayadu Lohar. Nani: What's her character's story? Srikanth: That's quite tragic.",
+        "sentiment": "positive",
+        "confidence": 0.6870355518745295,
+        "scores": {
+          "positive": 0.6870355518745295,
+          "negative": 0.31296444812547053
+        }
+      },
+      {
+        "text": "Her father committed suicide, her family is drowning in debt, and she failed to become the actress she dreamed of being. So she joins OnlyFans to pay off her debts... Nani: Wait a minute! Isn't The Paradise set in the '80s? Srikanth: My bad. She makes homemade sleaze movies with her mother behind the camera and screens them in seedy local theatres. Heartbreaking, right? Nani: If you say so. Srikanth: Don't worry!",
+        "sentiment": "negative",
+        "confidence": 0.7950498249048057,
+        "scores": {
+          "positive": 0.2049501750951943,
+          "negative": 0.7950498249048057
+        }
+      },
+      {
+        "text": "I have asked cinematographer C H Sai to shoot those scenes as aesthetically as possible. Nani: Why are you winking at me after saying that? Wait. If Jadal hates his mother for selling her body, will he not hate the heroine for making sleaze films? Srikanth: Definitely. For a little bit. Nani: So he is supposed to be a puritan? Srikanth: No. He spent years in jail for murder. He even massacred an entire restaurant full of people in front of her. Nani: Damn.",
+        "sentiment": "negative",
+        "confidence": 0.8882211042617976,
+        "scores": {
+          "positive": 0.1117788957382024,
+          "negative": 0.8882211042617976
+        }
+      },
+      {
+        "text": "Will all this violence hurt my female fanbase? Senseless Violence And Paper-Thin Villains Srikanth: My film is incredibly pro-women! Jadal's mother forced him to grow his hair and wear pigtails as a tribute to his twin sister, who died at childbirth. The tribe worships a fierce goddess, and there is a huge fight where you slaughter baddies while performing her dance, intercut with your mother doing the same.",
+        "sentiment": "negative",
+        "confidence": 0.6014757687286155,
+        "scores": {
+          "positive": 0.3985242312713845,
+          "negative": 0.6014757687286155
+        }
+      },
+      {
+        "text": "And in the end, the hero's mother would be apologising to him for all the pain she caused. Nani: Why would she be apologising to him? Wasn't Jadal who was angry and rude to her in the first place? Srikanth: Don't worry about the logic, it is going to be a heartbreaking scene. Nani: Any other such women-empowering moments? Srikanth: Plenty. Women are beaten and mutilated so the audience can weep and pray for your character to rescue them.",
+        "sentiment": "negative",
+        "confidence": 0.8313995350946225,
+        "scores": {
+          "positive": 0.16860046490537747,
+          "negative": 0.8313995350946225
+        }
+      },
+      {
+        "text": "There is even a graphic scene where a pregnant woman tries to self-abort her baby to heighten the emotion. Nani's phone pings. Nani: My wife wants us at the therapist this evening. I should probably close that door. Srikanth: Please tell her my movie is not just pro-women, it is also pro-dogs. Your character has this dog buddy, who keeps popping up here and there. To make the movie more sentimental, I have even added a scene where the dog is show shedding real tears. Ah, the power of AI!",
+        "sentiment": "negative",
+        "confidence": 0.8567582629700552,
+        "scores": {
+          "positive": 0.14324173702994475,
+          "negative": 0.8567582629700552
+        }
+      },
+      {
+        "text": "Nani: If you say so. Who is the main antagonist? Srikanth: We have two villains. Since we need to fill our mandatory Bollywood quota, I am bringing in Raghav Juyal. Nani: Seen his videos, he dances really well. Srikanth: Exactly. I have a scene purely for his dance moves. It won't look random at all. Nani: What does his character do? Srikanth (looking confused): He is a villain. Standard villain things. He is just the arrogant son of the real villain. Nani: And the real villain is?",
+        "sentiment": "negative",
+        "confidence": 0.798040880312041,
+        "scores": {
+          "positive": 0.201959119687959,
+          "negative": 0.798040880312041
+        }
+      },
+      {
+        "text": "Srikanth: Shikanja Malik, a former royal who rules Secunderabad like his personal fiefdom, tormenting the Savari through extreme violence. I want Mohan Babu sir for that role. Nani: Interesting. What does he do? Srikanth: In his intro, he gets his men to electrocute a pregnant woman with his car's jumper cables. Nani: Yikes! Srikanth: Exactly what I want my audience to say. Then in another scene, he overpowers you with martial arts moves borrowed from Kamal Haasan in Indian 2.",
+        "sentiment": "negative",
+        "confidence": 0.7613531040000903,
+        "scores": {
+          "positive": 0.2386468959999098,
+          "negative": 0.7613531040000903
+        }
+      },
+      {
+        "text": "It will not look unrealistic or cringe at all. Nani: What else does he do? Srikanth (looking at his two pages): Nothing, actually. He even forgets he can overpower you with just his fingers. But that is boldly breaking cinematic conventions, right? Nani: If you say so. Look bro, let me be honest... this Paradise is looking incredibly dark. We need some light elements. Srikanth: What about Sampoornesh Babu as your comic-relief friend? I just need to figure out what to do with him.",
+        "sentiment": "negative",
+        "confidence": 0.7854604031587004,
+        "scores": {
+          "positive": 0.21453959684129967,
+          "negative": 0.7854604031587004
+        }
+      },
+      {
+        "text": "Nani: Think fast. Also, we cannot forget what the core fans want. Srikanth: Of course. The movie would be almost three hours long. There would be an item song in the middle of the movie performed by a National Award-winning actress for that \u2018class\u2019 touch. Tributes to Chiranjeevi garu. And a political character resembling a real-life politician for some cheap brownie points. Nani: Nice. I know a dear friend who can play that political character. But this movie still feels heavily template-driven.",
+        "sentiment": "negative",
+        "confidence": 0.7532337046761644,
+        "scores": {
+          "positive": 0.2467662953238356,
+          "negative": 0.7532337046761644
+        }
+      },
+      {
+        "text": "You need to work on that. Yash has left KGF behind and he is coming out with Toxic in 2026. We will constantly be compared if we are releasing our movie around it. Srikanth: Whether Toxic releases before or after us, it will not matter. Let our movie come out, people will say The Paradise is the real deal. Trust me, bro! PS: Of course, this entire conversation is totally fake. But trust me, bro, The Paradise is going to give you a whole new appreciation for Toxic.",
+        "sentiment": "positive",
+        "confidence": 0.8310588465379919,
+        "scores": {
+          "positive": 0.8310588465379919,
+          "negative": 0.1689411534620081
+        }
+      }
+    ]
+  },
+  "extracted_text": "The Paradise is a mind-numbingly senseless, hellish cycle of violence, gore, and torture porn that makes you question if everyone involved in the film harbours some sort of bloodlust, complains Sreeju Sudhakaran.\nKey Points\n- The Paradise is characterised by extreme violence, including graphic depictions of dismemberment and brutalisation of various characters.\n- Nani's character Jadal is a leader of the marginalised Savari tribe, rising as a Robin Hood figure who finds purpose in violence.\n- Despite the dark themes, the film incorporates elements like a mass song, tributes to Chiranjeevi, and a political character for broader appeal.\nThe Paradise is a nomenclature paradox.\nUnlike what the name suggests, it is a mind-numbingly senseless, hellish cycle of violence, gore, and torture porn that makes you question if everyone involved in the film harbours some sort of bloodlust.\nIn fact, it is so difficult to find any positives in The Paradise that I had to imagine a complete conversation about how writer-director Srikanth Odela managed to convince 'Natural Star' Nani to say yes to his script.\nAnd even if the movie doesn't break any conventions, let my review do so through this entirely imagined pitch meeting...\nThe Vision for The Paradise\nNani: Sri bro, we cannot just sit on the success of Dasara. It was a hit, but not everyone liked it. We need to go bigger and better.\nSrikanth: Already on it, brother. I have a kickass idea that could launch you to pan-India stardom. I call the movie, drumroll please, The Paradise.\nNani: Err... I am not keen on this pan-India trend. I would rather make a good, entertaining movie for my fans in Andhra and Telangana. (Looks directly into the camera and smiles.)\nSrikanth: Waah, brother, nice sentiment. 'Vocal for local'! Use that dialogue at the pre-release events. But would you mind if I add some pan-India elements?\nNani: What are you thinking?\nSrikanth: What comes to mind first when I say pan-India?\nNani: Baahubali and RRR.\nSrikanth: Come on, let us keep our benchmarks reasonable.\nNani: Arre, tell me straight.\nSrikanth: KGF and Dhurandhar. A setting like KGF, rooted in real-life incidents with a historical touch, about a hero who becomes the saviour of an ostracised community. A dullish colour palette. And if I can get her dates, Easwari Rao. She loves these films.\nNani: And why Dhurandhar? Am I being sent as a spy to Pakistan?\nSrikanth: No. The movie would be divided chapter-wise with profound sounding English titles. I also want the hyper-violence, but I want to push it much, much further.\nNani: I just did Hit 3, which was pretty violent.\nSrikanth: The Paradise will make Hit 3 look like Chhota Chetan.\nNani: How violent?\nSrikanth: Heads, fingers and limbs chopped off. A man's face shoved into a moving fan and splattered in gory detail. Men, women, children, animals, nobody is spared from beheadings, torture and mutilation. And there is a scene where your character will slice a man\u2019s throat into a bucket, slowly relishing it.\nNani's phone pings.\nNani: It's my wife messaging from the next room. She says we should both go to therapy. I wonder why...\nSrikanth: Ignore her. The climax is going to be outrageously challenging for the Censor Board. Women and men brutally slashed, chopped and blasted. A newborn baby casually tossed around while villains run after it with swords.\nNani: Why?\nSrikanth: TIDA.\nNani: What is TIDA?\nSrikanth: It is actually TADA. But we will legally have to write TIDA, even though everyone will pronounce it TADA.\nNani: Who is making us write TIDA?\n(Both look at the camera.)\nNani: Fine. But what does TIDA have to do with a newborn?\nSrikanth: Still figuring that out. (Takes out two loose pages.) The script is not quite complete. My neighbour's baby was crying all night.\nNani's phone pings again.\nNani: Wife's sent me the therapist's number. What is going on with her? Anyway, what is the actual story?\nThe Plot\nSrikanth: The Paradise would be set in the '80s. It would revolve around the Savari, a marginalised tribe in Secunderabad, who are suppressed and socially boycotted by upper caste locals.\nYou play Jadal, a Savari man who rises as their fierce leader and gives them the identity and belonging they have been fighting for.\nNani: That could work. But Ram Charan is also doing a film about a marginalised community fighting for its identity.\nSrikanth: I know. But he does it through sports. Far too complicated. Ours is simpler.\nNani: What am I doing?\nSrikanth: Your character starts as a Robin Hood, stealing from the rich and powerful. Then you find a purpose in your violence and become your tribe's leader.\nNani: Never heard that one before. What are my mass scenes?\nSrikanth: Let's first talk about your introduction scene. You are in prison, single-handedly taking down a horde of criminals twice your size. They pile over you like a hill, you break out and sit on the mound of bodies like a throne. Total mass!\nNani: Will fans believe I can do that with my current body structure? (They stare at each other, then burst out laughing.)\nSrikanth: I also have a cool shot where a flock of crows flies overhead and you suddenly emerge from them to attack the villains.\nNani: Murder.\nSrikanth: Yes, you murder them mercilessly.\nNani: No, a group of crows is called a 'murder'. So I am a superhero in the movie?\nSrikanth: No.\nNani: Fine. What about my first mass song?\nSrikanth: Anirudh is scoring Aaya Sher. Your entire community celebrates your heroics in that song.\nNani: What did I do?\nSrikanth: Gave six of them biryani.\nNani: Anirudh is busy and expensive. Use him well.\nSrikanth: Every scene will have his music blaring. Some will be so loud you will not hear the dialogue.\nNani: What?\nSrikanth: Exactly what the audience will ask.\nNani: What is the hero's emotional core?\nSrikanth: Let us say it together.\nBoth shout: Amma Prema!\nSrikanth: You know your movies, brother. I have spoken to Sonali Kulkarni about playing your mother, Samakka. Your character hates her in the first half and loves her in the second.\nNani: Why hate her?\nSrikanth: Jadal discovers she prostituted herself to survive. It makes him furious. I have even borrowed the famous scene from Deewar to heighten that revelation scene. Instead of 'Mera Baap Chor Hai', the villain tattoos My mother is a wh*re' across your hand.\nNani: Hard-hitting. Hope the censors do not blur it.\nSrikanth: Why would they? Anyway, at the pre-interval high point, you discover why she did it and rescue her from public humiliation and death. Very sentimental.\nNani: Fine. Who is the heroine? Is she from my tribe?\nSrikanth: With all due respect, are you mad? Of course, your character would be romancing a fair-skinned, uppered-caste girl. I am in talks with Kayadu Lohar.\nNani: What's her character's story?\nSrikanth: That's quite tragic. Her father committed suicide, her family is drowning in debt, and she failed to become the actress she dreamed of being. So she joins OnlyFans to pay off her debts...\nNani: Wait a minute! Isn't The Paradise set in the '80s?\nSrikanth: My bad. She makes homemade sleaze movies with her mother behind the camera and screens them in seedy local theatres. Heartbreaking, right?\nNani: If you say so.\nSrikanth: Don't worry! I have asked cinematographer C H Sai to shoot those scenes as aesthetically as possible.\nNani: Why are you winking at me after saying that? Wait. If Jadal hates his mother for selling her body, will he not hate the heroine for making sleaze films?\nSrikanth: Definitely. For a little bit.\nNani: So he is supposed to be a puritan?\nSrikanth: No. He spent years in jail for murder. He even massacred an entire restaurant full of people in front of her.\nNani: Damn. Will all this violence hurt my female fanbase?\nSenseless Violence And Paper-Thin Villains\nSrikanth: My film is incredibly pro-women! Jadal's mother forced him to grow his hair and wear pigtails as a tribute to his twin sister, who died at childbirth. The tribe worships a fierce goddess, and there is a huge fight where you slaughter baddies while performing her dance, intercut with your mother doing the same. And in the end, the hero's mother would be apologising to him for all the pain she caused.\nNani: Why would she be apologising to him? Wasn't Jadal who was angry and rude to her in the first place?\nSrikanth: Don't worry about the logic, it is going to be a heartbreaking scene.\nNani: Any other such women-empowering moments?\nSrikanth: Plenty. Women are beaten and mutilated so the audience can weep and pray for your character to rescue them. There is even a graphic scene where a pregnant woman tries to self-abort her baby to heighten the emotion.\nNani's phone pings.\nNani: My wife wants us at the therapist this evening. I should probably close that door.\nSrikanth: Please tell her my movie is not just pro-women, it is also pro-dogs. Your character has this dog buddy, who keeps popping up here and there. To make the movie more sentimental, I have even added a scene where the dog is show shedding real tears. Ah, the power of AI!\nNani: If you say so. Who is the main antagonist?\nSrikanth: We have two villains. Since we need to fill our mandatory Bollywood quota, I am bringing in Raghav Juyal.\nNani: Seen his videos, he dances really well.\nSrikanth: Exactly. I have a scene purely for his dance moves. It won't look random at all.\nNani: What does his character do?\nSrikanth (looking confused): He is a villain. Standard villain things. He is just the arrogant son of the real villain.\nNani: And the real villain is?\nSrikanth: Shikanja Malik, a former royal who rules Secunderabad like his personal fiefdom, tormenting the Savari through extreme violence. I want Mohan Babu sir for that role.\nNani: Interesting. What does he do?\nSrikanth: In his intro, he gets his men to electrocute a pregnant woman with his car's jumper cables.\nNani: Yikes!\nSrikanth: Exactly what I want my audience to say. Then in another scene, he overpowers you with martial arts moves borrowed from Kamal Haasan in Indian 2. It will not look unrealistic or cringe at all.\nNani: What else does he do?\nSrikanth (looking at his two pages): Nothing, actually. He even forgets he can overpower you with just his fingers. But that is boldly breaking cinematic conventions, right?\nNani: If you say so. Look bro, let me be honest... this Paradise is looking incredibly dark. We need some light elements.\nSrikanth: What about Sampoornesh Babu as your comic-relief friend? I just need to figure out what to do with him.\nNani: Think fast. Also, we cannot forget what the core fans want.\nSrikanth: Of course. The movie would be almost three hours long. There would be an item song in the middle of the movie performed by a National Award-winning actress for that \u2018class\u2019 touch. Tributes to Chiranjeevi garu. And a political character resembling a real-life politician for some cheap brownie points.\nNani: Nice. I know a dear friend who can play that political character. But this movie still feels heavily template-driven. You need to work on that. Yash has left KGF behind and he is coming out with Toxic in 2026. We will constantly be compared if we are releasing our movie around it.\nSrikanth: Whether Toxic releases before or after us, it will not matter. Let our movie come out, people will say The Paradise is the real deal. Trust me, bro!\nPS: Of course, this entire conversation is totally fake. But trust me, bro, The Paradise is going to give you a whole new appreciation for Toxic."
+}

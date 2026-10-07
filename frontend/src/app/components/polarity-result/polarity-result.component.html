@@ -1,0 +1,18 @@
+            <div class="result-summary" [attr.data-sentiment]="result().sentiment">
+              <div class="result-eyebrow">{{ context() }}</div>
+              <div class="sentiment-line"><h3 data-testid="sentiment-result">{{ result().sentiment === 'neutral' && !trainedNeutral() ? uncertaintyLabel() : (result().sentiment | titlecase) }}</h3><span class="sentiment-symbol" aria-hidden="true">{{ result().sentiment === 'positive' ? '↗' : result().sentiment === 'negative' ? '↘' : '↔' }}</span></div>
+              <div class="confidence-line"><span>{{ trainedNeutral() ? 'Selected class score' : 'Binary polarity score' }}</span><strong data-testid="confidence-result">{{ result().confidence | percent:'1.1-1' }}</strong></div>
+              <p class="interpretation">{{ trainedNeutral() ? 'The fusion model compares negative, neutral, and positive tone. Neutral is a trained class; scores are estimates and can be wrong.' : result().sentiment === 'neutral' ? 'The binary review model is uncertain about polarity. Neutral is an uncertainty band, not a separately trained class.' : 'The estimated polarity falls outside the review model’s uncertainty band.' }}</p>
+            </div>
+            @if (scores(); as predictionScores) {
+              <div class="scores"><h4>Model scores</h4>
+                <div class="score-label"><span>Positive</span><strong>{{ predictionScores.positive | percent:'1.1-1' }}</strong></div>
+                <div class="score-track"><span class="positive-bar" [style.width.%]="predictionScores.positive * 100"></span></div>
+                @if (predictionScores.neutral !== undefined) {
+                  <div class="score-label"><span>Neutral</span><strong>{{ predictionScores.neutral | percent:'1.1-1' }}</strong></div>
+                  <div class="score-track"><span class="neutral-bar" [style.width.%]="predictionScores.neutral * 100"></span></div>
+                }
+                <div class="score-label"><span>Negative</span><strong>{{ predictionScores.negative | percent:'1.1-1' }}</strong></div>
+                <div class="score-track"><span class="negative-bar" [style.width.%]="predictionScores.negative * 100"></span></div>
+              </div>
+            }

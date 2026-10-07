@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "viewports": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "sidebarVisible": false
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "sidebarVisible": false
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "sidebarVisible": true
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "sidebarVisible": true
+    }
+  ]
+}

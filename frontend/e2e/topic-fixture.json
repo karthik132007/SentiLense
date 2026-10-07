@@ -1,0 +1,79 @@
+{
+  "keyword": "Data centers",
+  "search_provider": "Fixture",
+  "searched_at_utc": "2026-10-07T00:00:00Z",
+  "overall_sentiment": "neutral",
+  "confidence": 0.8658,
+  "scores": {
+    "negative": 0.11204787818171486,
+    "neutral": 0.865811921601101,
+    "positive": 0.022140200217184106
+  },
+  "distribution": {
+    "positive": 0.0,
+    "neutral": 100.0,
+    "negative": 0.0
+  },
+  "statistics": {
+    "characters": 51,
+    "words": 7,
+    "analyzed_units": 1,
+    "search_results_found": 2,
+    "sources_analyzed": 1,
+    "sources_skipped": 1,
+    "requested_sources": 5
+  },
+  "aggregation": "Equal source weight",
+  "sources": [
+    {
+      "url": "https://example.com/data-centers",
+      "title": "Data center overview",
+      "domain": "example.com",
+      "overall_sentiment": "neutral",
+      "confidence": 0.8658,
+      "scores": {
+        "negative": 0.11204787818171486,
+        "neutral": 0.865811921601101,
+        "positive": 0.022140200217184106
+      },
+      "analysis_model": "svm_roberta_fusion",
+      "aggregation": "mean_topic_passage_probability",
+      "distribution": {
+        "positive": 0.0,
+        "neutral": 100.0,
+        "negative": 0.0
+      },
+      "statistics": {
+        "characters": 51,
+        "words": 7,
+        "analyzed_units": 1
+      },
+      "results": [
+        {
+          "text": "Data centers contain servers and network equipment.",
+          "sentiment": "neutral",
+          "confidence": 0.865811921601101,
+          "scores": {
+            "negative": 0.11204787818171486,
+            "neutral": 0.865811921601101,
+            "positive": 0.022140200217184106
+          }
+        }
+      ],
+      "topic_evidence": {
+        "method": "complete_phrase_with_plural_and_center_spelling_variants",
+        "title_matches": true,
+        "matched_passages": 1,
+        "extracted_passages": 1,
+        "extracted_words": 7
+      }
+    }
+  ],
+  "skipped_sources": [
+    {
+      "url": "https://example.com/data",
+      "title": "What is Data?",
+      "reason": "Off-topic source: insufficient extracted content matching the complete topic."
+    }
+  ]
+}

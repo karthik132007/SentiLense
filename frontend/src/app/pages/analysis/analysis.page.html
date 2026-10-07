@@ -1,0 +1,125 @@
+<div class="app-shell">
+  <a class="skip-link" href="#main-content">Skip to analysis</a>
+  <app-workspace-navigation [sourceTarget]="keywordResult() ? '#topic-heading' : pageResult() ? '#page-heading' : null" (reset)="newAnalysis()" />
+
+  <div class="main-shell">
+  <header class="topbar">
+    <div class="breadcrumb"><span>Workspace</span><span aria-hidden="true">/</span>Analysis</div>
+    <a class="mobile-brand" href="/" aria-label="SentiLense home">SentiLense</a>
+    <div class="topbar-actions"><button class="mobile-new" type="button" (click)="newAnalysis()" aria-label="New analysis">+</button>
+    <div class="connection" role="status"><span class="status-dot" [class.ready]="connection() === 'ready'" [class.offline]="connection() === 'offline'"></span>
+      {{ connection() === 'ready' ? 'Model connected' : connection() === 'checking' ? 'Connecting to model…' : 'Service unavailable' }}
+      @if (connection() === 'offline') { <button class="retry" type="button" (click)="checkConnection()">Retry</button> }
+    </div>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="intro">
+      <div class="eyebrow">SENTIMENT WORKSPACE</div>
+      <h1>Analyze sentiment.</h1>
+      <p>Search a topic or analyze text and webpages.<br class="desktop-break"> Every result keeps the source in view.</p>
+    </section>
+
+    <div class="workspace">
+      <section class="input-panel" aria-labelledby="input-heading">
+        <div class="panel-top"><h2 id="input-heading">New analysis</h2><span class="panel-caption">Choose your input</span></div>
+        <div class="tabs" role="tablist" aria-label="Content type" (keydown)="onTabKeydown($event)">
+          <button id="keyword-tab" role="tab" [attr.aria-selected]="mode() === 'keyword'" [attr.tabindex]="mode() === 'keyword' ? 0 : -1" aria-controls="input-content" [class.active]="mode() === 'keyword'" type="button" (click)="setMode('keyword')"><span aria-hidden="true">#</span> Keyword</button>
+          <button id="text-tab" role="tab" [attr.aria-selected]="mode() === 'text'" [attr.tabindex]="mode() === 'text' ? 0 : -1" aria-controls="input-content" [class.active]="mode() === 'text'" type="button" (click)="setMode('text')"><span aria-hidden="true">Aa</span> Text</button>
+          <button id="url-tab" role="tab" [attr.aria-selected]="mode() === 'url'" [attr.tabindex]="mode() === 'url' ? 0 : -1" aria-controls="input-content" [class.active]="mode() === 'url'" type="button" (click)="setMode('url')"><span aria-hidden="true">↗</span> Webpage</button>
+        </div>
+        <form (ngSubmit)="submit()" id="input-content" role="tabpanel" [attr.aria-labelledby]="mode() === 'keyword' ? 'keyword-tab' : mode() === 'text' ? 'text-tab' : 'url-tab'">
+          @if (mode() === 'keyword') {
+            <label for="keyword-input">What topic would you like to explore?</label>
+            <input id="keyword-input" name="keyword" type="search" placeholder="e.g. antigravity" [ngModel]="keyword()" (ngModelChange)="keyword.set($event)" [readonly]="busy()" maxlength="200">
+            <p class="url-note">We'll search public webpages, check for the complete topic phrase, and score the tone of matching passages.</p>
+            <div class="source-limit"><label for="source-limit">Sources to analyze</label><select id="source-limit" name="sourceLimit" [ngModel]="maxSources()" (ngModelChange)="maxSources.set($event)" [disabled]="busy()">@for (limit of sourceLimits; track limit) { <option [ngValue]="limit">Up to {{ limit }} sources</option> }</select></div>
+            <div class="examples"><span>Try a topic</span>@for (topic of keywordExamples; track topic) { <button type="button" [disabled]="busy()" (click)="keyword.set(topic); clearResults()">{{ topic }}</button> }</div>
+          } @else if (mode() === 'text') {
+            <label for="text-input">What would you like to understand?</label>
+            <textarea id="text-input" name="text" placeholder="Paste a review, a message, or a thought…" [ngModel]="text()" (ngModelChange)="text.set($event)" [readonly]="busy()" maxlength="10000" rows="7"></textarea>
+            <div class="input-foot"><span>English-language text</span><span>{{ text().length | number }} / 10,000</span></div>
+            <div class="examples"><span>Try an example</span>
+              @for (example of examples; track example) { <button type="button" [disabled]="busy()" (click)="useExample(example)">{{ example }}</button> }
+            </div>
+          } @else {
+            <label for="url-input">A public webpage URL</label>
+            <input id="url-input" name="url" type="url" placeholder="https://example.com/article" [ngModel]="url()" (ngModelChange)="url.set($event)" [readonly]="busy()" maxlength="2048">
+            <p class="url-note">We extract readable content, analyze it in segments, and summarize the results. Pages requiring sign-in or browser rendering may be unavailable.</p>
+            <button class="url-example" type="button" [disabled]="busy()" (click)="url.set('https://example.com')">Try example.com <span aria-hidden="true">↗</span></button>
+          }
+          @if (connection() === 'offline') { <p class="notice">The model service is unavailable. Retry the connection above; your input is kept here.</p> }
+          @if (error()) { <p class="error" role="alert">{{ error() }}</p> }
+          <button class="analyze-button" type="submit" [disabled]="!valid() || busy() || connection() !== 'ready'">
+            @if (busy()) { <span class="spinner" aria-hidden="true"></span> {{ mode() === 'keyword' ? 'Searching and analyzing…' : mode() === 'url' ? 'Reading the webpage…' : 'Analyzing your text…' }} }
+            @else { {{ mode() === 'keyword' ? 'Search and analyze' : mode() === 'text' ? 'Analyze text' : 'Analyze webpage' }} <span aria-hidden="true">↗</span> }
+          </button>
+        </form>
+        <div class="model-note"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m8.5 11.5 2.5 2.5 4.5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Source content included with every result</div>
+      </section>
+
+      <section class="result-panel" aria-labelledby="result-heading" [attr.aria-busy]="busy()">
+        <div class="panel-top"><h2 id="result-heading">Overview</h2><span class="panel-caption">{{ busy() ? 'Working…' : summary() ? 'Analysis complete' : 'Awaiting input' }}</span>
+          @if (summary()) { <button class="export" type="button" (click)="download()" aria-label="Download analysis JSON">Export ↗</button> }
+        </div>
+        <div aria-live="polite" aria-atomic="true">
+          @if (busy()) {
+            <div class="empty-state"><div class="empty-icon loading" aria-hidden="true"><span></span><span></span><span></span><span></span></div><h3>Analysis in progress</h3><p>{{ mode() === 'keyword' ? 'Searching the web and reading source content. This may take a moment.' : mode() === 'url' ? 'Reading the webpage and analyzing its content.' : 'Analyzing your text with the trained model.' }}</p></div>
+          } @else if (summary(); as result) {
+            <app-polarity-result [result]="result" [scores]="scores()" [uncertaintyLabel]="keywordResult() ? 'Uncertain' : 'Neutral'" [context]="keywordResult() ? 'TEXT POLARITY IN TOPIC PASSAGES' : pageResult() ? 'OVERALL PAGE SENTIMENT' : 'TEXT SENTIMENT'" />
+            @if (textResult()) {
+              <div class="topic-summary"><p>SVM + RoBERTa fusion · English text</p></div>
+              <blockquote>{{ analyzedInput() }}</blockquote>
+            }
+            @if (pageResult(); as page) { <div class="topic-summary"><p>{{ page.analysis_model === 'imdb_review' ? 'Movie-review SVM · complete document' : 'SVM + RoBERTa fusion · segment summary' }}</p></div> }
+            @if (keywordResult(); as topic) { <div class="topic-summary"><h4>{{ topic.keyword }}</h4><p>{{ topic.statistics.sources_analyzed }} matching sources · {{ topic.statistics.analyzed_units }} topic passages analyzed</p><p>Each matching source contributes equally. These scores describe passage tone; the model does not identify an author’s stance toward the topic.</p></div> }
+          } @else {
+            <div class="empty-state"><div class="empty-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></div><h3>Your results appear here</h3><p>Start an analysis to see the sentiment,<br>polarity scores, and original source content.</p><div class="empty-process" aria-hidden="true"><span>Input</span><span>→</span><span>Analysis</span><span>→</span><span>Context</span></div></div>
+          }
+        </div>
+        @if (summary()) { <p class="result-footnote">{{ scores()?.neutral !== undefined ? 'Confidence is the score of the selected negative, neutral, or positive class. It is an estimate, not a guarantee of correctness.' : 'Confidence reflects positive vs. negative probability. Review-model neutral denotes uncertainty, not a learned neutral class.' }}</p> }
+      </section>
+    </div>
+
+    @if (keywordResult(); as topic) {
+      <section class="page-details" aria-labelledby="topic-heading">
+        <div class="page-header"><div><span class="eyebrow">FROM THE WEB · {{ topic.search_provider }}</span><h2 id="topic-heading">Topic passage analysis for “{{ topic.keyword }}”</h2><p class="source-meta">Included {{ topic.statistics.sources_analyzed }} matching sources of up to {{ topic.statistics.requested_sources }} requested sources. {{ topic.statistics.search_results_found }} search results found.</p></div>
+          <div class="statistics"><div><strong>{{ topic.statistics.sources_analyzed }}</strong><span>Sources</span></div><div><strong>{{ topic.statistics.analyzed_units | number }}</strong><span>Topic passages</span></div><div><strong>{{ topic.statistics.words | number }}</strong><span>Words</span></div></div>
+        </div>
+        <div class="distribution" aria-label="Source polarity distribution">@for (sentiment of sentiments; track sentiment) { <div [attr.data-sentiment]="sentiment"><span class="distribution-dot"></span><span>{{ sentimentLabel(sentiment) | titlecase }}</span><strong>{{ topic.distribution[sentiment] | number:'1.1-1' }}%</strong><div class="score-track"><span [style.width.%]="topic.distribution[sentiment]"></span></div></div> }</div>
+        <div class="segments-header"><h3>Explore your sources</h3><div class="filters" aria-label="Filter sources"><button type="button" [attr.aria-pressed]="filter() === 'all'" (click)="filter.set('all')">All</button>@for (sentiment of sentiments; track sentiment) { <button type="button" [attr.aria-pressed]="filter() === sentiment" (click)="filter.set(sentiment)">{{ sentimentLabel(sentiment) | titlecase }}</button> }</div></div>
+        <div class="keyword-sources">@for (source of sources(); track source.url) { <article class="source-card" data-testid="keyword-source">
+          <div class="source-card-header"><div><a [href]="source.url" target="_blank" rel="noopener noreferrer"><h3>{{ source.title }} ↗</h3></a><span class="source-meta">{{ source.domain }}</span></div><span class="badge" [attr.data-sentiment]="source.overall_sentiment">{{ sentimentLabel(source.overall_sentiment) | titlecase }}</span></div>
+          <p class="source-preview">{{ source.results[0]?.text }}</p><p class="source-meta">{{ source.confidence | percent:'1.1-1' }} model score · {{ source.statistics.analyzed_units }} topic passages analyzed · {{ source.topic_evidence.matched_passages }} of {{ source.topic_evidence.extracted_passages }} extracted passages match · {{ source.analysis_model === 'imdb_review' ? 'Movie-review SVM' : 'SVM + RoBERTa fusion' }}</p>
+          <details><summary>View analyzed topic passages</summary>@for (unit of source.results; track $index) { <div class="segment"><p>{{ unit.text }}</p><span class="badge" [attr.data-sentiment]="unit.sentiment">{{ sentimentLabel(unit.sentiment) | titlecase }}</span><span class="source-meta"> {{ unit.confidence | percent:'1.1-1' }} model score</span></div> }</details>
+        </article> } @empty { <p class="no-results">No sources with this sentiment. Try another filter.</p> }</div>
+        @if (topic.skipped_sources.length) { <details class="skipped-sources"><summary>{{ topic.statistics.sources_skipped }} sources couldn't be included</summary>@for (source of topic.skipped_sources; track $index) { <p><a [href]="source.url" target="_blank" rel="noopener noreferrer">{{ source.title }}</a> — {{ source.reason }}</p> }</details> }
+        <p class="result-footnote">Only passages matching the complete topic phrase are scored. Matching allows basic plural forms and center/centre spelling; it does not resolve synonyms or different meanings. The model was trained on English tweets and has not been validated for topic stance. Neutral is a trained tone class; it does not establish an author’s neutral stance toward the topic.</p>
+      </section>
+    }
+
+    @if (pageResult(); as page) {
+      <section class="page-details" aria-labelledby="page-heading">
+        <div class="page-header"><div><span class="eyebrow">FROM THE WEB</span><h2 id="page-heading">{{ page.title }}</h2><a [href]="page.url" target="_blank" rel="noopener noreferrer">{{ page.domain }} ↗</a></div>
+          <div class="statistics"><div><strong>{{ page.statistics.analyzed_units | number }}</strong><span>Segments</span></div><div><strong>{{ page.statistics.words | number }}</strong><span>Words</span></div><div><strong>{{ page.statistics.characters | number }}</strong><span>Characters</span></div></div>
+        </div>
+        <div class="distribution" aria-label="Page sentiment distribution">
+          @for (sentiment of sentiments; track sentiment) { <div [attr.data-sentiment]="sentiment"><span class="distribution-dot"></span><span>{{ sentimentLabel(sentiment) | titlecase }}</span><strong>{{ page.distribution[sentiment] | number:'1.1-1' }}%</strong><div class="score-track"><span [style.width.%]="page.distribution[sentiment]"></span></div></div> }
+        </div>
+        <div class="segments-header"><h3>Explore the extracted content</h3><div class="filters" aria-label="Filter segments">
+          <button type="button" [attr.aria-pressed]="filter() === 'all'" (click)="filter.set('all')">All</button>
+          @for (sentiment of sentiments; track sentiment) { <button type="button" [attr.aria-pressed]="filter() === sentiment" (click)="filter.set(sentiment)">{{ sentimentLabel(sentiment) | titlecase }}</button> }
+        </div></div>
+        <div class="segment-list">
+          @for (unit of units(); track $index) { <article class="segment"><p>{{ unit.text }}</p><div><span class="badge" [attr.data-sentiment]="unit.sentiment">{{ sentimentLabel(unit.sentiment) | titlecase }}</span><span>{{ unit.confidence | percent:'1.1-1' }} model score</span></div></article> }
+          @empty { <p class="no-results">No segments with this sentiment. Try another filter.</p> }
+        </div>
+        <p class="result-footnote">{{ page.analysis_model === 'imdb_review' ? 'Overall sentiment uses a model trained on IMDb reviews and the complete extracted article. Segment labels are exploratory and do not determine the overall label. Movie-review test metrics do not guarantee accuracy on this article.' : 'Page sentiment summarizes mean class scores across segments. The model was evaluated on tweets; webpage accuracy has not been separately established.' }}</p>
+      </section>
+    }
+
+    <footer><span>SentiLense <span class="footer-separator">/</span> Academic sentiment analysis</span><a href="/docs" target="_blank" rel="noopener noreferrer">API documentation ↗</a></footer>
+  </main>
+  </div>
+</div>

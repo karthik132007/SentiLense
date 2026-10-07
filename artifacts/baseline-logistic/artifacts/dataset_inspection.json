@@ -1,0 +1,81 @@
+{
+  "rows": 1600000,
+  "header_present": false,
+  "columns": [
+    "target",
+    "id",
+    "date",
+    "flag",
+    "user",
+    "text"
+  ],
+  "column_interpretation": "Semantic names inferred from all rows' six-field structure, numeric labels/IDs, date format, and flag/user/text positions; names are not stored in a header.",
+  "first_row_non_text_fields": [
+    "0",
+    "1467810369",
+    "Mon Apr 06 22:19:45 PDT 2009",
+    "NO_QUERY",
+    "_TheSpecialOne_",
+    "<tweet text present>"
+  ],
+  "field_count_distribution": {
+    "6": 1600000
+  },
+  "invalid_numeric_ids": 0,
+  "invalid_date_formats": 0,
+  "labels": [
+    "0",
+    "4"
+  ],
+  "label_distribution": {
+    "0": 800000,
+    "4": 800000
+  },
+  "label_percentages": {
+    "0": 0.5,
+    "4": 0.5
+  },
+  "missing_values": {
+    "target": 0,
+    "id": 0,
+    "date": 0,
+    "flag": 0,
+    "user": 0,
+    "text": 0
+  },
+  "missing_definition": "Empty or whitespace-only fields; literal NA-like tweet strings are retained.",
+  "flag_distribution": {
+    "NO_QUERY": 1600000
+  },
+  "exact_duplicate_rows": 0,
+  "duplicate_raw_text_rows": 18534,
+  "duplicate_normalized_text_rows": 55374,
+  "conflicting_normalized_text_groups": 3327,
+  "normalization_changed_rows": 1600000,
+  "excluded_nonbinary_label_rows": 0,
+  "excluded_missing_binary_text_rows": 0,
+  "excluded_empty_normalized_rows": 0,
+  "records_after_cleaning": 1541299,
+  "records_removed": 58701,
+  "cleaned_label_distribution": {
+    "0": 774274,
+    "4": 767025
+  },
+  "deduplication": "Keep first occurrence of identical normalized text with consistent labels; remove every normalized group with conflicting labels BEFORE splitting.",
+  "source_path": "/home/electron/Documents/GitHub/SentiLense/data/archive.zip",
+  "archive_member": "training.1600000.processed.noemoticon.csv",
+  "encoding": "iso-8859-1",
+  "encoding_checks": {
+    "utf-8": {
+      "valid": false,
+      "first_invalid_byte_approximately": 35888930,
+      "reason": "invalid continuation byte"
+    },
+    "cp1252": {
+      "valid": true,
+      "bytes_checked": 238803811
+    }
+  },
+  "source_sha256": "2814ad101966aad7d6f1b0680a829df8758480ef8aec90d34689046847cd4f3f",
+  "encoding_note": "Strict UTF-8 validation across the stream; use lossless ISO-8859-1 for non-UTF-8 input, repairing mojibake and C1 controls downstream. Single-byte encodings cannot always be uniquely distinguished from bytes alone."
+}

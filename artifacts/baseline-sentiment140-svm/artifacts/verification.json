@@ -1,0 +1,20 @@
+{
+  "model_family": "svm",
+  "saved_models": [
+    "model/sentiment_pipeline.joblib",
+    "model/reviews/sentiment_pipeline.joblib"
+  ],
+  "backend_tests": {
+    "passed": 77,
+    "known_expected_failures": 1
+  },
+  "browser_checks": {
+    "passed": 10,
+    "reported_sentence_checks_validate_fidelity_not_correctness": true
+  },
+  "live_http_integration": {
+    "passed": true,
+    "artifact": "artifacts/end_to_end_http.json"
+  },
+  "reported_sentence_fixed": false
+}

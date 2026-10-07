@@ -1,0 +1,164 @@
+{
+  "model": "Word/character TF-IDF + calibrated LinearSVC (linear SVM)",
+  "model_family": "svm",
+  "dataset": "Sentiment140",
+  "dataset_file": "training.1600000.processed.noemoticon.csv",
+  "dataset_archive": "/home/electron/Documents/GitHub/SentiLense/data/archive.zip",
+  "dataset_sha256": "2814ad101966aad7d6f1b0680a829df8758480ef8aec90d34689046847cd4f3f",
+  "encoding": "iso-8859-1",
+  "source_records": 1600000,
+  "cleaned_records_available": 1541299,
+  "records_used": 1541299,
+  "records_trained": 1078909,
+  "splits": {
+    "train": {
+      "records": 1078909,
+      "negative": 541992,
+      "positive": 536917
+    },
+    "calibration": {
+      "records": 77065,
+      "negative": 38713,
+      "positive": 38352
+    },
+    "validation": {
+      "records": 77065,
+      "negative": 38714,
+      "positive": 38351
+    },
+    "test": {
+      "records": 308260,
+      "negative": 154855,
+      "positive": 153405
+    }
+  },
+  "accuracy": 0.8242879387530007,
+  "precision": 0.8172269176181769,
+  "recall": 0.8332779244483557,
+  "f1": 0.8251743737553378,
+  "f1_macro": 0.8242834212718755,
+  "roc_auc": 0.9029690636965139,
+  "negative_threshold": 0.26,
+  "positive_threshold": 0.75,
+  "neutral_policy": "Neutral is abstention/uncertainty, not a trained neutral label. Binary data cannot measure true neutral precision/recall/F1. Binary probability estimates are not guaranteed certainty.",
+  "threshold_selection": "Maximize accepted count for each class subject to validation precision >= target; search 0.01 probability increments, negative < 0.5 and positive > 0.5.",
+  "target_validation_precision": 0.9,
+  "confidence_definition": "max(P(positive), P(negative)); binary polarity confidence, never a learned neutral probability",
+  "zero_vocabulary_policy": "Return neutral with both binary scores 0.5 when no features are recognized",
+  "label_mapping": {
+    "0": "negative",
+    "4": "positive"
+  },
+  "classifier_classes": [
+    0,
+    1
+  ],
+  "preprocessing": "NFC + ftfy repair, HTML unescape, lowercase, URL/mention placeholders, whitespace/control cleanup; preserve negation, emoticons, emojis, hashtags, punctuation; no stopword removal",
+  "deduplication": "Keep first occurrence of identical normalized text with consistent labels; remove every normalized group with conflicting labels BEFORE splitting.",
+  "random_seed": 42,
+  "selected_C": 0.5,
+  "validation_candidates": [
+    {
+      "C": 0.5,
+      "accuracy": 0.8199442029455655,
+      "f1": 0.8208114878999975,
+      "brier_score": 0.12682994611420778,
+      "iterations": 11,
+      "convergence_warnings": []
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.813261532472588,
+      "f1": 0.8142976966255887,
+      "brier_score": 0.1309644293462734,
+      "iterations": 13,
+      "convergence_warnings": []
+    },
+    {
+      "C": 2.0,
+      "accuracy": 0.8052812560825278,
+      "f1": 0.8063442081354533,
+      "brier_score": 0.1363538968568724,
+      "iterations": 17,
+      "convergence_warnings": []
+    }
+  ],
+  "classifier_parameters": {
+    "C": 0.5,
+    "class_weight": null,
+    "dual": "auto",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 3000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "classifier_iterations": [
+    11
+  ],
+  "convergence_warnings": [],
+  "vocabulary_size": 350000,
+  "vocabulary_sizes": {
+    "word": 300000,
+    "character": 50000
+  },
+  "feature_parameters": {
+    "word_ngram_range": [
+      1,
+      2
+    ],
+    "character_ngram_range": [
+      4,
+      5
+    ],
+    "character_analyzer": "char_wb",
+    "min_df": 3,
+    "max_word_features": 300000,
+    "max_character_features": 50000,
+    "sublinear_tf": true
+  },
+  "calibration": {
+    "method": "sigmoid",
+    "records": 77065,
+    "base_estimator_frozen": true,
+    "disjoint_from_train_validation_test": true
+  },
+  "fit_seconds": 945.6027401380006,
+  "tfidf_parameters": {
+    "word_ngram_range": [
+      1,
+      2
+    ],
+    "character_ngram_range": [
+      4,
+      5
+    ],
+    "character_analyzer": "char_wb",
+    "min_df": 3,
+    "max_word_features": 300000,
+    "max_character_features": 50000,
+    "sublinear_tf": true
+  },
+  "versions": {
+    "python": "3.14.7",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.5.3",
+    "ftfy": "6.3.1"
+  },
+  "compute": "CPU; no local CUDA GPU or callable VS Code/Colab kernel-control tool available",
+  "total_seconds": 1017.0815369620004,
+  "trained_at_utc": "2026-10-07T16:32:56.230500+00:00",
+  "pipeline_sha256": "11574536892a443226b3ed422913d753c08373b14fca68c33d32ebc3ef58aaba",
+  "limitations": [
+    "Binary, weakly labeled historical English tweets; no true neutral training/evaluation class",
+    "Random tweet split does not estimate user-disjoint or chronological generalization",
+    "Sigmoid calibration on held-out tweets does not establish calibration on articles or other domains",
+    "Domain shift, sarcasm, and out-of-domain texts can still yield confident errors"
+  ]
+}

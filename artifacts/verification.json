@@ -1,0 +1,36 @@
+{
+  "verified_at_utc": "2026-10-07T17:11:31.553640+00:00",
+  "model_family": "svm_roberta_fusion",
+  "model_saved_and_deployed": true,
+  "python_tests": {
+    "passed": 103,
+    "failed": 0,
+    "skipped": 0
+  },
+  "frontend_build": "passed",
+  "browser_checks": {
+    "passed": 10,
+    "failed": 0,
+    "live_text_api": true,
+    "topic_ui_fixture": true
+  },
+  "reported_sentence_fixed": true,
+  "sentiment_regressions_passed": 16,
+  "fusion_test_accuracy": 0.7142624419646494,
+  "roberta_same_test_accuracy": 0.7247698949254704,
+  "live_integration": "passed",
+  "live_keyword": {
+    "keyword": "Data centers",
+    "sources": 5,
+    "model": "svm_roberta_fusion",
+    "three_class_scores": [
+      "negative",
+      "neutral",
+      "positive"
+    ]
+  },
+  "screenshots_visually_verified": [
+    "desktop",
+    "mobile"
+  ]
+}
